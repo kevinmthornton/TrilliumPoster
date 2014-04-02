@@ -15,6 +15,234 @@
 		B6217FA21547914700B4DDBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6217FA11547914700B4DDBA /* AppDelegate.m */; };
 		B6217FA51547914700B4DDBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6217FA41547914700B4DDBA /* ViewController.m */; };
 		B6217FA81547914700B4DDBA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6217FA61547914700B4DDBA /* ViewController.xib */; };
+		B6217FAF1547919900B4DDBA /* Icon_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FAE1547919900B4DDBA /* Icon_72x72.png */; };
+		B6217FB11547919E00B4DDBA /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FB01547919E00B4DDBA /* Default-Portrait~ipad.png */; };
+		B6217FB5154791B700B4DDBA /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FB4154791B700B4DDBA /* Default-Landscape~ipad.png */; };
+		B6217FC91547927A00B4DDBA /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FC21547927A00B4DDBA /* blank.png */; };
+		B62180071547932100B4DDBA /* Guide_TapToSee.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FCB1547932100B4DDBA /* Guide_TapToSee.png */; };
+		B62180081547932100B4DDBA /* btn_Back.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FCC1547932100B4DDBA /* btn_Back.png */; };
+		B62180091547932100B4DDBA /* List_Bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FCD1547932100B4DDBA /* List_Bullet.png */; };
+		B621800A1547932100B4DDBA /* 2-Network_btn_ArrowDown-LTE-LTE-A.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FCE1547932100B4DDBA /* 2-Network_btn_ArrowDown-LTE-LTE-A.png */; };
+		B621800B1547932100B4DDBA /* 2-Network_btn_ArrowLeft-LTE-LTE-A.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FCF1547932100B4DDBA /* 2-Network_btn_ArrowLeft-LTE-LTE-A.png */; };
+		B621800C1547932100B4DDBA /* 2-Network_btn_ArrowLeft-SmallCell.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FD01547932100B4DDBA /* 2-Network_btn_ArrowLeft-SmallCell.png */; };
+		B621800D1547932100B4DDBA /* 2-Network_btn_ArrowRight-SmallCell.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FD11547932100B4DDBA /* 2-Network_btn_ArrowRight-SmallCell.png */; };
+		B621800E1547932100B4DDBA /* 2-Network_btn_ArrowRight-WCDMA.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FD21547932100B4DDBA /* 2-Network_btn_ArrowRight-WCDMA.png */; };
+		B621800F1547932100B4DDBA /* 2-Network_btn_ArrowUp-IMS.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FD31547932100B4DDBA /* 2-Network_btn_ArrowUp-IMS.png */; };
+		B62180101547932100B4DDBA /* IMS_11.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FD41547932100B4DDBA /* IMS_11.png */; };
+		B62180111547932100B4DDBA /* IMS_12.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FD51547932100B4DDBA /* IMS_12.png */; };
+		B62180121547932100B4DDBA /* IMS_13.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FD61547932100B4DDBA /* IMS_13.png */; };
+		B62180131547932100B4DDBA /* IMS_13_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FD71547932100B4DDBA /* IMS_13_Small.png */; };
+		B62180141547932100B4DDBA /* IMS_15.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FD81547932100B4DDBA /* IMS_15.png */; };
+		B62180151547932100B4DDBA /* IMS_16.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FD91547932100B4DDBA /* IMS_16.png */; };
+		B62180161547932100B4DDBA /* IMS_23.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FDA1547932100B4DDBA /* IMS_23.png */; };
+		B62180171547932100B4DDBA /* IMS_27.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FDB1547932100B4DDBA /* IMS_27.png */; };
+		B62180181547932100B4DDBA /* IMS_3.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FDC1547932100B4DDBA /* IMS_3.png */; };
+		B62180191547932100B4DDBA /* IMS_41_Left.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FDD1547932100B4DDBA /* IMS_41_Left.png */; };
+		B621801A1547932100B4DDBA /* IMS_41_Right.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FDE1547932100B4DDBA /* IMS_41_Right.png */; };
+		B621801B1547932100B4DDBA /* IMS_8.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FDF1547932100B4DDBA /* IMS_8.png */; };
+		B621801C1547932100B4DDBA /* IMS_9.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FE01547932100B4DDBA /* IMS_9.png */; };
+		B621801D1547932100B4DDBA /* LTE_22.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FE11547932100B4DDBA /* LTE_22.png */; };
+		B621801E1547932100B4DDBA /* LTE_22_Right.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FE21547932100B4DDBA /* LTE_22_Right.png */; };
+		B621801F1547932100B4DDBA /* LTE_22_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FE31547932100B4DDBA /* LTE_22_Small.png */; };
+		B62180201547932100B4DDBA /* LTE_27.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FE41547932100B4DDBA /* LTE_27.png */; };
+		B62180211547932100B4DDBA /* LTE_40.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FE51547932100B4DDBA /* LTE_40.png */; };
+		B62180221547932100B4DDBA /* LTE_41.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FE61547932100B4DDBA /* LTE_41.png */; };
+		B62180231547932100B4DDBA /* LTE_7.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FE71547932100B4DDBA /* LTE_7.png */; };
+		B62180241547932100B4DDBA /* LTE_7_Large_Left.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FE81547932100B4DDBA /* LTE_7_Large_Left.png */; };
+		B62180251547932100B4DDBA /* LTE_7_Left.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FE91547932100B4DDBA /* LTE_7_Left.png */; };
+		B62180261547932100B4DDBA /* LTE_7_Medium_Left.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FEA1547932100B4DDBA /* LTE_7_Medium_Left.png */; };
+		B62180271547932100B4DDBA /* LTE_7_Medium_Right.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FEB1547932100B4DDBA /* LTE_7_Medium_Right.png */; };
+		B62180281547932100B4DDBA /* LTE_7_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FEC1547932100B4DDBA /* LTE_7_Small.png */; };
+		B62180291547932100B4DDBA /* LTE_7_Small_Right.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FED1547932100B4DDBA /* LTE_7_Small_Right.png */; };
+		B621802A1547932100B4DDBA /* SmallCell_23.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FEE1547932100B4DDBA /* SmallCell_23.png */; };
+		B621802B1547932100B4DDBA /* SmallCell_40.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FEF1547932100B4DDBA /* SmallCell_40.png */; };
+		B621802C1547932100B4DDBA /* SmallCell_41.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FF01547932100B4DDBA /* SmallCell_41.png */; };
+		B621802D1547932100B4DDBA /* SmallCell_7.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FF11547932100B4DDBA /* SmallCell_7.png */; };
+		B621802E1547932100B4DDBA /* SmallCell_7_LeftAndRight.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FF21547932100B4DDBA /* SmallCell_7_LeftAndRight.png */; };
+		B621802F1547932100B4DDBA /* SmallCell_7_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FF31547932100B4DDBA /* SmallCell_7_Small.png */; };
+		B62180301547932100B4DDBA /* WCDMA_10-22.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FF41547932100B4DDBA /* WCDMA_10-22.png */; };
+		B62180311547932100B4DDBA /* WCDMA_10-40.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FF51547932100B4DDBA /* WCDMA_10-40.png */; };
+		B62180321547932100B4DDBA /* WCDMA_10.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FF61547932100B4DDBA /* WCDMA_10.png */; };
+		B62180331547932100B4DDBA /* WCDMA_10_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FF71547932100B4DDBA /* WCDMA_10_Small.png */; };
+		B62180341547932100B4DDBA /* WCDMA_13.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FF81547932100B4DDBA /* WCDMA_13.png */; };
+		B62180351547932100B4DDBA /* WCDMA_13_Large.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FF91547932100B4DDBA /* WCDMA_13_Large.png */; };
+		B62180361547932100B4DDBA /* WCDMA_13_Medium.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FFA1547932100B4DDBA /* WCDMA_13_Medium.png */; };
+		B62180371547932100B4DDBA /* WCDMA_13_Small.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FFB1547932100B4DDBA /* WCDMA_13_Small.png */; };
+		B62180381547932100B4DDBA /* WCDMA_16.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FFC1547932100B4DDBA /* WCDMA_16.png */; };
+		B62180391547932100B4DDBA /* WCDMA_16_Left.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FFD1547932100B4DDBA /* WCDMA_16_Left.png */; };
+		B621803A1547932100B4DDBA /* WCDMA_19.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FFE1547932100B4DDBA /* WCDMA_19.png */; };
+		B621803B1547932100B4DDBA /* WCDMA_22_NoPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B6217FFF1547932100B4DDBA /* WCDMA_22_NoPad.png */; };
+		B621803C1547932100B4DDBA /* WCDMA_23.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180001547932100B4DDBA /* WCDMA_23.png */; };
+		B621803D1547932100B4DDBA /* WCDMA_41.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180011547932100B4DDBA /* WCDMA_41.png */; };
+		B621803E1547932100B4DDBA /* WCDMA_7.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180021547932100B4DDBA /* WCDMA_7.png */; };
+		B621803F1547932100B4DDBA /* WCDMA_7_Right.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180031547932100B4DDBA /* WCDMA_7_Right.png */; };
+		B62180401547932100B4DDBA /* WCDMA_7_small.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180041547932100B4DDBA /* WCDMA_7_small.png */; };
+		B62180411547932100B4DDBA /* WCDMA_7_smaller.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180051547932100B4DDBA /* WCDMA_7_smaller.png */; };
+		B62180421547932100B4DDBA /* WCDMA_9.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180061547932100B4DDBA /* WCDMA_9.png */; };
+		B62180501547934300B4DDBA /* Footer_btn_Legend.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180451547934300B4DDBA /* Footer_btn_Legend.png */; };
+		B62180511547934300B4DDBA /* IMS_NetworkPaths_Only.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180461547934300B4DDBA /* IMS_NetworkPaths_Only.png */; };
+		B62180521547934300B4DDBA /* IMS_NetworkPaths_withLabels.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180471547934300B4DDBA /* IMS_NetworkPaths_withLabels.png */; };
+		B62180531547934300B4DDBA /* Legend_btn_Close.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180481547934300B4DDBA /* Legend_btn_Close.png */; };
+		B62180541547934300B4DDBA /* LTE-LTE-A_NetworkPaths_Only.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180491547934300B4DDBA /* LTE-LTE-A_NetworkPaths_Only.png */; };
+		B62180551547934300B4DDBA /* LTE-LTE-A_NetworkPaths_withLabels.png in Resources */ = {isa = PBXBuildFile; fileRef = B621804A1547934300B4DDBA /* LTE-LTE-A_NetworkPaths_withLabels.png */; };
+		B62180561547934300B4DDBA /* SmallCell_NetworkPaths_Only.png in Resources */ = {isa = PBXBuildFile; fileRef = B621804B1547934300B4DDBA /* SmallCell_NetworkPaths_Only.png */; };
+		B62180571547934300B4DDBA /* SmallCell_NetworkPaths_withLabels.png in Resources */ = {isa = PBXBuildFile; fileRef = B621804C1547934300B4DDBA /* SmallCell_NetworkPaths_withLabels.png */; };
+		B62180581547934300B4DDBA /* WCDMA_NetworkPaths_Only.png in Resources */ = {isa = PBXBuildFile; fileRef = B621804D1547934300B4DDBA /* WCDMA_NetworkPaths_Only.png */; };
+		B62180591547934300B4DDBA /* WCDMA_NetworkPaths_withLabels.png in Resources */ = {isa = PBXBuildFile; fileRef = B621804E1547934300B4DDBA /* WCDMA_NetworkPaths_withLabels.png */; };
+		B62180671547937300B4DDBA /* Footer_Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B621805B1547937300B4DDBA /* Footer_Bar.png */; };
+		B62180681547937300B4DDBA /* Title_CommNetInfra.png in Resources */ = {isa = PBXBuildFile; fileRef = B621805C1547937300B4DDBA /* Title_CommNetInfra.png */; };
+		B62180701547937300B4DDBA /* Header_Bar.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180641547937300B4DDBA /* Header_Bar.png */; };
+		B62180711547937300B4DDBA /* Radisys_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180651547937300B4DDBA /* Radisys_Logo.png */; };
+		B62180721547937300B4DDBA /* Trillium_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180661547937300B4DDBA /* Trillium_Logo.png */; };
+		B621807B1547939800B4DDBA /* Help-PopUp.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180741547939700B4DDBA /* Help-PopUp.png */; };
+		B621807C1547939800B4DDBA /* Background_NetworkPath.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180751547939700B4DDBA /* Background_NetworkPath.png */; };
+		B621807D1547939800B4DDBA /* 1-Main_btn_IMS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180761547939700B4DDBA /* 1-Main_btn_IMS.png */; };
+		B621807E1547939800B4DDBA /* 1-Main_btn_LTE-A.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180771547939700B4DDBA /* 1-Main_btn_LTE-A.png */; };
+		B621807F1547939800B4DDBA /* 1-Main_btn_LTE.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180781547939700B4DDBA /* 1-Main_btn_LTE.png */; };
+		B62180801547939800B4DDBA /* 1-Main_btn_SmallCell.png in Resources */ = {isa = PBXBuildFile; fileRef = B62180791547939700B4DDBA /* 1-Main_btn_SmallCell.png */; };
+		B62180811547939800B4DDBA /* 1-Main_btn_WCDMA.png in Resources */ = {isa = PBXBuildFile; fileRef = B621807A1547939700B4DDBA /* 1-Main_btn_WCDMA.png */; };
+		B6218088154A1BFA00B4DDBA /* Header_btn_About.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218082154A1BFA00B4DDBA /* Header_btn_About.png */; };
+		B6218089154A1BFA00B4DDBA /* Header_btn_Contact.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218083154A1BFA00B4DDBA /* Header_btn_Contact.png */; };
+		B621808A154A1BFA00B4DDBA /* Header_btn_Help.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218084154A1BFA00B4DDBA /* Header_btn_Help.png */; };
+		B621808B154A1BFA00B4DDBA /* Header_btn_Home.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218085154A1BFA00B4DDBA /* Header_btn_Home.png */; };
+		B621808C154A1BFA00B4DDBA /* Header_btn_OrderPoster.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218086154A1BFA00B4DDBA /* Header_btn_OrderPoster.png */; };
+		B621808D154A1BFA00B4DDBA /* Header_btn_Video.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218087154A1BFA00B4DDBA /* Header_btn_Video.png */; };
+		B6218095154A2C4F00B4DDBA /* Category-Button-BG.png in Resources */ = {isa = PBXBuildFile; fileRef = B621808F154A2C4F00B4DDBA /* Category-Button-BG.png */; };
+		B6218096154A2C4F00B4DDBA /* Category-Button-Cap-Left.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218090154A2C4F00B4DDBA /* Category-Button-Cap-Left.png */; };
+		B6218097154A2C4F00B4DDBA /* Category-Button-Cap-Right.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218091154A2C4F00B4DDBA /* Category-Button-Cap-Right.png */; };
+		B6218098154A2C4F00B4DDBA /* Category-Button-Divider.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218092154A2C4F00B4DDBA /* Category-Button-Divider.png */; };
+		B6218099154A2C4F00B4DDBA /* Thumbnail-NavArrow-Left.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218093154A2C4F00B4DDBA /* Thumbnail-NavArrow-Left.png */; };
+		B621809A154A2C4F00B4DDBA /* Thumbnail-NavArrow-Right.png in Resources */ = {isa = PBXBuildFile; fileRef = B6218094154A2C4F00B4DDBA /* Thumbnail-NavArrow-Right.png */; };
+		B621809E154A2C5F00B4DDBA /* Category-Button-Tray.png in Resources */ = {isa = PBXBuildFile; fileRef = B621809B154A2C5F00B4DDBA /* Category-Button-Tray.png */; };
+		B621809F154A2C5F00B4DDBA /* Thumbnail-Tray.png in Resources */ = {isa = PBXBuildFile; fileRef = B621809C154A2C5F00B4DDBA /* Thumbnail-Tray.png */; };
+		B62180A0154A2C5F00B4DDBA /* VideoPlayer-DropShadow.png in Resources */ = {isa = PBXBuildFile; fileRef = B621809D154A2C5F00B4DDBA /* VideoPlayer-DropShadow.png */; };
+		B62B2F691639A94900995D74 /* IMS-BGCF.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F581639A94900995D74 /* IMS-BGCF.png */; };
+		B62B2F6A1639A94900995D74 /* IMS-CCF.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F591639A94900995D74 /* IMS-CCF.png */; };
+		B62B2F6B1639A94900995D74 /* IMS-ECF.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F5A1639A94900995D74 /* IMS-ECF.png */; };
+		B62B2F6C1639A94900995D74 /* IMS-HSS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F5B1639A94900995D74 /* IMS-HSS.png */; };
+		B62B2F6D1639A94900995D74 /* IMS-I-CSCF.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F5C1639A94900995D74 /* IMS-I-CSCF.png */; };
+		B62B2F6E1639A94900995D74 /* IMS-IMS-MGW.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F5D1639A94900995D74 /* IMS-IMS-MGW.png */; };
+		B62B2F6F1639A94900995D74 /* IMS-IMS-SSF.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F5E1639A94900995D74 /* IMS-IMS-SSF.png */; };
+		B62B2F701639A94900995D74 /* IMS-Media-Server.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F5F1639A94900995D74 /* IMS-Media-Server.png */; };
+		B62B2F711639A94900995D74 /* IMS-MGCF.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F601639A94900995D74 /* IMS-MGCF.png */; };
+		B62B2F721639A94900995D74 /* IMS-MRFC.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F611639A94900995D74 /* IMS-MRFC.png */; };
+		B62B2F731639A94900995D74 /* IMS-MRFP.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F621639A94900995D74 /* IMS-MRFP.png */; };
+		B62B2F741639A94900995D74 /* IMS-OSA-SCS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F631639A94900995D74 /* IMS-OSA-SCS.png */; };
+		B62B2F751639A94900995D74 /* IMS-P-CSCF.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F641639A94900995D74 /* IMS-P-CSCF.png */; };
+		B62B2F761639A94900995D74 /* IMS-PDF.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F651639A94900995D74 /* IMS-PDF.png */; };
+		B62B2F771639A94900995D74 /* IMS-S-CSCF.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F661639A94900995D74 /* IMS-S-CSCF.png */; };
+		B62B2F781639A94900995D74 /* IMS-SIP-AS.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F671639A94900995D74 /* IMS-SIP-AS.png */; };
+		B62B2F791639A94900995D74 /* IMS-SLF.png in Resources */ = {isa = PBXBuildFile; fileRef = B62B2F681639A94900995D74 /* IMS-SLF.png */; };
+		B642A135154B3E2B0032CD63 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B642A133154B3E2B0032CD63 /* MainViewController.m */; };
+		B642A136154B3E2B0032CD63 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B642A134154B3E2B0032CD63 /* MainViewController.xib */; };
+		B642A149154B4DE90032CD63 /* IMSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B642A148154B4D930032CD63 /* IMSViewController.xib */; };
+		B642A14B154B4DF30032CD63 /* NavWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B642A131154B272E0032CD63 /* NavWebView.xib */; };
+		B642A14C154B545A0032CD63 /* IMSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B642A147154B4D930032CD63 /* IMSViewController.m */; };
+		B642A14E154B54690032CD63 /* NavWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B642A130154B272E0032CD63 /* NavWebView.m */; };
+		B642A150154F05530032CD63 /* webview.html in Resources */ = {isa = PBXBuildFile; fileRef = B642A14F154F05530032CD63 /* webview.html */; };
+		B64A812D158809EF0082EB41 /* SmallCellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64A8128158809EF0082EB41 /* SmallCellViewController.m */; };
+		B64A812E158809EF0082EB41 /* SmallCellViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64A8129158809EF0082EB41 /* SmallCellViewController.xib */; };
+		B64A812F158809EF0082EB41 /* WCDMAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B64A812B158809EF0082EB41 /* WCDMAViewController.m */; };
+		B64A8130158809EF0082EB41 /* WCDMAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64A812C158809EF0082EB41 /* WCDMAViewController.xib */; };
+		B64D6142160826D70094B12F /* webview.css in Resources */ = {isa = PBXBuildFile; fileRef = B64D6130160826D70094B12F /* webview.css */; };
+		B64D6144160826F20094B12F /* MPX-12000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B64D6143160826F20094B12F /* MPX-12000.jpg */; };
+		B652907B164C8F7800C991B2 /* WCDMA-GSM-SCF.png in Resources */ = {isa = PBXBuildFile; fileRef = B6529079164C8F7800C991B2 /* WCDMA-GSM-SCF.png */; };
+		B652907C164C8F7800C991B2 /* WCDMA-SMS-GMSC.png in Resources */ = {isa = PBXBuildFile; fileRef = B652907A164C8F7800C991B2 /* WCDMA-SMS-GMSC.png */; };
+		B670BD9A1639ABDC00BE14C9 /* LTE-ANDSF.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BD941639ABDC00BE14C9 /* LTE-ANDSF.png */; };
+		B670BD9B1639ABDC00BE14C9 /* LTE-DeNB.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BD951639ABDC00BE14C9 /* LTE-DeNB.png */; };
+		B670BD9C1639ABDC00BE14C9 /* LTE-ePDG.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BD961639ABDC00BE14C9 /* LTE-ePDG.png */; };
+		B670BD9D1639ABDC00BE14C9 /* LTE-LTE-Device.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BD971639ABDC00BE14C9 /* LTE-LTE-Device.png */; };
+		B670BD9E1639ABDC00BE14C9 /* LTE-RN.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BD981639ABDC00BE14C9 /* LTE-RN.png */; };
+		B670BD9F1639ABDC00BE14C9 /* LTE-Tablet.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BD991639ABDC00BE14C9 /* LTE-Tablet.png */; };
+		B670BDB11639ABF600BE14C9 /* LTE-3GPP-Anchor.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDA01639ABF600BE14C9 /* LTE-3GPP-Anchor.png */; };
+		B670BDB21639ABF600BE14C9 /* LTE-EBM-SC.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDA11639ABF600BE14C9 /* LTE-EBM-SC.png */; };
+		B670BDB31639ABF600BE14C9 /* LTE-H-PCRF.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDA21639ABF600BE14C9 /* LTE-H-PCRF.png */; };
+		B670BDB41639ABF600BE14C9 /* LTE-HeMS.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDA31639ABF600BE14C9 /* LTE-HeMS.png */; };
+		B670BDB51639ABF600BE14C9 /* LTE-HeNB-Gateway-SEG.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDA41639ABF600BE14C9 /* LTE-HeNB-Gateway-SEG.png */; };
+		B670BDB61639ABF600BE14C9 /* LTE-HeNB.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDA51639ABF600BE14C9 /* LTE-HeNB.png */; };
+		B670BDB71639ABF600BE14C9 /* LTE-MBMS-cp.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDA61639ABF600BE14C9 /* LTE-MBMS-cp.png */; };
+		B670BDB81639ABF600BE14C9 /* LTE-MBMS-up.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDA71639ABF600BE14C9 /* LTE-MBMS-up.png */; };
+		B670BDB91639ABF600BE14C9 /* LTE-MCE.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDA81639ABF600BE14C9 /* LTE-MCE.png */; };
+		B670BDBA1639ABF600BE14C9 /* LTE-MME-SEG.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDA91639ABF600BE14C9 /* LTE-MME-SEG.png */; };
+		B670BDBB1639ABF600BE14C9 /* LTE-PCEF.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDAA1639ABF600BE14C9 /* LTE-PCEF.png */; };
+		B670BDBC1639ABF600BE14C9 /* LTE-PDG-PGW.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDAB1639ABF600BE14C9 /* LTE-PDG-PGW.png */; };
+		B670BDBD1639ABF600BE14C9 /* LTE-SAE-Anchor.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDAC1639ABF600BE14C9 /* LTE-SAE-Anchor.png */; };
+		B670BDBE1639ABF600BE14C9 /* LTE-SEG-eNodeb.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDAD1639ABF600BE14C9 /* LTE-SEG-eNodeb.png */; };
+		B670BDBF1639ABF600BE14C9 /* LTE-SEG.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDAE1639ABF600BE14C9 /* LTE-SEG.png */; };
+		B670BDC01639ABF600BE14C9 /* LTE-SGW.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDAF1639ABF600BE14C9 /* LTE-SGW.png */; };
+		B670BDC11639ABF600BE14C9 /* LTE-V-PCRF.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDB01639ABF600BE14C9 /* LTE-V-PCRF.png */; };
+		B670BDD41639B24000BE14C9 /* SmallCell-HMS.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDCA1639B24000BE14C9 /* SmallCell-HMS.png */; };
+		B670BDD51639B24000BE14C9 /* SmallCell-HNB-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDCB1639B24000BE14C9 /* SmallCell-HNB-1.png */; };
+		B670BDD61639B24000BE14C9 /* SmallCell-HNB-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDCC1639B24000BE14C9 /* SmallCell-HNB-2.png */; };
+		B670BDD71639B24000BE14C9 /* SmallCell-HNB-3.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDCD1639B24000BE14C9 /* SmallCell-HNB-3.png */; };
+		B670BDD81639B24000BE14C9 /* SmallCell-HNB-4.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDCE1639B24000BE14C9 /* SmallCell-HNB-4.png */; };
+		B670BDD91639B24000BE14C9 /* SmallCell-SEG-HNB-Gateway.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDCF1639B24000BE14C9 /* SmallCell-SEG-HNB-Gateway.png */; };
+		B670BDDA1639B24000BE14C9 /* SmallCell-Smartphone.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDD01639B24000BE14C9 /* SmallCell-Smartphone.png */; };
+		B670BDDB1639B24000BE14C9 /* SmallCell-Tablet.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDD11639B24000BE14C9 /* SmallCell-Tablet.png */; };
+		B670BDDC1639B24000BE14C9 /* SmallCell-Up-NodeB-GANC.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDD21639B24000BE14C9 /* SmallCell-Up-NodeB-GANC.png */; };
+		B670BDDD1639B24000BE14C9 /* SmallCell-Wireless-Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDD31639B24000BE14C9 /* SmallCell-Wireless-Phone.png */; };
+		B670BDF81639C47C00BE14C9 /* WCDMA-BM-SC.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDDE1639C47C00BE14C9 /* WCDMA-BM-SC.png */; };
+		B670BDFB1639C47C00BE14C9 /* WCDMA-BTS.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDE11639C47C00BE14C9 /* WCDMA-BTS.png */; };
+		B670BDFC1639C47C00BE14C9 /* WCDMA-CBC.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDE21639C47C00BE14C9 /* WCDMA-CBC.png */; };
+		B670BDFD1639C47C00BE14C9 /* WCDMA-CGF.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDE31639C47C00BE14C9 /* WCDMA-CGF.png */; };
+		B670BDFE1639C47C00BE14C9 /* WCDMA-CRF.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDE41639C47C00BE14C9 /* WCDMA-CRF.png */; };
+		B670BDFF1639C47C00BE14C9 /* WCDMA-CS-MGW-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDE51639C47C00BE14C9 /* WCDMA-CS-MGW-1.png */; };
+		B670BE001639C47C00BE14C9 /* WCDMA-CS-MGW-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDE61639C47C00BE14C9 /* WCDMA-CS-MGW-2.png */; };
+		B670BE011639C47C00BE14C9 /* WCDMA-LCS.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDE71639C47C00BE14C9 /* WCDMA-LCS.png */; };
+		B670BE021639C47C00BE14C9 /* WCDMA-GGSN-PCEF.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDE81639C47C00BE14C9 /* WCDMA-GGSN-PCEF.png */; };
+		B670BE031639C47C00BE14C9 /* WCDMA-GMLC.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDE91639C47C00BE14C9 /* WCDMA-GMLC.png */; };
+		B670BE041639C47C00BE14C9 /* WCDMA-HNB.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDEA1639C47C00BE14C9 /* WCDMA-HNB.png */; };
+		B670BE051639C47C00BE14C9 /* WCDMA-HSS.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDEB1639C47C00BE14C9 /* WCDMA-HSS.png */; };
+		B670BE061639C47C00BE14C9 /* WCDMA-LMU.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDEC1639C47C00BE14C9 /* WCDMA-LMU.png */; };
+		B670BE071639C47C00BE14C9 /* WCDMA-luant.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDED1639C47C00BE14C9 /* WCDMA-luant.png */; };
+		B670BE091639C47C00BE14C9 /* WCDMA-RNC-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDEF1639C47C00BE14C9 /* WCDMA-RNC-1.png */; };
+		B670BE0B1639C47C00BE14C9 /* WCDMA-SMLC-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDF11639C47C00BE14C9 /* WCDMA-SMLC-1.png */; };
+		B670BE0C1639C47C00BE14C9 /* WCDMA-SMLC-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDF21639C47C00BE14C9 /* WCDMA-SMLC-2.png */; };
+		B670BE0D1639C47C00BE14C9 /* WCDMA-SMSC.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDF31639C47C00BE14C9 /* WCDMA-SMSC.png */; };
+		B670BE0E1639C47C00BE14C9 /* WCDMA-Tablet.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDF41639C47C00BE14C9 /* WCDMA-Tablet.png */; };
+		B670BE0F1639C47C00BE14C9 /* WCDMA-Type-A-LMU-Type-B-LMU.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDF51639C47C00BE14C9 /* WCDMA-Type-A-LMU-Type-B-LMU.png */; };
+		B670BE101639C47C00BE14C9 /* WCDMA-VLR.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDF61639C47C00BE14C9 /* WCDMA-VLR.png */; };
+		B670BE111639C47C00BE14C9 /* WCDMA-Wireless-Phone.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BDF71639C47C00BE14C9 /* WCDMA-Wireless-Phone.png */; };
+		B670BE2E163B630200BE14C9 /* Footer_IntelEmbedded.png in Resources */ = {isa = PBXBuildFile; fileRef = B670BE2D163B630200BE14C9 /* Footer_IntelEmbedded.png */; };
+		B67ECB8F15FFBE9C0028A357 /* networkDetail_right_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = B67ECB8D15FFBE9C0028A357 /* networkDetail_right_panel.png */; };
+		B684C70415FFCB2B003DA814 /* RMS_220.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B684C70315FFCB2B003DA814 /* RMS_220.jpg */; };
+		B684C70C1601281B003DA814 /* networkDetail_left_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = B684C70B1601281B003DA814 /* networkDetail_left_panel.png */; };
+		B684C71E16038B3C003DA814 /* Media_Server.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B684C71516038B3C003DA814 /* Media_Server.jpg */; };
+		B684C72216038B3C003DA814 /* Trillium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B684C71916038B3C003DA814 /* Trillium.jpg */; };
+		B684C7E816039D75003DA814 /* networkDetail_left_panel_portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = B684C7E716039D75003DA814 /* networkDetail_left_panel_portrait.png */; };
+		B693256316447837008659C6 /* WCDMA-BSC-1.png in Resources */ = {isa = PBXBuildFile; fileRef = B693255E16447837008659C6 /* WCDMA-BSC-1.png */; };
+		B693256416447837008659C6 /* WCDMA-BSC-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B693255F16447837008659C6 /* WCDMA-BSC-2.png */; };
+		B693256516447837008659C6 /* WCDMA-MSC-Server.png in Resources */ = {isa = PBXBuildFile; fileRef = B693256016447837008659C6 /* WCDMA-MSC-Server.png */; };
+		B693256616447837008659C6 /* WCDMA-RNC-2.png in Resources */ = {isa = PBXBuildFile; fileRef = B693256116447837008659C6 /* WCDMA-RNC-2.png */; };
+		B693256716447837008659C6 /* WCDMA-SGSN.png in Resources */ = {isa = PBXBuildFile; fileRef = B693256216447837008659C6 /* WCDMA-SGSN.png */; };
+		B69325AE164865D3008659C6 /* SEG_family.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B69325AC164865D3008659C6 /* SEG_family.jpg */; };
+		B69325B11648667B008659C6 /* RMS_T-series.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B69325B01648667B008659C6 /* RMS_T-series.jpg */; };
+		B69325B61648C6F1008659C6 /* 3.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325B21648C6F1008659C6 /* 3.xml */; };
+		B69325B71648C6F1008659C6 /* A.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325B31648C6F1008659C6 /* A.xml */; };
+		B69325B81648C6F1008659C6 /* B.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325B41648C6F1008659C6 /* B.xml */; };
+		B69325B91648C6F1008659C6 /* C.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325B51648C6F1008659C6 /* C.xml */; };
+		B69325C71648C6FC008659C6 /* D.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325BA1648C6FC008659C6 /* D.xml */; };
+		B69325C81648C6FC008659C6 /* E.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325BB1648C6FC008659C6 /* E.xml */; };
+		B69325C91648C6FC008659C6 /* G.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325BC1648C6FC008659C6 /* G.xml */; };
+		B69325CA1648C6FC008659C6 /* H.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325BD1648C6FC008659C6 /* H.xml */; };
+		B69325CB1648C6FC008659C6 /* I.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325BE1648C6FC008659C6 /* I.xml */; };
+		B69325CC1648C6FC008659C6 /* Info.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325BF1648C6FC008659C6 /* Info.xml */; };
+		B69325CD1648C6FC008659C6 /* L.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325C01648C6FC008659C6 /* L.xml */; };
+		B69325CE1648C6FC008659C6 /* M.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325C11648C6FC008659C6 /* M.xml */; };
+		B69325CF1648C6FC008659C6 /* O.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325C21648C6FC008659C6 /* O.xml */; };
+		B69325D01648C6FC008659C6 /* P.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325C31648C6FC008659C6 /* P.xml */; };
+		B69325D11648C6FC008659C6 /* R.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325C41648C6FC008659C6 /* R.xml */; };
+		B69325D21648C6FC008659C6 /* S.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325C51648C6FC008659C6 /* S.xml */; };
+		B69325D31648C6FC008659C6 /* V.xml in Resources */ = {isa = PBXBuildFile; fileRef = B69325C61648C6FC008659C6 /* V.xml */; };
+		B6C81838160828C500181B7C /* ATCA_6u.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C81836160828C500181B7C /* ATCA_6u.jpg */; };
+		B6C81839160828C500181B7C /* ATCA_14u.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C81837160828C500181B7C /* ATCA_14u.jpg */; };
+		B6C8183C160828D500181B7C /* LTE-SEG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C8183B160828D500181B7C /* LTE-SEG.jpg */; };
+		B6C8183E160828EC00181B7C /* SEG_1000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C8183D160828EC00181B7C /* SEG_1000.jpg */; };
+		B6DCD76A1550C61B00AC4DB1 /* NetworkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DCD7681550C61B00AC4DB1 /* NetworkDetailViewController.m */; };
+		B6DCD76B1550C61B00AC4DB1 /* NetworkDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6DCD7691550C61B00AC4DB1 /* NetworkDetailViewController.xib */; };
+		B6DCD76F1550C75C00AC4DB1 /* GlossaryData.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DCD76E1550C75C00AC4DB1 /* GlossaryData.m */; };
+		B6FD276F1580247100085AB7 /* LTEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6FD276D1580247100085AB7 /* LTEViewController.m */; };
+		B6FD27701580247100085AB7 /* LTEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6FD276E1580247100085AB7 /* LTEViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +250,251 @@
 		B6217F911547914700B4DDBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B6217F931547914700B4DDBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B6217F951547914700B4DDBA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B6217F991547914700B4DDBA /* Trillium Poster-Info.plist */ = {isa = PBXFileReference; path = "Trillium Poster-Info.plist"; sourceTree = "<group>"; };
+		B6217F991547914700B4DDBA /* Trillium Poster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trillium Poster-Info.plist"; sourceTree = "<group>"; };
 		B6217F9B1547914700B4DDBA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B6217F9D1547914700B4DDBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B6217F9F1547914700B4DDBA /* Trillium Poster-Prefix.pch */ = {isa = PBXFileReference; path = "Trillium Poster-Prefix.pch"; sourceTree = "<group>"; };
-		B6217FA01547914700B4DDBA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6217F9F1547914700B4DDBA /* Trillium Poster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trillium Poster-Prefix.pch"; sourceTree = "<group>"; };
+		B6217FA01547914700B4DDBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B6217FA11547914700B4DDBA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B6217FA31547914700B4DDBA /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		B6217FA31547914700B4DDBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B6217FA41547914700B4DDBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B6217FA71547914700B4DDBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B6217FAE1547919900B4DDBA /* Icon_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon_72x72.png; path = ../Icon_72x72.png; sourceTree = "<group>"; };
+		B6217FB01547919E00B4DDBA /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		B6217FB4154791B700B4DDBA /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		B6217FC21547927A00B4DDBA /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		B6217FCB1547932100B4DDBA /* Guide_TapToSee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Guide_TapToSee.png; sourceTree = "<group>"; };
+		B6217FCC1547932100B4DDBA /* btn_Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_Back.png; sourceTree = "<group>"; };
+		B6217FCD1547932100B4DDBA /* List_Bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = List_Bullet.png; sourceTree = "<group>"; };
+		B6217FCE1547932100B4DDBA /* 2-Network_btn_ArrowDown-LTE-LTE-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-Network_btn_ArrowDown-LTE-LTE-A.png"; sourceTree = "<group>"; };
+		B6217FCF1547932100B4DDBA /* 2-Network_btn_ArrowLeft-LTE-LTE-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-Network_btn_ArrowLeft-LTE-LTE-A.png"; sourceTree = "<group>"; };
+		B6217FD01547932100B4DDBA /* 2-Network_btn_ArrowLeft-SmallCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-Network_btn_ArrowLeft-SmallCell.png"; sourceTree = "<group>"; };
+		B6217FD11547932100B4DDBA /* 2-Network_btn_ArrowRight-SmallCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-Network_btn_ArrowRight-SmallCell.png"; sourceTree = "<group>"; };
+		B6217FD21547932100B4DDBA /* 2-Network_btn_ArrowRight-WCDMA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-Network_btn_ArrowRight-WCDMA.png"; sourceTree = "<group>"; };
+		B6217FD31547932100B4DDBA /* 2-Network_btn_ArrowUp-IMS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2-Network_btn_ArrowUp-IMS.png"; sourceTree = "<group>"; };
+		B6217FD41547932100B4DDBA /* IMS_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_11.png; sourceTree = "<group>"; };
+		B6217FD51547932100B4DDBA /* IMS_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_12.png; sourceTree = "<group>"; };
+		B6217FD61547932100B4DDBA /* IMS_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_13.png; sourceTree = "<group>"; };
+		B6217FD71547932100B4DDBA /* IMS_13_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_13_Small.png; sourceTree = "<group>"; };
+		B6217FD81547932100B4DDBA /* IMS_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_15.png; sourceTree = "<group>"; };
+		B6217FD91547932100B4DDBA /* IMS_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_16.png; sourceTree = "<group>"; };
+		B6217FDA1547932100B4DDBA /* IMS_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_23.png; sourceTree = "<group>"; };
+		B6217FDB1547932100B4DDBA /* IMS_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_27.png; sourceTree = "<group>"; };
+		B6217FDC1547932100B4DDBA /* IMS_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_3.png; sourceTree = "<group>"; };
+		B6217FDD1547932100B4DDBA /* IMS_41_Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_41_Left.png; sourceTree = "<group>"; };
+		B6217FDE1547932100B4DDBA /* IMS_41_Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_41_Right.png; sourceTree = "<group>"; };
+		B6217FDF1547932100B4DDBA /* IMS_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_8.png; sourceTree = "<group>"; };
+		B6217FE01547932100B4DDBA /* IMS_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_9.png; sourceTree = "<group>"; };
+		B6217FE11547932100B4DDBA /* LTE_22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_22.png; sourceTree = "<group>"; };
+		B6217FE21547932100B4DDBA /* LTE_22_Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_22_Right.png; sourceTree = "<group>"; };
+		B6217FE31547932100B4DDBA /* LTE_22_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_22_Small.png; sourceTree = "<group>"; };
+		B6217FE41547932100B4DDBA /* LTE_27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_27.png; sourceTree = "<group>"; };
+		B6217FE51547932100B4DDBA /* LTE_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_40.png; sourceTree = "<group>"; };
+		B6217FE61547932100B4DDBA /* LTE_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_41.png; sourceTree = "<group>"; };
+		B6217FE71547932100B4DDBA /* LTE_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_7.png; sourceTree = "<group>"; };
+		B6217FE81547932100B4DDBA /* LTE_7_Large_Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_7_Large_Left.png; sourceTree = "<group>"; };
+		B6217FE91547932100B4DDBA /* LTE_7_Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_7_Left.png; sourceTree = "<group>"; };
+		B6217FEA1547932100B4DDBA /* LTE_7_Medium_Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_7_Medium_Left.png; sourceTree = "<group>"; };
+		B6217FEB1547932100B4DDBA /* LTE_7_Medium_Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_7_Medium_Right.png; sourceTree = "<group>"; };
+		B6217FEC1547932100B4DDBA /* LTE_7_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_7_Small.png; sourceTree = "<group>"; };
+		B6217FED1547932100B4DDBA /* LTE_7_Small_Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LTE_7_Small_Right.png; sourceTree = "<group>"; };
+		B6217FEE1547932100B4DDBA /* SmallCell_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallCell_23.png; sourceTree = "<group>"; };
+		B6217FEF1547932100B4DDBA /* SmallCell_40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallCell_40.png; sourceTree = "<group>"; };
+		B6217FF01547932100B4DDBA /* SmallCell_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallCell_41.png; sourceTree = "<group>"; };
+		B6217FF11547932100B4DDBA /* SmallCell_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallCell_7.png; sourceTree = "<group>"; };
+		B6217FF21547932100B4DDBA /* SmallCell_7_LeftAndRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallCell_7_LeftAndRight.png; sourceTree = "<group>"; };
+		B6217FF31547932100B4DDBA /* SmallCell_7_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallCell_7_Small.png; sourceTree = "<group>"; };
+		B6217FF41547932100B4DDBA /* WCDMA_10-22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA_10-22.png"; sourceTree = "<group>"; };
+		B6217FF51547932100B4DDBA /* WCDMA_10-40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA_10-40.png"; sourceTree = "<group>"; };
+		B6217FF61547932100B4DDBA /* WCDMA_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_10.png; sourceTree = "<group>"; };
+		B6217FF71547932100B4DDBA /* WCDMA_10_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_10_Small.png; sourceTree = "<group>"; };
+		B6217FF81547932100B4DDBA /* WCDMA_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_13.png; sourceTree = "<group>"; };
+		B6217FF91547932100B4DDBA /* WCDMA_13_Large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_13_Large.png; sourceTree = "<group>"; };
+		B6217FFA1547932100B4DDBA /* WCDMA_13_Medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_13_Medium.png; sourceTree = "<group>"; };
+		B6217FFB1547932100B4DDBA /* WCDMA_13_Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_13_Small.png; sourceTree = "<group>"; };
+		B6217FFC1547932100B4DDBA /* WCDMA_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_16.png; sourceTree = "<group>"; };
+		B6217FFD1547932100B4DDBA /* WCDMA_16_Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_16_Left.png; sourceTree = "<group>"; };
+		B6217FFE1547932100B4DDBA /* WCDMA_19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_19.png; sourceTree = "<group>"; };
+		B6217FFF1547932100B4DDBA /* WCDMA_22_NoPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_22_NoPad.png; sourceTree = "<group>"; };
+		B62180001547932100B4DDBA /* WCDMA_23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_23.png; sourceTree = "<group>"; };
+		B62180011547932100B4DDBA /* WCDMA_41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_41.png; sourceTree = "<group>"; };
+		B62180021547932100B4DDBA /* WCDMA_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_7.png; sourceTree = "<group>"; };
+		B62180031547932100B4DDBA /* WCDMA_7_Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_7_Right.png; sourceTree = "<group>"; };
+		B62180041547932100B4DDBA /* WCDMA_7_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_7_small.png; sourceTree = "<group>"; };
+		B62180051547932100B4DDBA /* WCDMA_7_smaller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_7_smaller.png; sourceTree = "<group>"; };
+		B62180061547932100B4DDBA /* WCDMA_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_9.png; sourceTree = "<group>"; };
+		B62180451547934300B4DDBA /* Footer_btn_Legend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Footer_btn_Legend.png; sourceTree = "<group>"; };
+		B62180461547934300B4DDBA /* IMS_NetworkPaths_Only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_NetworkPaths_Only.png; sourceTree = "<group>"; };
+		B62180471547934300B4DDBA /* IMS_NetworkPaths_withLabels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMS_NetworkPaths_withLabels.png; sourceTree = "<group>"; };
+		B62180481547934300B4DDBA /* Legend_btn_Close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Legend_btn_Close.png; sourceTree = "<group>"; };
+		B62180491547934300B4DDBA /* LTE-LTE-A_NetworkPaths_Only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-LTE-A_NetworkPaths_Only.png"; sourceTree = "<group>"; };
+		B621804A1547934300B4DDBA /* LTE-LTE-A_NetworkPaths_withLabels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-LTE-A_NetworkPaths_withLabels.png"; sourceTree = "<group>"; };
+		B621804B1547934300B4DDBA /* SmallCell_NetworkPaths_Only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallCell_NetworkPaths_Only.png; sourceTree = "<group>"; };
+		B621804C1547934300B4DDBA /* SmallCell_NetworkPaths_withLabels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SmallCell_NetworkPaths_withLabels.png; sourceTree = "<group>"; };
+		B621804D1547934300B4DDBA /* WCDMA_NetworkPaths_Only.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_NetworkPaths_Only.png; sourceTree = "<group>"; };
+		B621804E1547934300B4DDBA /* WCDMA_NetworkPaths_withLabels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WCDMA_NetworkPaths_withLabels.png; sourceTree = "<group>"; };
+		B621805B1547937300B4DDBA /* Footer_Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Footer_Bar.png; sourceTree = "<group>"; };
+		B621805C1547937300B4DDBA /* Title_CommNetInfra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Title_CommNetInfra.png; sourceTree = "<group>"; };
+		B62180641547937300B4DDBA /* Header_Bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header_Bar.png; sourceTree = "<group>"; };
+		B62180651547937300B4DDBA /* Radisys_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Radisys_Logo.png; sourceTree = "<group>"; };
+		B62180661547937300B4DDBA /* Trillium_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Trillium_Logo.png; sourceTree = "<group>"; };
+		B62180741547939700B4DDBA /* Help-PopUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Help-PopUp.png"; sourceTree = "<group>"; };
+		B62180751547939700B4DDBA /* Background_NetworkPath.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background_NetworkPath.png; sourceTree = "<group>"; };
+		B62180761547939700B4DDBA /* 1-Main_btn_IMS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-Main_btn_IMS.png"; sourceTree = "<group>"; };
+		B62180771547939700B4DDBA /* 1-Main_btn_LTE-A.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-Main_btn_LTE-A.png"; sourceTree = "<group>"; };
+		B62180781547939700B4DDBA /* 1-Main_btn_LTE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-Main_btn_LTE.png"; sourceTree = "<group>"; };
+		B62180791547939700B4DDBA /* 1-Main_btn_SmallCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-Main_btn_SmallCell.png"; sourceTree = "<group>"; };
+		B621807A1547939700B4DDBA /* 1-Main_btn_WCDMA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1-Main_btn_WCDMA.png"; sourceTree = "<group>"; };
+		B6218082154A1BFA00B4DDBA /* Header_btn_About.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header_btn_About.png; sourceTree = "<group>"; };
+		B6218083154A1BFA00B4DDBA /* Header_btn_Contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header_btn_Contact.png; sourceTree = "<group>"; };
+		B6218084154A1BFA00B4DDBA /* Header_btn_Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header_btn_Help.png; sourceTree = "<group>"; };
+		B6218085154A1BFA00B4DDBA /* Header_btn_Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header_btn_Home.png; sourceTree = "<group>"; };
+		B6218086154A1BFA00B4DDBA /* Header_btn_OrderPoster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header_btn_OrderPoster.png; sourceTree = "<group>"; };
+		B6218087154A1BFA00B4DDBA /* Header_btn_Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Header_btn_Video.png; sourceTree = "<group>"; };
+		B621808F154A2C4F00B4DDBA /* Category-Button-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Category-Button-BG.png"; sourceTree = "<group>"; };
+		B6218090154A2C4F00B4DDBA /* Category-Button-Cap-Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Category-Button-Cap-Left.png"; sourceTree = "<group>"; };
+		B6218091154A2C4F00B4DDBA /* Category-Button-Cap-Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Category-Button-Cap-Right.png"; sourceTree = "<group>"; };
+		B6218092154A2C4F00B4DDBA /* Category-Button-Divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Category-Button-Divider.png"; sourceTree = "<group>"; };
+		B6218093154A2C4F00B4DDBA /* Thumbnail-NavArrow-Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumbnail-NavArrow-Left.png"; sourceTree = "<group>"; };
+		B6218094154A2C4F00B4DDBA /* Thumbnail-NavArrow-Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumbnail-NavArrow-Right.png"; sourceTree = "<group>"; };
+		B621809B154A2C5F00B4DDBA /* Category-Button-Tray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Category-Button-Tray.png"; sourceTree = "<group>"; };
+		B621809C154A2C5F00B4DDBA /* Thumbnail-Tray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Thumbnail-Tray.png"; sourceTree = "<group>"; };
+		B621809D154A2C5F00B4DDBA /* VideoPlayer-DropShadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VideoPlayer-DropShadow.png"; sourceTree = "<group>"; };
+		B62B2F581639A94900995D74 /* IMS-BGCF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-BGCF.png"; sourceTree = "<group>"; };
+		B62B2F591639A94900995D74 /* IMS-CCF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-CCF.png"; sourceTree = "<group>"; };
+		B62B2F5A1639A94900995D74 /* IMS-ECF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-ECF.png"; sourceTree = "<group>"; };
+		B62B2F5B1639A94900995D74 /* IMS-HSS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-HSS.png"; sourceTree = "<group>"; };
+		B62B2F5C1639A94900995D74 /* IMS-I-CSCF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-I-CSCF.png"; sourceTree = "<group>"; };
+		B62B2F5D1639A94900995D74 /* IMS-IMS-MGW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-IMS-MGW.png"; sourceTree = "<group>"; };
+		B62B2F5E1639A94900995D74 /* IMS-IMS-SSF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-IMS-SSF.png"; sourceTree = "<group>"; };
+		B62B2F5F1639A94900995D74 /* IMS-Media-Server.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-Media-Server.png"; sourceTree = "<group>"; };
+		B62B2F601639A94900995D74 /* IMS-MGCF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-MGCF.png"; sourceTree = "<group>"; };
+		B62B2F611639A94900995D74 /* IMS-MRFC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-MRFC.png"; sourceTree = "<group>"; };
+		B62B2F621639A94900995D74 /* IMS-MRFP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-MRFP.png"; sourceTree = "<group>"; };
+		B62B2F631639A94900995D74 /* IMS-OSA-SCS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-OSA-SCS.png"; sourceTree = "<group>"; };
+		B62B2F641639A94900995D74 /* IMS-P-CSCF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-P-CSCF.png"; sourceTree = "<group>"; };
+		B62B2F651639A94900995D74 /* IMS-PDF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-PDF.png"; sourceTree = "<group>"; };
+		B62B2F661639A94900995D74 /* IMS-S-CSCF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-S-CSCF.png"; sourceTree = "<group>"; };
+		B62B2F671639A94900995D74 /* IMS-SIP-AS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-SIP-AS.png"; sourceTree = "<group>"; };
+		B62B2F681639A94900995D74 /* IMS-SLF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMS-SLF.png"; sourceTree = "<group>"; };
+		B642A12F154B272E0032CD63 /* NavWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavWebView.h; sourceTree = "<group>"; };
+		B642A130154B272E0032CD63 /* NavWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavWebView.m; sourceTree = "<group>"; };
+		B642A131154B272E0032CD63 /* NavWebView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NavWebView.xib; sourceTree = "<group>"; };
+		B642A132154B3E2B0032CD63 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B642A133154B3E2B0032CD63 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B642A134154B3E2B0032CD63 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		B642A146154B4D930032CD63 /* IMSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IMSViewController.h; sourceTree = "<group>"; };
+		B642A147154B4D930032CD63 /* IMSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMSViewController.m; sourceTree = "<group>"; };
+		B642A148154B4D930032CD63 /* IMSViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = IMSViewController.xib; sourceTree = "<group>"; };
+		B642A14F154F05530032CD63 /* webview.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = webview.html; sourceTree = "<group>"; };
+		B64A8127158809EF0082EB41 /* SmallCellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallCellViewController.h; sourceTree = "<group>"; };
+		B64A8128158809EF0082EB41 /* SmallCellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmallCellViewController.m; sourceTree = "<group>"; };
+		B64A8129158809EF0082EB41 /* SmallCellViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmallCellViewController.xib; sourceTree = "<group>"; };
+		B64A812A158809EF0082EB41 /* WCDMAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCDMAViewController.h; sourceTree = "<group>"; };
+		B64A812B158809EF0082EB41 /* WCDMAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCDMAViewController.m; sourceTree = "<group>"; };
+		B64A812C158809EF0082EB41 /* WCDMAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WCDMAViewController.xib; sourceTree = "<group>"; };
+		B64D6130160826D70094B12F /* webview.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = webview.css; sourceTree = "<group>"; };
+		B64D6143160826F20094B12F /* MPX-12000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "MPX-12000.jpg"; sourceTree = "<group>"; };
+		B6529079164C8F7800C991B2 /* WCDMA-GSM-SCF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-GSM-SCF.png"; sourceTree = "<group>"; };
+		B652907A164C8F7800C991B2 /* WCDMA-SMS-GMSC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-SMS-GMSC.png"; sourceTree = "<group>"; };
+		B670BD941639ABDC00BE14C9 /* LTE-ANDSF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-ANDSF.png"; sourceTree = "<group>"; };
+		B670BD951639ABDC00BE14C9 /* LTE-DeNB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-DeNB.png"; sourceTree = "<group>"; };
+		B670BD961639ABDC00BE14C9 /* LTE-ePDG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-ePDG.png"; sourceTree = "<group>"; };
+		B670BD971639ABDC00BE14C9 /* LTE-LTE-Device.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-LTE-Device.png"; sourceTree = "<group>"; };
+		B670BD981639ABDC00BE14C9 /* LTE-RN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-RN.png"; sourceTree = "<group>"; };
+		B670BD991639ABDC00BE14C9 /* LTE-Tablet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-Tablet.png"; sourceTree = "<group>"; };
+		B670BDA01639ABF600BE14C9 /* LTE-3GPP-Anchor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-3GPP-Anchor.png"; sourceTree = "<group>"; };
+		B670BDA11639ABF600BE14C9 /* LTE-EBM-SC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-EBM-SC.png"; sourceTree = "<group>"; };
+		B670BDA21639ABF600BE14C9 /* LTE-H-PCRF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-H-PCRF.png"; sourceTree = "<group>"; };
+		B670BDA31639ABF600BE14C9 /* LTE-HeMS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-HeMS.png"; sourceTree = "<group>"; };
+		B670BDA41639ABF600BE14C9 /* LTE-HeNB-Gateway-SEG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-HeNB-Gateway-SEG.png"; sourceTree = "<group>"; };
+		B670BDA51639ABF600BE14C9 /* LTE-HeNB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-HeNB.png"; sourceTree = "<group>"; };
+		B670BDA61639ABF600BE14C9 /* LTE-MBMS-cp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-MBMS-cp.png"; sourceTree = "<group>"; };
+		B670BDA71639ABF600BE14C9 /* LTE-MBMS-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-MBMS-up.png"; sourceTree = "<group>"; };
+		B670BDA81639ABF600BE14C9 /* LTE-MCE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-MCE.png"; sourceTree = "<group>"; };
+		B670BDA91639ABF600BE14C9 /* LTE-MME-SEG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-MME-SEG.png"; sourceTree = "<group>"; };
+		B670BDAA1639ABF600BE14C9 /* LTE-PCEF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-PCEF.png"; sourceTree = "<group>"; };
+		B670BDAB1639ABF600BE14C9 /* LTE-PDG-PGW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-PDG-PGW.png"; sourceTree = "<group>"; };
+		B670BDAC1639ABF600BE14C9 /* LTE-SAE-Anchor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-SAE-Anchor.png"; sourceTree = "<group>"; };
+		B670BDAD1639ABF600BE14C9 /* LTE-SEG-eNodeb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-SEG-eNodeb.png"; sourceTree = "<group>"; };
+		B670BDAE1639ABF600BE14C9 /* LTE-SEG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-SEG.png"; sourceTree = "<group>"; };
+		B670BDAF1639ABF600BE14C9 /* LTE-SGW.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-SGW.png"; sourceTree = "<group>"; };
+		B670BDB01639ABF600BE14C9 /* LTE-V-PCRF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LTE-V-PCRF.png"; sourceTree = "<group>"; };
+		B670BDCA1639B24000BE14C9 /* SmallCell-HMS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallCell-HMS.png"; sourceTree = "<group>"; };
+		B670BDCB1639B24000BE14C9 /* SmallCell-HNB-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallCell-HNB-1.png"; sourceTree = "<group>"; };
+		B670BDCC1639B24000BE14C9 /* SmallCell-HNB-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallCell-HNB-2.png"; sourceTree = "<group>"; };
+		B670BDCD1639B24000BE14C9 /* SmallCell-HNB-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallCell-HNB-3.png"; sourceTree = "<group>"; };
+		B670BDCE1639B24000BE14C9 /* SmallCell-HNB-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallCell-HNB-4.png"; sourceTree = "<group>"; };
+		B670BDCF1639B24000BE14C9 /* SmallCell-SEG-HNB-Gateway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallCell-SEG-HNB-Gateway.png"; sourceTree = "<group>"; };
+		B670BDD01639B24000BE14C9 /* SmallCell-Smartphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallCell-Smartphone.png"; sourceTree = "<group>"; };
+		B670BDD11639B24000BE14C9 /* SmallCell-Tablet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallCell-Tablet.png"; sourceTree = "<group>"; };
+		B670BDD21639B24000BE14C9 /* SmallCell-Up-NodeB-GANC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallCell-Up-NodeB-GANC.png"; sourceTree = "<group>"; };
+		B670BDD31639B24000BE14C9 /* SmallCell-Wireless-Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SmallCell-Wireless-Phone.png"; sourceTree = "<group>"; };
+		B670BDDE1639C47C00BE14C9 /* WCDMA-BM-SC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-BM-SC.png"; sourceTree = "<group>"; };
+		B670BDE11639C47C00BE14C9 /* WCDMA-BTS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-BTS.png"; sourceTree = "<group>"; };
+		B670BDE21639C47C00BE14C9 /* WCDMA-CBC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-CBC.png"; sourceTree = "<group>"; };
+		B670BDE31639C47C00BE14C9 /* WCDMA-CGF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-CGF.png"; sourceTree = "<group>"; };
+		B670BDE41639C47C00BE14C9 /* WCDMA-CRF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-CRF.png"; sourceTree = "<group>"; };
+		B670BDE51639C47C00BE14C9 /* WCDMA-CS-MGW-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-CS-MGW-1.png"; sourceTree = "<group>"; };
+		B670BDE61639C47C00BE14C9 /* WCDMA-CS-MGW-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-CS-MGW-2.png"; sourceTree = "<group>"; };
+		B670BDE71639C47C00BE14C9 /* WCDMA-LCS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-LCS.png"; sourceTree = "<group>"; };
+		B670BDE81639C47C00BE14C9 /* WCDMA-GGSN-PCEF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-GGSN-PCEF.png"; sourceTree = "<group>"; };
+		B670BDE91639C47C00BE14C9 /* WCDMA-GMLC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-GMLC.png"; sourceTree = "<group>"; };
+		B670BDEA1639C47C00BE14C9 /* WCDMA-HNB.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-HNB.png"; sourceTree = "<group>"; };
+		B670BDEB1639C47C00BE14C9 /* WCDMA-HSS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-HSS.png"; sourceTree = "<group>"; };
+		B670BDEC1639C47C00BE14C9 /* WCDMA-LMU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-LMU.png"; sourceTree = "<group>"; };
+		B670BDED1639C47C00BE14C9 /* WCDMA-luant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-luant.png"; sourceTree = "<group>"; };
+		B670BDEF1639C47C00BE14C9 /* WCDMA-RNC-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-RNC-1.png"; sourceTree = "<group>"; };
+		B670BDF11639C47C00BE14C9 /* WCDMA-SMLC-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-SMLC-1.png"; sourceTree = "<group>"; };
+		B670BDF21639C47C00BE14C9 /* WCDMA-SMLC-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-SMLC-2.png"; sourceTree = "<group>"; };
+		B670BDF31639C47C00BE14C9 /* WCDMA-SMSC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-SMSC.png"; sourceTree = "<group>"; };
+		B670BDF41639C47C00BE14C9 /* WCDMA-Tablet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-Tablet.png"; sourceTree = "<group>"; };
+		B670BDF51639C47C00BE14C9 /* WCDMA-Type-A-LMU-Type-B-LMU.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-Type-A-LMU-Type-B-LMU.png"; sourceTree = "<group>"; };
+		B670BDF61639C47C00BE14C9 /* WCDMA-VLR.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-VLR.png"; sourceTree = "<group>"; };
+		B670BDF71639C47C00BE14C9 /* WCDMA-Wireless-Phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-Wireless-Phone.png"; sourceTree = "<group>"; };
+		B670BE2D163B630200BE14C9 /* Footer_IntelEmbedded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Footer_IntelEmbedded.png; sourceTree = "<group>"; };
+		B67ECB8D15FFBE9C0028A357 /* networkDetail_right_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = networkDetail_right_panel.png; sourceTree = "<group>"; };
+		B684C70315FFCB2B003DA814 /* RMS_220.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = RMS_220.jpg; sourceTree = "<group>"; };
+		B684C70B1601281B003DA814 /* networkDetail_left_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = networkDetail_left_panel.png; sourceTree = "<group>"; };
+		B684C71516038B3C003DA814 /* Media_Server.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Media_Server.jpg; sourceTree = "<group>"; };
+		B684C71916038B3C003DA814 /* Trillium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Trillium.jpg; sourceTree = "<group>"; };
+		B684C7E716039D75003DA814 /* networkDetail_left_panel_portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = networkDetail_left_panel_portrait.png; sourceTree = "<group>"; };
+		B693255E16447837008659C6 /* WCDMA-BSC-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-BSC-1.png"; sourceTree = "<group>"; };
+		B693255F16447837008659C6 /* WCDMA-BSC-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-BSC-2.png"; sourceTree = "<group>"; };
+		B693256016447837008659C6 /* WCDMA-MSC-Server.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-MSC-Server.png"; sourceTree = "<group>"; };
+		B693256116447837008659C6 /* WCDMA-RNC-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-RNC-2.png"; sourceTree = "<group>"; };
+		B693256216447837008659C6 /* WCDMA-SGSN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WCDMA-SGSN.png"; sourceTree = "<group>"; };
+		B69325AC164865D3008659C6 /* SEG_family.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SEG_family.jpg; sourceTree = "<group>"; };
+		B69325B01648667B008659C6 /* RMS_T-series.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "RMS_T-series.jpg"; sourceTree = "<group>"; };
+		B69325B21648C6F1008659C6 /* 3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = 3.xml; sourceTree = "<group>"; };
+		B69325B31648C6F1008659C6 /* A.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = A.xml; sourceTree = "<group>"; };
+		B69325B41648C6F1008659C6 /* B.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = B.xml; sourceTree = "<group>"; };
+		B69325B51648C6F1008659C6 /* C.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = C.xml; sourceTree = "<group>"; };
+		B69325BA1648C6FC008659C6 /* D.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = D.xml; sourceTree = "<group>"; };
+		B69325BB1648C6FC008659C6 /* E.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = E.xml; sourceTree = "<group>"; };
+		B69325BC1648C6FC008659C6 /* G.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = G.xml; sourceTree = "<group>"; };
+		B69325BD1648C6FC008659C6 /* H.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = H.xml; sourceTree = "<group>"; };
+		B69325BE1648C6FC008659C6 /* I.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = I.xml; sourceTree = "<group>"; };
+		B69325BF1648C6FC008659C6 /* Info.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Info.xml; sourceTree = "<group>"; };
+		B69325C01648C6FC008659C6 /* L.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = L.xml; sourceTree = "<group>"; };
+		B69325C11648C6FC008659C6 /* M.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = M.xml; sourceTree = "<group>"; };
+		B69325C21648C6FC008659C6 /* O.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = O.xml; sourceTree = "<group>"; };
+		B69325C31648C6FC008659C6 /* P.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = P.xml; sourceTree = "<group>"; };
+		B69325C41648C6FC008659C6 /* R.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = R.xml; sourceTree = "<group>"; };
+		B69325C51648C6FC008659C6 /* S.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = S.xml; sourceTree = "<group>"; };
+		B69325C61648C6FC008659C6 /* V.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = V.xml; sourceTree = "<group>"; };
+		B6C81836160828C500181B7C /* ATCA_6u.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ATCA_6u.jpg; sourceTree = "<group>"; };
+		B6C81837160828C500181B7C /* ATCA_14u.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ATCA_14u.jpg; sourceTree = "<group>"; };
+		B6C8183B160828D500181B7C /* LTE-SEG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "LTE-SEG.jpg"; sourceTree = "<group>"; };
+		B6C8183D160828EC00181B7C /* SEG_1000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SEG_1000.jpg; sourceTree = "<group>"; };
+		B6DCD7671550C61B00AC4DB1 /* NetworkDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkDetailViewController.h; sourceTree = "<group>"; };
+		B6DCD7681550C61B00AC4DB1 /* NetworkDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkDetailViewController.m; sourceTree = "<group>"; };
+		B6DCD7691550C61B00AC4DB1 /* NetworkDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkDetailViewController.xib; sourceTree = "<group>"; };
+		B6DCD76D1550C75C00AC4DB1 /* GlossaryData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlossaryData.h; sourceTree = "<group>"; };
+		B6DCD76E1550C75C00AC4DB1 /* GlossaryData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GlossaryData.m; sourceTree = "<group>"; };
+		B6FD276C1580247100085AB7 /* LTEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTEViewController.h; sourceTree = "<group>"; };
+		B6FD276D1580247100085AB7 /* LTEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTEViewController.m; sourceTree = "<group>"; };
+		B6FD276E1580247100085AB7 /* LTEViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTEViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +546,29 @@
 				B6217FA31547914700B4DDBA /* ViewController.h */,
 				B6217FA41547914700B4DDBA /* ViewController.m */,
 				B6217FA61547914700B4DDBA /* ViewController.xib */,
+				B642A146154B4D930032CD63 /* IMSViewController.h */,
+				B642A147154B4D930032CD63 /* IMSViewController.m */,
+				B642A148154B4D930032CD63 /* IMSViewController.xib */,
+				B6FD276C1580247100085AB7 /* LTEViewController.h */,
+				B6FD276D1580247100085AB7 /* LTEViewController.m */,
+				B6FD276E1580247100085AB7 /* LTEViewController.xib */,
+				B64A8127158809EF0082EB41 /* SmallCellViewController.h */,
+				B64A8128158809EF0082EB41 /* SmallCellViewController.m */,
+				B64A8129158809EF0082EB41 /* SmallCellViewController.xib */,
+				B64A812A158809EF0082EB41 /* WCDMAViewController.h */,
+				B64A812B158809EF0082EB41 /* WCDMAViewController.m */,
+				B64A812C158809EF0082EB41 /* WCDMAViewController.xib */,
+				B6DCD7671550C61B00AC4DB1 /* NetworkDetailViewController.h */,
+				B6DCD7681550C61B00AC4DB1 /* NetworkDetailViewController.m */,
+				B6DCD7691550C61B00AC4DB1 /* NetworkDetailViewController.xib */,
+				B642A132154B3E2B0032CD63 /* MainViewController.h */,
+				B642A133154B3E2B0032CD63 /* MainViewController.m */,
+				B642A134154B3E2B0032CD63 /* MainViewController.xib */,
+				B642A12F154B272E0032CD63 /* NavWebView.h */,
+				B642A130154B272E0032CD63 /* NavWebView.m */,
+				B642A131154B272E0032CD63 /* NavWebView.xib */,
+				B6DCD76D1550C75C00AC4DB1 /* GlossaryData.h */,
+				B6DCD76E1550C75C00AC4DB1 /* GlossaryData.m */,
 				B6217F981547914700B4DDBA /* Supporting Files */,
 			);
 			path = "Trillium Poster";
@@ -90,12 +577,289 @@
 		B6217F981547914700B4DDBA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B684C7061600002C003DA814 /* Stack Images */,
+				B642A13B154B44D40032CD63 /* XML */,
+				B621808E154A2C3900B4DDBA /* Video Images */,
+				B62180731547937900B4DDBA /* Main Images */,
+				B621805A1547935B00B4DDBA /* Common Images */,
+				B62180431547933100B4DDBA /* Network Images */,
+				B6217FCA1547930600B4DDBA /* Buttons */,
+				B6217FBB1547926200B4DDBA /* Product Images */,
+				B6217FB4154791B700B4DDBA /* Default-Landscape~ipad.png */,
+				B6217FB01547919E00B4DDBA /* Default-Portrait~ipad.png */,
+				B6217FAE1547919900B4DDBA /* Icon_72x72.png */,
 				B6217F991547914700B4DDBA /* Trillium Poster-Info.plist */,
 				B6217F9A1547914700B4DDBA /* InfoPlist.strings */,
 				B6217F9D1547914700B4DDBA /* main.m */,
 				B6217F9F1547914700B4DDBA /* Trillium Poster-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B6217FBB1547926200B4DDBA /* Product Images */ = {
+			isa = PBXGroup;
+			children = (
+				B69325B01648667B008659C6 /* RMS_T-series.jpg */,
+				B69325AC164865D3008659C6 /* SEG_family.jpg */,
+				B6C8183D160828EC00181B7C /* SEG_1000.jpg */,
+				B6C8183B160828D500181B7C /* LTE-SEG.jpg */,
+				B6C81836160828C500181B7C /* ATCA_6u.jpg */,
+				B6C81837160828C500181B7C /* ATCA_14u.jpg */,
+				B64D6143160826F20094B12F /* MPX-12000.jpg */,
+				B684C71516038B3C003DA814 /* Media_Server.jpg */,
+				B684C71916038B3C003DA814 /* Trillium.jpg */,
+				B684C70315FFCB2B003DA814 /* RMS_220.jpg */,
+				B6217FC21547927A00B4DDBA /* blank.png */,
+			);
+			name = "Product Images";
+			sourceTree = "<group>";
+		};
+		B6217FCA1547930600B4DDBA /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				B6217FCB1547932100B4DDBA /* Guide_TapToSee.png */,
+				B6217FCC1547932100B4DDBA /* btn_Back.png */,
+				B6217FCD1547932100B4DDBA /* List_Bullet.png */,
+				B6217FCE1547932100B4DDBA /* 2-Network_btn_ArrowDown-LTE-LTE-A.png */,
+				B6217FCF1547932100B4DDBA /* 2-Network_btn_ArrowLeft-LTE-LTE-A.png */,
+				B6217FD01547932100B4DDBA /* 2-Network_btn_ArrowLeft-SmallCell.png */,
+				B6217FD11547932100B4DDBA /* 2-Network_btn_ArrowRight-SmallCell.png */,
+				B6217FD21547932100B4DDBA /* 2-Network_btn_ArrowRight-WCDMA.png */,
+				B6217FD31547932100B4DDBA /* 2-Network_btn_ArrowUp-IMS.png */,
+				B6217FD41547932100B4DDBA /* IMS_11.png */,
+				B6217FD51547932100B4DDBA /* IMS_12.png */,
+				B6217FD61547932100B4DDBA /* IMS_13.png */,
+				B6217FD71547932100B4DDBA /* IMS_13_Small.png */,
+				B6217FD81547932100B4DDBA /* IMS_15.png */,
+				B6217FD91547932100B4DDBA /* IMS_16.png */,
+				B6217FDA1547932100B4DDBA /* IMS_23.png */,
+				B6217FDB1547932100B4DDBA /* IMS_27.png */,
+				B6217FDC1547932100B4DDBA /* IMS_3.png */,
+				B6217FDD1547932100B4DDBA /* IMS_41_Left.png */,
+				B6217FDE1547932100B4DDBA /* IMS_41_Right.png */,
+				B6217FDF1547932100B4DDBA /* IMS_8.png */,
+				B6217FE01547932100B4DDBA /* IMS_9.png */,
+				B6217FE11547932100B4DDBA /* LTE_22.png */,
+				B6217FE21547932100B4DDBA /* LTE_22_Right.png */,
+				B6217FE31547932100B4DDBA /* LTE_22_Small.png */,
+				B6217FE41547932100B4DDBA /* LTE_27.png */,
+				B6217FE51547932100B4DDBA /* LTE_40.png */,
+				B6217FE61547932100B4DDBA /* LTE_41.png */,
+				B6217FE71547932100B4DDBA /* LTE_7.png */,
+				B6217FE81547932100B4DDBA /* LTE_7_Large_Left.png */,
+				B6217FE91547932100B4DDBA /* LTE_7_Left.png */,
+				B6217FEA1547932100B4DDBA /* LTE_7_Medium_Left.png */,
+				B6217FEB1547932100B4DDBA /* LTE_7_Medium_Right.png */,
+				B6217FEC1547932100B4DDBA /* LTE_7_Small.png */,
+				B6217FED1547932100B4DDBA /* LTE_7_Small_Right.png */,
+				B6217FEE1547932100B4DDBA /* SmallCell_23.png */,
+				B6217FEF1547932100B4DDBA /* SmallCell_40.png */,
+				B6217FF01547932100B4DDBA /* SmallCell_41.png */,
+				B6217FF11547932100B4DDBA /* SmallCell_7.png */,
+				B6217FF21547932100B4DDBA /* SmallCell_7_LeftAndRight.png */,
+				B6217FF31547932100B4DDBA /* SmallCell_7_Small.png */,
+				B6217FF41547932100B4DDBA /* WCDMA_10-22.png */,
+				B6217FF51547932100B4DDBA /* WCDMA_10-40.png */,
+				B6217FF61547932100B4DDBA /* WCDMA_10.png */,
+				B6217FF71547932100B4DDBA /* WCDMA_10_Small.png */,
+				B6217FF81547932100B4DDBA /* WCDMA_13.png */,
+				B6217FF91547932100B4DDBA /* WCDMA_13_Large.png */,
+				B6217FFA1547932100B4DDBA /* WCDMA_13_Medium.png */,
+				B6217FFB1547932100B4DDBA /* WCDMA_13_Small.png */,
+				B6217FFC1547932100B4DDBA /* WCDMA_16.png */,
+				B6217FFD1547932100B4DDBA /* WCDMA_16_Left.png */,
+				B6217FFE1547932100B4DDBA /* WCDMA_19.png */,
+				B6217FFF1547932100B4DDBA /* WCDMA_22_NoPad.png */,
+				B62180001547932100B4DDBA /* WCDMA_23.png */,
+				B62180011547932100B4DDBA /* WCDMA_41.png */,
+				B62180021547932100B4DDBA /* WCDMA_7.png */,
+				B62180031547932100B4DDBA /* WCDMA_7_Right.png */,
+				B62180041547932100B4DDBA /* WCDMA_7_small.png */,
+				B62180051547932100B4DDBA /* WCDMA_7_smaller.png */,
+				B62180061547932100B4DDBA /* WCDMA_9.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		B62180431547933100B4DDBA /* Network Images */ = {
+			isa = PBXGroup;
+			children = (
+				B684C70B1601281B003DA814 /* networkDetail_left_panel.png */,
+				B67ECB8D15FFBE9C0028A357 /* networkDetail_right_panel.png */,
+				B62180451547934300B4DDBA /* Footer_btn_Legend.png */,
+				B62180461547934300B4DDBA /* IMS_NetworkPaths_Only.png */,
+				B62180471547934300B4DDBA /* IMS_NetworkPaths_withLabels.png */,
+				B62180481547934300B4DDBA /* Legend_btn_Close.png */,
+				B62180491547934300B4DDBA /* LTE-LTE-A_NetworkPaths_Only.png */,
+				B621804A1547934300B4DDBA /* LTE-LTE-A_NetworkPaths_withLabels.png */,
+				B621804B1547934300B4DDBA /* SmallCell_NetworkPaths_Only.png */,
+				B621804C1547934300B4DDBA /* SmallCell_NetworkPaths_withLabels.png */,
+				B621804D1547934300B4DDBA /* WCDMA_NetworkPaths_Only.png */,
+				B621804E1547934300B4DDBA /* WCDMA_NetworkPaths_withLabels.png */,
+			);
+			name = "Network Images";
+			sourceTree = "<group>";
+		};
+		B621805A1547935B00B4DDBA /* Common Images */ = {
+			isa = PBXGroup;
+			children = (
+				B670BE2D163B630200BE14C9 /* Footer_IntelEmbedded.png */,
+				B6218082154A1BFA00B4DDBA /* Header_btn_About.png */,
+				B684C7E716039D75003DA814 /* networkDetail_left_panel_portrait.png */,
+				B6218083154A1BFA00B4DDBA /* Header_btn_Contact.png */,
+				B6218084154A1BFA00B4DDBA /* Header_btn_Help.png */,
+				B6218085154A1BFA00B4DDBA /* Header_btn_Home.png */,
+				B6218086154A1BFA00B4DDBA /* Header_btn_OrderPoster.png */,
+				B6218087154A1BFA00B4DDBA /* Header_btn_Video.png */,
+				B621805B1547937300B4DDBA /* Footer_Bar.png */,
+				B621805C1547937300B4DDBA /* Title_CommNetInfra.png */,
+				B62180641547937300B4DDBA /* Header_Bar.png */,
+				B62180651547937300B4DDBA /* Radisys_Logo.png */,
+				B62180661547937300B4DDBA /* Trillium_Logo.png */,
+			);
+			name = "Common Images";
+			sourceTree = "<group>";
+		};
+		B62180731547937900B4DDBA /* Main Images */ = {
+			isa = PBXGroup;
+			children = (
+				B62180741547939700B4DDBA /* Help-PopUp.png */,
+				B62180751547939700B4DDBA /* Background_NetworkPath.png */,
+				B62180761547939700B4DDBA /* 1-Main_btn_IMS.png */,
+				B62180771547939700B4DDBA /* 1-Main_btn_LTE-A.png */,
+				B62180781547939700B4DDBA /* 1-Main_btn_LTE.png */,
+				B62180791547939700B4DDBA /* 1-Main_btn_SmallCell.png */,
+				B621807A1547939700B4DDBA /* 1-Main_btn_WCDMA.png */,
+			);
+			name = "Main Images";
+			sourceTree = "<group>";
+		};
+		B621808E154A2C3900B4DDBA /* Video Images */ = {
+			isa = PBXGroup;
+			children = (
+				B621808F154A2C4F00B4DDBA /* Category-Button-BG.png */,
+				B6218090154A2C4F00B4DDBA /* Category-Button-Cap-Left.png */,
+				B6218091154A2C4F00B4DDBA /* Category-Button-Cap-Right.png */,
+				B6218092154A2C4F00B4DDBA /* Category-Button-Divider.png */,
+				B6218093154A2C4F00B4DDBA /* Thumbnail-NavArrow-Left.png */,
+				B6218094154A2C4F00B4DDBA /* Thumbnail-NavArrow-Right.png */,
+				B621809B154A2C5F00B4DDBA /* Category-Button-Tray.png */,
+				B621809C154A2C5F00B4DDBA /* Thumbnail-Tray.png */,
+				B621809D154A2C5F00B4DDBA /* VideoPlayer-DropShadow.png */,
+			);
+			name = "Video Images";
+			sourceTree = "<group>";
+		};
+		B642A13B154B44D40032CD63 /* XML */ = {
+			isa = PBXGroup;
+			children = (
+				B69325BA1648C6FC008659C6 /* D.xml */,
+				B69325BB1648C6FC008659C6 /* E.xml */,
+				B69325BC1648C6FC008659C6 /* G.xml */,
+				B69325BD1648C6FC008659C6 /* H.xml */,
+				B69325BE1648C6FC008659C6 /* I.xml */,
+				B69325BF1648C6FC008659C6 /* Info.xml */,
+				B69325C01648C6FC008659C6 /* L.xml */,
+				B69325C11648C6FC008659C6 /* M.xml */,
+				B69325C21648C6FC008659C6 /* O.xml */,
+				B69325C31648C6FC008659C6 /* P.xml */,
+				B69325C41648C6FC008659C6 /* R.xml */,
+				B69325C51648C6FC008659C6 /* S.xml */,
+				B69325C61648C6FC008659C6 /* V.xml */,
+				B69325B21648C6F1008659C6 /* 3.xml */,
+				B69325B31648C6F1008659C6 /* A.xml */,
+				B69325B41648C6F1008659C6 /* B.xml */,
+				B69325B51648C6F1008659C6 /* C.xml */,
+				B64D6130160826D70094B12F /* webview.css */,
+				B642A14F154F05530032CD63 /* webview.html */,
+			);
+			name = XML;
+			sourceTree = "<group>";
+		};
+		B684C7061600002C003DA814 /* Stack Images */ = {
+			isa = PBXGroup;
+			children = (
+				B6529079164C8F7800C991B2 /* WCDMA-GSM-SCF.png */,
+				B652907A164C8F7800C991B2 /* WCDMA-SMS-GMSC.png */,
+				B693255E16447837008659C6 /* WCDMA-BSC-1.png */,
+				B693255F16447837008659C6 /* WCDMA-BSC-2.png */,
+				B693256016447837008659C6 /* WCDMA-MSC-Server.png */,
+				B693256116447837008659C6 /* WCDMA-RNC-2.png */,
+				B693256216447837008659C6 /* WCDMA-SGSN.png */,
+				B670BDDE1639C47C00BE14C9 /* WCDMA-BM-SC.png */,
+				B670BDE11639C47C00BE14C9 /* WCDMA-BTS.png */,
+				B670BDE21639C47C00BE14C9 /* WCDMA-CBC.png */,
+				B670BDE31639C47C00BE14C9 /* WCDMA-CGF.png */,
+				B670BDE41639C47C00BE14C9 /* WCDMA-CRF.png */,
+				B670BDE51639C47C00BE14C9 /* WCDMA-CS-MGW-1.png */,
+				B670BDE61639C47C00BE14C9 /* WCDMA-CS-MGW-2.png */,
+				B670BDE71639C47C00BE14C9 /* WCDMA-LCS.png */,
+				B670BDE81639C47C00BE14C9 /* WCDMA-GGSN-PCEF.png */,
+				B670BDE91639C47C00BE14C9 /* WCDMA-GMLC.png */,
+				B670BDEA1639C47C00BE14C9 /* WCDMA-HNB.png */,
+				B670BDEB1639C47C00BE14C9 /* WCDMA-HSS.png */,
+				B670BDEC1639C47C00BE14C9 /* WCDMA-LMU.png */,
+				B670BDED1639C47C00BE14C9 /* WCDMA-luant.png */,
+				B670BDEF1639C47C00BE14C9 /* WCDMA-RNC-1.png */,
+				B670BDF11639C47C00BE14C9 /* WCDMA-SMLC-1.png */,
+				B670BDF21639C47C00BE14C9 /* WCDMA-SMLC-2.png */,
+				B670BDF31639C47C00BE14C9 /* WCDMA-SMSC.png */,
+				B670BDF41639C47C00BE14C9 /* WCDMA-Tablet.png */,
+				B670BDF51639C47C00BE14C9 /* WCDMA-Type-A-LMU-Type-B-LMU.png */,
+				B670BDF61639C47C00BE14C9 /* WCDMA-VLR.png */,
+				B670BDF71639C47C00BE14C9 /* WCDMA-Wireless-Phone.png */,
+				B670BDCA1639B24000BE14C9 /* SmallCell-HMS.png */,
+				B670BDCB1639B24000BE14C9 /* SmallCell-HNB-1.png */,
+				B670BDCC1639B24000BE14C9 /* SmallCell-HNB-2.png */,
+				B670BDCD1639B24000BE14C9 /* SmallCell-HNB-3.png */,
+				B670BDCE1639B24000BE14C9 /* SmallCell-HNB-4.png */,
+				B670BDCF1639B24000BE14C9 /* SmallCell-SEG-HNB-Gateway.png */,
+				B670BDD01639B24000BE14C9 /* SmallCell-Smartphone.png */,
+				B670BDD11639B24000BE14C9 /* SmallCell-Tablet.png */,
+				B670BDD21639B24000BE14C9 /* SmallCell-Up-NodeB-GANC.png */,
+				B670BDD31639B24000BE14C9 /* SmallCell-Wireless-Phone.png */,
+				B670BDA01639ABF600BE14C9 /* LTE-3GPP-Anchor.png */,
+				B670BDA11639ABF600BE14C9 /* LTE-EBM-SC.png */,
+				B670BDA21639ABF600BE14C9 /* LTE-H-PCRF.png */,
+				B670BDA31639ABF600BE14C9 /* LTE-HeMS.png */,
+				B670BDA41639ABF600BE14C9 /* LTE-HeNB-Gateway-SEG.png */,
+				B670BDA51639ABF600BE14C9 /* LTE-HeNB.png */,
+				B670BDA61639ABF600BE14C9 /* LTE-MBMS-cp.png */,
+				B670BDA71639ABF600BE14C9 /* LTE-MBMS-up.png */,
+				B670BDA81639ABF600BE14C9 /* LTE-MCE.png */,
+				B670BDA91639ABF600BE14C9 /* LTE-MME-SEG.png */,
+				B670BDAA1639ABF600BE14C9 /* LTE-PCEF.png */,
+				B670BDAB1639ABF600BE14C9 /* LTE-PDG-PGW.png */,
+				B670BDAC1639ABF600BE14C9 /* LTE-SAE-Anchor.png */,
+				B670BDAD1639ABF600BE14C9 /* LTE-SEG-eNodeb.png */,
+				B670BDAE1639ABF600BE14C9 /* LTE-SEG.png */,
+				B670BDAF1639ABF600BE14C9 /* LTE-SGW.png */,
+				B670BDB01639ABF600BE14C9 /* LTE-V-PCRF.png */,
+				B670BD941639ABDC00BE14C9 /* LTE-ANDSF.png */,
+				B670BD951639ABDC00BE14C9 /* LTE-DeNB.png */,
+				B670BD961639ABDC00BE14C9 /* LTE-ePDG.png */,
+				B670BD971639ABDC00BE14C9 /* LTE-LTE-Device.png */,
+				B670BD981639ABDC00BE14C9 /* LTE-RN.png */,
+				B670BD991639ABDC00BE14C9 /* LTE-Tablet.png */,
+				B62B2F581639A94900995D74 /* IMS-BGCF.png */,
+				B62B2F591639A94900995D74 /* IMS-CCF.png */,
+				B62B2F5A1639A94900995D74 /* IMS-ECF.png */,
+				B62B2F5B1639A94900995D74 /* IMS-HSS.png */,
+				B62B2F5C1639A94900995D74 /* IMS-I-CSCF.png */,
+				B62B2F5D1639A94900995D74 /* IMS-IMS-MGW.png */,
+				B62B2F5E1639A94900995D74 /* IMS-IMS-SSF.png */,
+				B62B2F5F1639A94900995D74 /* IMS-Media-Server.png */,
+				B62B2F601639A94900995D74 /* IMS-MGCF.png */,
+				B62B2F611639A94900995D74 /* IMS-MRFC.png */,
+				B62B2F621639A94900995D74 /* IMS-MRFP.png */,
+				B62B2F631639A94900995D74 /* IMS-OSA-SCS.png */,
+				B62B2F641639A94900995D74 /* IMS-P-CSCF.png */,
+				B62B2F651639A94900995D74 /* IMS-PDF.png */,
+				B62B2F661639A94900995D74 /* IMS-S-CSCF.png */,
+				B62B2F671639A94900995D74 /* IMS-SIP-AS.png */,
+				B62B2F681639A94900995D74 /* IMS-SLF.png */,
+			);
+			name = "Stack Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +890,11 @@
 			attributes = {
 				LastUpgradeCheck = 0430;
 				ORGANIZATIONNAME = radisys;
+				TargetAttributes = {
+					B6217F8C1547914700B4DDBA = {
+						DevelopmentTeam = PVVBXZQ7FY;
+					};
+				};
 			};
 			buildConfigurationList = B6217F871547914700B4DDBA /* Build configuration list for PBXProject "Trillium Poster" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -151,6 +920,226 @@
 			files = (
 				B6217F9C1547914700B4DDBA /* InfoPlist.strings in Resources */,
 				B6217FA81547914700B4DDBA /* ViewController.xib in Resources */,
+				B6217FAF1547919900B4DDBA /* Icon_72x72.png in Resources */,
+				B6217FB11547919E00B4DDBA /* Default-Portrait~ipad.png in Resources */,
+				B6217FB5154791B700B4DDBA /* Default-Landscape~ipad.png in Resources */,
+				B6217FC91547927A00B4DDBA /* blank.png in Resources */,
+				B62180071547932100B4DDBA /* Guide_TapToSee.png in Resources */,
+				B62180081547932100B4DDBA /* btn_Back.png in Resources */,
+				B62180091547932100B4DDBA /* List_Bullet.png in Resources */,
+				B621800A1547932100B4DDBA /* 2-Network_btn_ArrowDown-LTE-LTE-A.png in Resources */,
+				B621800B1547932100B4DDBA /* 2-Network_btn_ArrowLeft-LTE-LTE-A.png in Resources */,
+				B621800C1547932100B4DDBA /* 2-Network_btn_ArrowLeft-SmallCell.png in Resources */,
+				B621800D1547932100B4DDBA /* 2-Network_btn_ArrowRight-SmallCell.png in Resources */,
+				B621800E1547932100B4DDBA /* 2-Network_btn_ArrowRight-WCDMA.png in Resources */,
+				B621800F1547932100B4DDBA /* 2-Network_btn_ArrowUp-IMS.png in Resources */,
+				B62180101547932100B4DDBA /* IMS_11.png in Resources */,
+				B62180111547932100B4DDBA /* IMS_12.png in Resources */,
+				B62180121547932100B4DDBA /* IMS_13.png in Resources */,
+				B62180131547932100B4DDBA /* IMS_13_Small.png in Resources */,
+				B62180141547932100B4DDBA /* IMS_15.png in Resources */,
+				B62180151547932100B4DDBA /* IMS_16.png in Resources */,
+				B62180161547932100B4DDBA /* IMS_23.png in Resources */,
+				B62180171547932100B4DDBA /* IMS_27.png in Resources */,
+				B62180181547932100B4DDBA /* IMS_3.png in Resources */,
+				B62180191547932100B4DDBA /* IMS_41_Left.png in Resources */,
+				B621801A1547932100B4DDBA /* IMS_41_Right.png in Resources */,
+				B621801B1547932100B4DDBA /* IMS_8.png in Resources */,
+				B621801C1547932100B4DDBA /* IMS_9.png in Resources */,
+				B621801D1547932100B4DDBA /* LTE_22.png in Resources */,
+				B621801E1547932100B4DDBA /* LTE_22_Right.png in Resources */,
+				B621801F1547932100B4DDBA /* LTE_22_Small.png in Resources */,
+				B62180201547932100B4DDBA /* LTE_27.png in Resources */,
+				B62180211547932100B4DDBA /* LTE_40.png in Resources */,
+				B62180221547932100B4DDBA /* LTE_41.png in Resources */,
+				B62180231547932100B4DDBA /* LTE_7.png in Resources */,
+				B62180241547932100B4DDBA /* LTE_7_Large_Left.png in Resources */,
+				B62180251547932100B4DDBA /* LTE_7_Left.png in Resources */,
+				B62180261547932100B4DDBA /* LTE_7_Medium_Left.png in Resources */,
+				B62180271547932100B4DDBA /* LTE_7_Medium_Right.png in Resources */,
+				B62180281547932100B4DDBA /* LTE_7_Small.png in Resources */,
+				B62180291547932100B4DDBA /* LTE_7_Small_Right.png in Resources */,
+				B621802A1547932100B4DDBA /* SmallCell_23.png in Resources */,
+				B621802B1547932100B4DDBA /* SmallCell_40.png in Resources */,
+				B621802C1547932100B4DDBA /* SmallCell_41.png in Resources */,
+				B621802D1547932100B4DDBA /* SmallCell_7.png in Resources */,
+				B621802E1547932100B4DDBA /* SmallCell_7_LeftAndRight.png in Resources */,
+				B621802F1547932100B4DDBA /* SmallCell_7_Small.png in Resources */,
+				B62180301547932100B4DDBA /* WCDMA_10-22.png in Resources */,
+				B62180311547932100B4DDBA /* WCDMA_10-40.png in Resources */,
+				B62180321547932100B4DDBA /* WCDMA_10.png in Resources */,
+				B62180331547932100B4DDBA /* WCDMA_10_Small.png in Resources */,
+				B62180341547932100B4DDBA /* WCDMA_13.png in Resources */,
+				B62180351547932100B4DDBA /* WCDMA_13_Large.png in Resources */,
+				B62180361547932100B4DDBA /* WCDMA_13_Medium.png in Resources */,
+				B62180371547932100B4DDBA /* WCDMA_13_Small.png in Resources */,
+				B62180381547932100B4DDBA /* WCDMA_16.png in Resources */,
+				B62180391547932100B4DDBA /* WCDMA_16_Left.png in Resources */,
+				B621803A1547932100B4DDBA /* WCDMA_19.png in Resources */,
+				B621803B1547932100B4DDBA /* WCDMA_22_NoPad.png in Resources */,
+				B621803C1547932100B4DDBA /* WCDMA_23.png in Resources */,
+				B621803D1547932100B4DDBA /* WCDMA_41.png in Resources */,
+				B621803E1547932100B4DDBA /* WCDMA_7.png in Resources */,
+				B621803F1547932100B4DDBA /* WCDMA_7_Right.png in Resources */,
+				B62180401547932100B4DDBA /* WCDMA_7_small.png in Resources */,
+				B62180411547932100B4DDBA /* WCDMA_7_smaller.png in Resources */,
+				B62180421547932100B4DDBA /* WCDMA_9.png in Resources */,
+				B62180501547934300B4DDBA /* Footer_btn_Legend.png in Resources */,
+				B62180511547934300B4DDBA /* IMS_NetworkPaths_Only.png in Resources */,
+				B62180521547934300B4DDBA /* IMS_NetworkPaths_withLabels.png in Resources */,
+				B62180531547934300B4DDBA /* Legend_btn_Close.png in Resources */,
+				B62180541547934300B4DDBA /* LTE-LTE-A_NetworkPaths_Only.png in Resources */,
+				B62180551547934300B4DDBA /* LTE-LTE-A_NetworkPaths_withLabels.png in Resources */,
+				B62180561547934300B4DDBA /* SmallCell_NetworkPaths_Only.png in Resources */,
+				B62180571547934300B4DDBA /* SmallCell_NetworkPaths_withLabels.png in Resources */,
+				B62180581547934300B4DDBA /* WCDMA_NetworkPaths_Only.png in Resources */,
+				B62180591547934300B4DDBA /* WCDMA_NetworkPaths_withLabels.png in Resources */,
+				B62180671547937300B4DDBA /* Footer_Bar.png in Resources */,
+				B62180681547937300B4DDBA /* Title_CommNetInfra.png in Resources */,
+				B62180701547937300B4DDBA /* Header_Bar.png in Resources */,
+				B62180711547937300B4DDBA /* Radisys_Logo.png in Resources */,
+				B62180721547937300B4DDBA /* Trillium_Logo.png in Resources */,
+				B621807B1547939800B4DDBA /* Help-PopUp.png in Resources */,
+				B621807C1547939800B4DDBA /* Background_NetworkPath.png in Resources */,
+				B621807D1547939800B4DDBA /* 1-Main_btn_IMS.png in Resources */,
+				B621807E1547939800B4DDBA /* 1-Main_btn_LTE-A.png in Resources */,
+				B621807F1547939800B4DDBA /* 1-Main_btn_LTE.png in Resources */,
+				B62180801547939800B4DDBA /* 1-Main_btn_SmallCell.png in Resources */,
+				B62180811547939800B4DDBA /* 1-Main_btn_WCDMA.png in Resources */,
+				B6218088154A1BFA00B4DDBA /* Header_btn_About.png in Resources */,
+				B6218089154A1BFA00B4DDBA /* Header_btn_Contact.png in Resources */,
+				B621808A154A1BFA00B4DDBA /* Header_btn_Help.png in Resources */,
+				B621808B154A1BFA00B4DDBA /* Header_btn_Home.png in Resources */,
+				B621808C154A1BFA00B4DDBA /* Header_btn_OrderPoster.png in Resources */,
+				B621808D154A1BFA00B4DDBA /* Header_btn_Video.png in Resources */,
+				B6218095154A2C4F00B4DDBA /* Category-Button-BG.png in Resources */,
+				B6218096154A2C4F00B4DDBA /* Category-Button-Cap-Left.png in Resources */,
+				B6218097154A2C4F00B4DDBA /* Category-Button-Cap-Right.png in Resources */,
+				B6218098154A2C4F00B4DDBA /* Category-Button-Divider.png in Resources */,
+				B6218099154A2C4F00B4DDBA /* Thumbnail-NavArrow-Left.png in Resources */,
+				B621809A154A2C4F00B4DDBA /* Thumbnail-NavArrow-Right.png in Resources */,
+				B621809E154A2C5F00B4DDBA /* Category-Button-Tray.png in Resources */,
+				B621809F154A2C5F00B4DDBA /* Thumbnail-Tray.png in Resources */,
+				B62180A0154A2C5F00B4DDBA /* VideoPlayer-DropShadow.png in Resources */,
+				B642A136154B3E2B0032CD63 /* MainViewController.xib in Resources */,
+				B642A149154B4DE90032CD63 /* IMSViewController.xib in Resources */,
+				B642A14B154B4DF30032CD63 /* NavWebView.xib in Resources */,
+				B642A150154F05530032CD63 /* webview.html in Resources */,
+				B6DCD76B1550C61B00AC4DB1 /* NetworkDetailViewController.xib in Resources */,
+				B6FD27701580247100085AB7 /* LTEViewController.xib in Resources */,
+				B64A812E158809EF0082EB41 /* SmallCellViewController.xib in Resources */,
+				B64A8130158809EF0082EB41 /* WCDMAViewController.xib in Resources */,
+				B67ECB8F15FFBE9C0028A357 /* networkDetail_right_panel.png in Resources */,
+				B684C70415FFCB2B003DA814 /* RMS_220.jpg in Resources */,
+				B684C70C1601281B003DA814 /* networkDetail_left_panel.png in Resources */,
+				B684C71E16038B3C003DA814 /* Media_Server.jpg in Resources */,
+				B684C72216038B3C003DA814 /* Trillium.jpg in Resources */,
+				B684C7E816039D75003DA814 /* networkDetail_left_panel_portrait.png in Resources */,
+				B64D6142160826D70094B12F /* webview.css in Resources */,
+				B64D6144160826F20094B12F /* MPX-12000.jpg in Resources */,
+				B6C81838160828C500181B7C /* ATCA_6u.jpg in Resources */,
+				B6C81839160828C500181B7C /* ATCA_14u.jpg in Resources */,
+				B6C8183C160828D500181B7C /* LTE-SEG.jpg in Resources */,
+				B6C8183E160828EC00181B7C /* SEG_1000.jpg in Resources */,
+				B62B2F691639A94900995D74 /* IMS-BGCF.png in Resources */,
+				B62B2F6A1639A94900995D74 /* IMS-CCF.png in Resources */,
+				B62B2F6B1639A94900995D74 /* IMS-ECF.png in Resources */,
+				B62B2F6C1639A94900995D74 /* IMS-HSS.png in Resources */,
+				B62B2F6D1639A94900995D74 /* IMS-I-CSCF.png in Resources */,
+				B62B2F6E1639A94900995D74 /* IMS-IMS-MGW.png in Resources */,
+				B62B2F6F1639A94900995D74 /* IMS-IMS-SSF.png in Resources */,
+				B62B2F701639A94900995D74 /* IMS-Media-Server.png in Resources */,
+				B62B2F711639A94900995D74 /* IMS-MGCF.png in Resources */,
+				B62B2F721639A94900995D74 /* IMS-MRFC.png in Resources */,
+				B62B2F731639A94900995D74 /* IMS-MRFP.png in Resources */,
+				B62B2F741639A94900995D74 /* IMS-OSA-SCS.png in Resources */,
+				B62B2F751639A94900995D74 /* IMS-P-CSCF.png in Resources */,
+				B62B2F761639A94900995D74 /* IMS-PDF.png in Resources */,
+				B62B2F771639A94900995D74 /* IMS-S-CSCF.png in Resources */,
+				B62B2F781639A94900995D74 /* IMS-SIP-AS.png in Resources */,
+				B62B2F791639A94900995D74 /* IMS-SLF.png in Resources */,
+				B670BD9A1639ABDC00BE14C9 /* LTE-ANDSF.png in Resources */,
+				B670BD9B1639ABDC00BE14C9 /* LTE-DeNB.png in Resources */,
+				B670BD9C1639ABDC00BE14C9 /* LTE-ePDG.png in Resources */,
+				B670BD9D1639ABDC00BE14C9 /* LTE-LTE-Device.png in Resources */,
+				B670BD9E1639ABDC00BE14C9 /* LTE-RN.png in Resources */,
+				B670BD9F1639ABDC00BE14C9 /* LTE-Tablet.png in Resources */,
+				B670BDB11639ABF600BE14C9 /* LTE-3GPP-Anchor.png in Resources */,
+				B670BDB21639ABF600BE14C9 /* LTE-EBM-SC.png in Resources */,
+				B670BDB31639ABF600BE14C9 /* LTE-H-PCRF.png in Resources */,
+				B670BDB41639ABF600BE14C9 /* LTE-HeMS.png in Resources */,
+				B670BDB51639ABF600BE14C9 /* LTE-HeNB-Gateway-SEG.png in Resources */,
+				B670BDB61639ABF600BE14C9 /* LTE-HeNB.png in Resources */,
+				B670BDB71639ABF600BE14C9 /* LTE-MBMS-cp.png in Resources */,
+				B670BDB81639ABF600BE14C9 /* LTE-MBMS-up.png in Resources */,
+				B670BDB91639ABF600BE14C9 /* LTE-MCE.png in Resources */,
+				B670BDBA1639ABF600BE14C9 /* LTE-MME-SEG.png in Resources */,
+				B670BDBB1639ABF600BE14C9 /* LTE-PCEF.png in Resources */,
+				B670BDBC1639ABF600BE14C9 /* LTE-PDG-PGW.png in Resources */,
+				B670BDBD1639ABF600BE14C9 /* LTE-SAE-Anchor.png in Resources */,
+				B670BDBE1639ABF600BE14C9 /* LTE-SEG-eNodeb.png in Resources */,
+				B670BDBF1639ABF600BE14C9 /* LTE-SEG.png in Resources */,
+				B670BDC01639ABF600BE14C9 /* LTE-SGW.png in Resources */,
+				B670BDC11639ABF600BE14C9 /* LTE-V-PCRF.png in Resources */,
+				B670BDD41639B24000BE14C9 /* SmallCell-HMS.png in Resources */,
+				B670BDD51639B24000BE14C9 /* SmallCell-HNB-1.png in Resources */,
+				B670BDD61639B24000BE14C9 /* SmallCell-HNB-2.png in Resources */,
+				B670BDD71639B24000BE14C9 /* SmallCell-HNB-3.png in Resources */,
+				B670BDD81639B24000BE14C9 /* SmallCell-HNB-4.png in Resources */,
+				B670BDD91639B24000BE14C9 /* SmallCell-SEG-HNB-Gateway.png in Resources */,
+				B670BDDA1639B24000BE14C9 /* SmallCell-Smartphone.png in Resources */,
+				B670BDDB1639B24000BE14C9 /* SmallCell-Tablet.png in Resources */,
+				B670BDDC1639B24000BE14C9 /* SmallCell-Up-NodeB-GANC.png in Resources */,
+				B670BDDD1639B24000BE14C9 /* SmallCell-Wireless-Phone.png in Resources */,
+				B670BDF81639C47C00BE14C9 /* WCDMA-BM-SC.png in Resources */,
+				B670BDFB1639C47C00BE14C9 /* WCDMA-BTS.png in Resources */,
+				B670BDFC1639C47C00BE14C9 /* WCDMA-CBC.png in Resources */,
+				B670BDFD1639C47C00BE14C9 /* WCDMA-CGF.png in Resources */,
+				B670BDFE1639C47C00BE14C9 /* WCDMA-CRF.png in Resources */,
+				B670BDFF1639C47C00BE14C9 /* WCDMA-CS-MGW-1.png in Resources */,
+				B670BE001639C47C00BE14C9 /* WCDMA-CS-MGW-2.png in Resources */,
+				B670BE011639C47C00BE14C9 /* WCDMA-LCS.png in Resources */,
+				B670BE021639C47C00BE14C9 /* WCDMA-GGSN-PCEF.png in Resources */,
+				B670BE031639C47C00BE14C9 /* WCDMA-GMLC.png in Resources */,
+				B670BE041639C47C00BE14C9 /* WCDMA-HNB.png in Resources */,
+				B670BE051639C47C00BE14C9 /* WCDMA-HSS.png in Resources */,
+				B670BE061639C47C00BE14C9 /* WCDMA-LMU.png in Resources */,
+				B670BE071639C47C00BE14C9 /* WCDMA-luant.png in Resources */,
+				B670BE091639C47C00BE14C9 /* WCDMA-RNC-1.png in Resources */,
+				B670BE0B1639C47C00BE14C9 /* WCDMA-SMLC-1.png in Resources */,
+				B670BE0C1639C47C00BE14C9 /* WCDMA-SMLC-2.png in Resources */,
+				B670BE0D1639C47C00BE14C9 /* WCDMA-SMSC.png in Resources */,
+				B670BE0E1639C47C00BE14C9 /* WCDMA-Tablet.png in Resources */,
+				B670BE0F1639C47C00BE14C9 /* WCDMA-Type-A-LMU-Type-B-LMU.png in Resources */,
+				B670BE101639C47C00BE14C9 /* WCDMA-VLR.png in Resources */,
+				B670BE111639C47C00BE14C9 /* WCDMA-Wireless-Phone.png in Resources */,
+				B670BE2E163B630200BE14C9 /* Footer_IntelEmbedded.png in Resources */,
+				B693256316447837008659C6 /* WCDMA-BSC-1.png in Resources */,
+				B693256416447837008659C6 /* WCDMA-BSC-2.png in Resources */,
+				B693256516447837008659C6 /* WCDMA-MSC-Server.png in Resources */,
+				B693256616447837008659C6 /* WCDMA-RNC-2.png in Resources */,
+				B693256716447837008659C6 /* WCDMA-SGSN.png in Resources */,
+				B69325AE164865D3008659C6 /* SEG_family.jpg in Resources */,
+				B69325B11648667B008659C6 /* RMS_T-series.jpg in Resources */,
+				B69325B61648C6F1008659C6 /* 3.xml in Resources */,
+				B69325B71648C6F1008659C6 /* A.xml in Resources */,
+				B69325B81648C6F1008659C6 /* B.xml in Resources */,
+				B69325B91648C6F1008659C6 /* C.xml in Resources */,
+				B69325C71648C6FC008659C6 /* D.xml in Resources */,
+				B69325C81648C6FC008659C6 /* E.xml in Resources */,
+				B69325C91648C6FC008659C6 /* G.xml in Resources */,
+				B69325CA1648C6FC008659C6 /* H.xml in Resources */,
+				B69325CB1648C6FC008659C6 /* I.xml in Resources */,
+				B69325CC1648C6FC008659C6 /* Info.xml in Resources */,
+				B69325CD1648C6FC008659C6 /* L.xml in Resources */,
+				B69325CE1648C6FC008659C6 /* M.xml in Resources */,
+				B69325CF1648C6FC008659C6 /* O.xml in Resources */,
+				B69325D01648C6FC008659C6 /* P.xml in Resources */,
+				B69325D11648C6FC008659C6 /* R.xml in Resources */,
+				B69325D21648C6FC008659C6 /* S.xml in Resources */,
+				B69325D31648C6FC008659C6 /* V.xml in Resources */,
+				B652907B164C8F7800C991B2 /* WCDMA-GSM-SCF.png in Resources */,
+				B652907C164C8F7800C991B2 /* WCDMA-SMS-GMSC.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,9 +1150,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B642A14E154B54690032CD63 /* NavWebView.m in Sources */,
+				B642A14C154B545A0032CD63 /* IMSViewController.m in Sources */,
 				B6217F9E1547914700B4DDBA /* main.m in Sources */,
 				B6217FA21547914700B4DDBA /* AppDelegate.m in Sources */,
 				B6217FA51547914700B4DDBA /* ViewController.m in Sources */,
+				B642A135154B3E2B0032CD63 /* MainViewController.m in Sources */,
+				B6DCD76A1550C61B00AC4DB1 /* NetworkDetailViewController.m in Sources */,
+				B6DCD76F1550C75C00AC4DB1 /* GlossaryData.m in Sources */,
+				B6FD276F1580247100085AB7 /* LTEViewController.m in Sources */,
+				B64A812D158809EF0082EB41 /* SmallCellViewController.m in Sources */,
+				B64A812F158809EF0082EB41 /* WCDMAViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,10 +1236,14 @@
 		B6217FAC1547914700B4DDBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trillium Poster/Trillium Poster-Prefix.pch";
 				INFOPLIST_FILE = "Trillium Poster/Trillium Poster-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F88CAC5B-E3EB-4719-9D61-739BD42B818F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -250,10 +1251,14 @@
 		B6217FAD1547914700B4DDBA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Trillium Poster/Trillium Poster-Prefix.pch";
 				INFOPLIST_FILE = "Trillium Poster/Trillium Poster-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F88CAC5B-E3EB-4719-9D61-739BD42B818F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -277,6 +1282,7 @@
 				B6217FAD1547914700B4DDBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

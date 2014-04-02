@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+       <key>S-CSCF</key>
+       <dict>
+          <key>elementName</key>
+          <string>Call State Control Function (CSCF)</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+              <p>A CSCF performs the session control for the users in an IMS network. It maintains a session state as needed by the network operator for support of the services. Within an operator's network, different CSCFs may have different functionalities such as Proxy, Serving (controlling) etc. Some of the functions performed by the xCSCF during a session are:</p>
+               <ul>
+                   <li>Session control for the registered endpoint's sessions</li>
+                   <li>May behave as a Proxy Server or a User Agent for SIP sessions.</li>
+                   <li>Based on the determined served user, handle interaction with Services Platforms for the support of Services</li>
+                   <li>In case of I-CSCF, interaction with HSS for S-CSCF selection</li>
+                   <li>Handles signalling inter-working with Circuit Switched (e.g., PSTN) networks</li>
+               </ul>
+   
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad"> ATCA 40G Platforms</a></li>
+                  <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/2010/ims-transforming-network-architectures/?tag=iPad">IMS: Transforming Network Architectures</a></li>
+                  <li><a href="http://www.radisys.com/2010/successful-ims-implementation-methodologies/?tag=iPad">Successful IMS Implementation Methodologies</a></li>
+                  <li><a href="http://www.radisys.com/2010/trillium-multi-core-sip-why-throughput-matters/?tag=iPad">Trillium Multi-Core SIP: Why Throughput Matters</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_6u.jpg</string> 
+          <key>stack</key>
+          <string>IMS-S-CSCF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+
+       <key>SAE Anchor</key>
+       <dict>
+          <key>elementName</key>
+          <string>SAE/3GPP Anchor</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+               <p>    The SAE Anchor is a functional entity that anchors the user plane for mobility between 3GPP access systems (3G/4G) and non-3GPP access systems (WiFi). This functionality is typically part of PDN-GW. </p>
+				<p>    The 3GPP Anchor is a functional entity that anchors the user plane for mobility between the 2G/3G access system and the LTE access system. This functionality is typically part of S-GW.</p>
+  
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+    				<li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+                    
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+				<li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G to 4G Core Network Migration</a></li>
+				<li><a href="http://www.radisys.com/2010/dpi-managing-data-traffic-in-lte-networks/?tag=iPad">DPI: Managing Data Traffic in LTE Networks</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>LTE-SAE-Anchor.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+ 
+   <key>SCS</key>
+       <dict>
+          <key>elementName</key>
+          <string>Application Server</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+             <p>
+            An Application Server  i.e., SIP Application Server, OSA Application Server, or CAMEL IM-SSF, offers 
+            value added IM services and resides either in the user's home network or in a third party location. The 
+            third party could be a network or simply a stand-alone AS.
+            </p>
+            <ul>
+                <li>Hosts and implements IMS services</li>
+                <li>Interfaces with CSCFs using SIP</li>
+                <li>Located in either the Home or an external network</li>
+            </ul>   
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="safari://www.radisys.com/Products/Application-Software/Service-Delivery-Platform/Application-Server.html?tag=iPad">Application Server</a></li>
+                    <li><a href="safari://www.radisys.com/Products/Application-Software/Service-Delivery-Platform/Service-Creation-Environment.html?tag=iPad">Service Creation Environment</a></li>
+                 <li><a href="safari://www.radisys.com/Products/Trillium/IMS-VoIP.htm?tag=iPad">Trillium IMS/VoIP Software</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="safari://www.radisys.com/News-and-Events/Trillium-White-Papers/Trillium-3G-Wireless-Software.html?tag=iPad">Trillium 3G Wireless Software</a></li>
+                 <li><a href="safari://www.radisys.com/Products/Media-Servers/Architectures/Service-Delivery-Platforms.html?tag=iPad">Datasheet-Service Delivery Platforms</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>SEG_family.jpg</string> 
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+
+   <key>SEG-LTE</key>
+       <dict>
+          <key>elementName</key>
+          <string>Security Gateway (SEG)</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>Security Gateways (SEGs) are entities on the borders of the IP security domains and are used for securing IP based protocols. The SEGs are defined to handle communication over the Za-interface, which is located between SEGs from different IP security domains e.g., a SEG is used to secure the connection between a HeNB in a residential premises and HeNB GW or Core Network in the Operator’s network.</p>
+            <p>All NDS/IP traffic shall pass through a SEG before entering or leaving the security domain. Each security domain can have one or more SEGs. </p>
+            <p>The security gateways shall be responsible for enforcing security policies for the interworking between networks. The security may include filtering policies and firewall functionality not required in this specification. </p>
+            <p>SEGs are responsible for security sensitive operations and are physically secured. They offer capabilities for secure storage of long-term keys used for IKE authentication.</p>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/security-gateway/?tag=iPad">Radisys Security Gateway Products - SEG100</a></li>
+                 
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2011/ipsec-deployment-strategies-for-securing-lte-networks-2/?tag=iPad">IPsec Deployment Strategies for Securing LTE Networks</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>SEG_family.jpg</string> 
+          <key>stack</key>
+          <string>LTE-SEG.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+    <key>SEG-SmallCell</key>
+       <dict>
+          <key>elementName</key>
+          <string>Security Gateway (SEG)</string>
+          <key>network</key>
+          <string>SmallCell</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>Security Gateways (SEGs) are entities on the borders of the IP security domains and are used for securing IP based protocols. The SEGs are defined to handle communication over the Za-interface, which is located between SEGs from different IP security domains e.g., a SEG is used to secure the connection between a HeNB in a residential premises and HeNB GW or Core Network in the Operator’s network.</p>
+            <p>All NDS/IP traffic shall pass through a SEG before entering or leaving the security domain. Each security domain can have one or more SEGs. </p>
+            <p>The security gateways shall be responsible for enforcing security policies for the interworking between networks. The security may include filtering policies and firewall functionality not required in this specification. </p>
+            <p>SEGs are responsible for security sensitive operations and are physically secured. They offer capabilities for secure storage of long-term keys used for IKE authentication.</p>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/security-gateway/?tag=iPad">Radisys Security Gateway Products - SEG100</a></li>
+                 
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2011/ipsec-deployment-strategies-for-securing-lte-networks-2/?tag=iPad">IPsec Deployment Strategies for Securing LTE Networks</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>SEG_1000.jpg</string> 
+          <key>stack</key>
+          <string>SmallCell-SEG-HNB-Gateway.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+   <key>SeGW</key>
+       <dict>
+          <key>elementName</key>
+          <string>Security Gateway (SEG)</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            A security gateway is required to secure the connections between network elements over an "untrusted" communications link
+            </p>
+            
+            <ul>
+                <li>Secures LTE Access/Backhaul and LTE Packet Core networks, as well as current generation wireless offload applications like I-WLAN, UMA/GAN and FemtoCell</li> 
+                <li>Stateful firewalling</li>
+                <li>IPsec tunneling</li>
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="safari://www.radisys.com/Products/Security-Gateway/Security-Gateway/SEG-100.html?tag=iPad">SEG-100</a></li>
+                 
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="safari://www.youtube.com/watch?v=IQr4DC5zW_s?tag=iPad">Video - Radisys LTE Security Gateway: Securing Next Generation Mobile Networks</a></li>
+                 <li><a href="safari://www.radisys.com/News-and-Events/Security-Gateway-White-Papers/Survey-Strong-Mobile-Operator-Demand-for-3GPP-Security-Gateways.html?tag=iPad">Whitepaper-Survey: Strong Mobile Operator Demand for 3GPP Security Gateways</a></li>
+                 <li><a href="safari://www.radisys.com/News-and-Events/Security-Gateway-White-Papers/IPsec-Deployment-Strategies-for-Securing-LTE-Networks.html?tag=iPad">Whitepaper-IPsec Deployment Strategies for Securing LTE Networks</a></li>
+                 <li><a href="safari://www.radisys.com/News-and-Events/Security-Gateway-White-Papers/Securing-Next-Generation-Mobile-Networks.html?tag=iPad">Whitepaper-Securing Next Generation Mobile Networks</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>SEG_1100.jpg</string> 
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+
+    <key>SGW</key>
+    <dict>
+       <key>elementName</key>
+       <string>Serving Gateway (SGW)</string>
+       <key>network</key>
+       <string>LTE</string>
+       <key>educationalDescription</key>
+       <string>
+          <![CDATA[
+                 <p>Serving GW is the user plane entity which terminates S1-U interface towards E-UTRAN. Together with MME and PDN-GW it forms the LTE Core Network. S-GW’s main functions include:
+               </p>
+               <ul>
+                   <li>Mobility anchor point for inter-RAN and inter-3GPP mobility</li>
+                   <li>Packet routeing and forwarding</li>
+                   <li>Transport level packet marking in uplink and downlink</li>
+                   <li>Lawful interception</li>
+                   <li>Uplink and downlink bearer binding function</li>
+                   <li>Event reporting to Policy Control entity (PCRF) on change of radio access technology etc.</li>
+                   <li>Charging data collection for inter-operator billing</li>
+               </ul>
+
+             ]]>
+       </string> 
+       <key>products</key> 
+       <string>
+          <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                   <li><a href="http://www.radisys.com/products/atca/packet-processing/atca-pp81/?tag=iPad">ATCA PP81 Dual NetLogic XLP DPI Packet Processing</a> </li>
+               	<li><a href="http://www.radisys.com/products/atca/packet-processing/atca-7240/?tag=iPad">ATCA-7240</a> </li>
+                   <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+                 </ul>
+             ]]>
+       </string> 
+       <key>resources</key> 
+       <string>
+          <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                  <li><a href="http://www.radisys.com/2010/implementing-atca-serving-gateways-for-lte-networks/?tag=iPad">Implementing ATCA Serving Gateways for LTE Networks</a></li>
+                 </ul>
+                 
+             ]]>
+       </string> 
+       <key>photo</key> 
+       <string>ATCA_14u.jpg</string> 
+       <key>stack</key>
+       <string>LTE-SGW.png</string>
+       <key>InterNetwork</key> 
+       <array> 
+          <string></string> 
+       </array> 
+       <key>Connection</key> 
+       <array> 
+          <string> </string> 
+          <string> </string> 
+          <string> </string> 
+          <string> </string> 
+          <string> </string> 
+       </array> 
+       <key>Labels</key> 
+       <array> 
+          <string> </string> 
+       </array> 
+       <key>Region</key> 
+       <array> 
+          <string> </string> 
+       </array>    
+    </dict>
+    
+    <key>SGSN</key>
+       <dict>
+          <key>elementName</key>
+          <string>Serving GPRC Support Node (SGSN)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>
+                The Serving GPRS Support Node (SGSN) is responsible for the following to and from the mobile 
+                stations in its service area:
+                </p>
+                <ul>
+                    <li>Mobility management (attach/detach and location management)</li>
+                    <li>Session Management (PDP Context Activation/Deactivation)</li>
+                    <li>Authentication and charging functions</li>
+                </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                  <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for SGSN</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                   <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-SGSN.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+
+    <key>SIP AS</key>
+       <dict>
+          <key>elementName</key>
+          <string>Application Server (SIP AS)</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>Application Servers host the service logic in an IMS network and interface with CSCFs via SIP protocol. An Application Server  i.e., SIP Application Server, OSA Application Server, or CAMEL IM-SSF, resides either in the user's home network or in a third party location. The third party could be a network or simply a stand-alone AS. An example of IMS AS is SRVCC (Single Radio Voice Call Continuity) Server for the VoLTE service. </p>
+
+            <ul>
+            <li>Hosts and implements IMS services
+            <li>Use SIP as the application protocol
+            <li>Interwork with other IN services such as CAMEL via IM-SSF
+            <li>OSA Service Capability Server (OSA SCS) : Interfaces SIP to the OSA framework
+            <li>Located in either the Home or an external network
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/application-software/application-server/?tag=iPad">Application Server</a></li>
+                     <li><a href="http://www.radisys.com/products/application-software/service-creation-environment/?tag=iPad">Service Creation Environment</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/ims-voip/?tag=iPad">Trillium IMS/VoIP Software</a></li>
+                     <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/media-server/architectures/service-delivery-platforms/?tag=iPad">Service Delivery Platforms</a></li>
+
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>RMS_220.jpg</string> 
+          <key>stack</key>
+          <string>IMS-SIP-AS.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+    <key>SLF</key>
+       <dict>
+          <key>elementName</key>
+          <string>Subscriber Locator Function (SLF)</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>The SLF is used by CSCFs and Application Servers (AS) during the Registration and Session Setup to get the name of the HSS containing the required subscriber data. It is also queried by the AS in conjunction with the Sh interface operation to get the name of the HSS containing the required subscriber specific data.
+            </p>
+            <ul>
+                <li>IMS entity responsible for providing HSS identity associated with a user profile</li>
+                <li>Talks to CSCFs via Dx interface using the Diameter protocol stack</li>
+                <li>SLF may not be used if there is only a single HSS in the network containing data for all the service users</li>
+            </ul>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/application-software/application-server/?tag=iPad">Application Server</a></li>
+                   <li><a href="http://www.radisys.com/products/trillium/ims-voip/diameter-software/?tag=iPad">Trillium Diameter Software</a></li>
+                   <li><a href="http://www.radisys.com/products/trillium/ims-voip/?tag=iPad">Trillium IMS/VoIP Software</a></li>
+               	<li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220 Network Appliance</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/ims-transforming-network-architectures/?tag=iPad">IMS: Transforming Network Architectures</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/architectures/service-delivery-platforms/?tag=iPad">Service Delivery Platforms</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>Trillium.jpg</string> 
+          <key>stack</key>
+          <string>IMS-SLF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict> 
+       
+    <key>SMLC-1</key>
+       <dict>
+          <key>elementName</key>
+          <string>Serving Mobile Location Center (SMLC)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            The SMLC is responsible for overall coordination and scheduling of resources that are necessary to 
+            perform the positioning of a mobile device in a PLMN.
+            </p>
+            
+            <ul>
+                <li>SMLC controls a number of LMUs</li>
+                <li>SMLC receives the location requests via its associated BSCs</li>
+                <li>There can be more than one SMLC in one PLMN</li>
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for SMLC</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                   <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_6u.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-SMLC-1.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>   
+       
+       <key>SMLC-2</key>
+       <dict>
+          <key>elementName</key>
+          <string>Serving Mobile Location Center (SMLC)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            The SMLC is responsible for overall coordination and scheduling of resources that are necessary to 
+            perform the positioning of a mobile device in a PLMN.
+            </p>
+            
+            <ul>
+                <li>SMLC controls a number of LMUs</li>
+                <li>SMLC receives the location requests via its associated BSCs</li>
+                <li>There can be more than one SMLC in one PLMN</li>
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for SMLC</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                   <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_6u.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-SMLC-2.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+          <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>   
+       
+       <key>SMS-GMSC</key>
+       <dict>
+          <key>elementName</key>
+          <string>SMS-Gateway MSC, SMS-Interworking MSC</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>
+                <strong>SMS GMSC</strong>
+                <br/>
+                The SMS-GMSC is capable of receiving a short message from an SMSC.
+                </p>
+                <ul>
+                    <li>Interrogates a home location register (HLR) for routing information</li>
+                    <li>Delivers the short message to the "visited" MSC of the recipient mobile station</li>
+                </ul>
+                <p>
+                <strong>SMS IWMSC</strong>
+                <br/>
+                The SMS IWMSC is capable of receiving a short message from the mobile network.
+                </p>
+                        <ul>
+                            <li>Submits SMS to the appropriate SMSC</li>
+                        </ul> 
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+            
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="safari://www.radisys.com/Products/ATCA/ATCA-Platforms/ATCA-40G-Platforms.html?tag=iPad">ATCA 40G Platforms</a></li>
+                    <li><a href="safari://www.radisys.com/Products/Trillium.html?tag=iPad">Trillium Software for SMS GMSC-IWMSC</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="safari://www.radisys.com/News-and-Events/Trillium-White-Papers/Trillium-3G-Wireless-Software.html?tag=iPad">Trillium 3G Wireless Software</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_6u.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-SMS-GMSC.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>   
+    </dict>	
+</plist>

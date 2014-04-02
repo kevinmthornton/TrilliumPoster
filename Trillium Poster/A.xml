@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	
+<dict>
+		
+<key>AAA</key>
+   <dict>
+        <key>elementName</key>
+        <string>Authentication, Authorization and Accounting </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+
+   <key>ANDSF</key>
+   <dict>
+      <key>elementName</key>
+      <string>Access Network Discovery and Selection Function (ANDSF)</string>
+      <key>network</key>
+      <string>LTE</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+         <p>ANDSF is an optional network element in the LTE network. It’s main function is to provide information to the UE about connectivity to 3GPP and non-3GPP access networks (such as Wi-Fi, WiMax). </p>
+         <p>ANDSF assists the UE to discover the access networks in their vicinity and to provide rules (policies) to prioritize and manage connections to these networks.</p>
+        <ul>
+        <li>Provides a list of access networks available in the vicinity of the UE for all the access technology types requested by the UE. It may also initiate data transfer to UE via push mechanism based on operator policy. </li>
+        <li>Manages information related to inter-system mobility e.g., E-UTRAN to WLAN handovers </li>
+        <li>May interwork with other database nodes in the network such as HSS</li>
+        </ul>
+
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                 
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220 Network Appliance</a></li>
+                  <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G/4G Software whitepaper</a></li>
+                  <li><a href="http://www.radisys.com/2012/managing-quality-of-experience-with-ran-aware-policy-enforcement/?tag=iPad">RMS-220 related whitepapers</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>RMS_220.jpg</string>
+      <key>stack</key>
+      <string>LTE-ANDSF.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array>  
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+</dict>
+</plist>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+    <key>OSA-SCS</key>
+       <dict>
+          <key>elementName</key>
+          <string>Application Server (OSA-SCS)</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>Application Servers host the service logic in an IMS network and interface with CSCFs via SIP protocol. An Application Server  i.e., SIP Application Server, OSA Application Server, or CAMEL IM-SSF, resides either in the user's home network or in a third party location. The third party could be a network or simply a stand-alone AS. An example of IMS AS is SRVCC (Single Radio Voice Call Continuity) Server for the VoLTE service. </p>
+            <ul>
+            <li>Hosts and implements IMS services
+            <li>Use SIP as the application protocol
+            <li>Interwork with other IN services such as CAMEL via IM-SSF
+            <li>OSA Service Capability Server (OSA SCS) : Interfaces SIP to the OSA framework
+            <li>Located in either the Home or an external network
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/application-software/application-server/?tag=iPad">Application Server</a></li>
+                     <li><a href="http://www.radisys.com/products/application-software/service-creation-environment/?tag=iPad">Service Creation Environment</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/ims-voip/?tag=iPad">Trillium IMS/VoIP Software</a></li>
+                     <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/media-server/architectures/service-delivery-platforms/?tag=iPad">Service Delivery Platforms</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>RMS_220.jpg</string> 
+          <key>stack</key>
+          <string>IMS-OSA-SCS.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+          <key>Connection</key> 
+          <array> 
+             <string> </string> 
+             <string> </string> 
+             <string> </string> 
+             <string> </string> 
+             <string> </string> 
+          </array> 
+          <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+    
+    </dict>	
+</plist>

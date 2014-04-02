@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+       <key>I-CSCF</key>
+       <dict>
+          <key>elementName</key>
+          <string>Call State Control Function (CSCF)</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+              <p>A CSCF performs the session control for the users in an IMS network. It maintains a session state as needed by the network operator for support of the services. Within an operator's network, different CSCFs may have different functionalities such as Proxy, Serving (controlling) etc. Some of the functions performed by the xCSCF during a session are:</p>
+            <ul>
+                <li>Session control for the registered endpoint's sessions</li>
+                <li>May behave as a Proxy Server or a User Agent for SIP sessions.</li>
+                <li>Based on the determined served user, handle interaction with Services Platforms for the support of Services</li>
+                <li>In case of I-CSCF, interaction with HSS for S-CSCF selection</li>
+                <li>Handles signalling inter-working with Circuit Switched (e.g., PSTN) networks</li>
+            </ul> 
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad"> ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220</a></li>
+                    
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/ims-transforming-network-architectures/?tag=iPad">IMS: Transforming Network Architectures</a></li>
+    <li><a href="http://www.radisys.com/2010/successful-ims-implementation-methodologies/?tag=iPad">Successful IMS Implementation Methodologies</a></li>
+    <li><a href="http://www.radisys.com/2010/trillium-multi-core-sip-why-throughput-matters/?tag=iPad">Trillium Multi-Core SIP: Why Throughput Matters</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>RMS_T-series.jpg</string>
+          <key>stack</key>
+          <string>IMS-I-CSCF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+
+   <key>IMS-SSF</key>
+       <dict>
+          <key>elementName</key>
+          <string>Application Server (IMS-SSF)</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>Application Servers host the service logic in an IMS network and interface with CSCFs via SIP protocol. An Application Server  i.e., SIP Application Server, OSA Application Server, or CAMEL IM-SSF, resides either in the user's home network or in a third party location. The third party could be a network or simply a stand-alone AS. An example of IMS AS is SRVCC (Single Radio Voice Call Continuity) Server for the VoLTE service. </p>
+
+            <ul>
+            <li>Hosts and implements IMS services
+            <li>Use SIP as the application protocol
+            <li>Interwork with other IN services such as CAMEL via IM-SSF
+            <li>OSA Service Capability Server (OSA SCS) : Interfaces SIP to the OSA framework
+            <li>Located in either the Home or an external network
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/application-software/application-server/?tag=iPad">Application Server</a></li>
+                     <li><a href="http://www.radisys.com/products/application-software/service-creation-environment/?tag=iPad">Service Creation Environment</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/ims-voip/?tag=iPad">Trillium IMS/VoIP Software</a></li>
+                     <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/media-server/architectures/service-delivery-platforms/?tag=iPad">Service Delivery Platforms</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>RMS_220.jpg</string> 
+          <key>stack</key>
+          <string>IMS-IMS-SSF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>IMS MGW</key>
+       <dict>
+          <key>elementName</key>
+          <string>IMS Media Gateway (IMS-MGW)</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>A IMS-MGW terminates bearer channels from a switched circuit network and media streams from a packet network (e.g., RTP streams in an IP network). The IMS-MGW supports media conversion, bearer control and payload processing (e.g. codec, echo canceller, conference bridge), it:</p>
+                  <ul>
+                  <li>Interacts with the MGCF (Softswitch) for resource control</li>
+                  <li>Owns and handles resources such as echo cancellers  etc.</li>
+                  <li>May need to have  audio/video codecs for transcoding function</li>
+                  <li>MGCP/H.248 are commonly used  signalling protocols for Media Gateway control</li>
+                  </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/media-server/mpx-12000/?tag=iPad">MPX-12000</a></li>
+                  <li><a href=" http://www.radisys.com/products/trillium/ims-voip/?tag=iPad">Trillium IMS/VoIP Software</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/ims-transforming-network-architectures/?tag=iPad">IMS: Transforming Network Architectures</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/architectures/service-delivery-platforms/?tag=iPad">Service Delivery Platforms</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>MPX-12000.jpg</string> 
+          <key>stack</key>
+          <string>IMS-IMS-MGW.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+  
+    </dict>	
+</plist>

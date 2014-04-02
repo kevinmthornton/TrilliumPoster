@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+ 
+       <key>LCS</key>
+       <dict>
+          <key>elementName</key>
+          <string>Location Services Client (LCS)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            The LCS interacts with LCS Service for the purpose of obtaining location information for one or more 
+            Mobile Stations.
+            </p>
+            
+            <ul>
+                <li>Only authorized LCS clients will be able to access LCS Server</li>
+            
+                <li>Location services are provided using Client/Server paradigm to the following categories of Clients</li>
+                    <ul>
+                        <li>Value Added Services LCS Clients</li>
+                        <li>PLMN Operator LCS Clients</li>
+                        <li>Emergency Services LCS Clients</li>
+                        <li>Lawful Intercept LCS Clients</li>
+                    </ul>
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/">Trillium Software for LCS</a></li>
+
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_6u.jpg</string>
+          <key>stack</key>
+          <string>WCDMA-LCS.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>LMU</key>
+       <dict>
+          <key>elementName</key>
+          <string>Location Measurement Unit (LMU)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            A device used in network-based position location systems to provide timing information.
+            </p>
+            
+            <ul>
+                <li>The LMU is responsible for radio measurements that can be used by different positioning methods and offers data to the associated SMLC</li>
+                <li>Radio measurements can be specific to one mobile device or all mobile devices located in a certain geographic area</li>
+                <li>There are two types of LMUs: Type A and Type B</li>
+                <li>LMU Type A device</li>
+                    <ul>
+                        <li>Connected to access network over the air interface</li>
+                        <li>It is stationary and its position has been surveyed</li>
+                    </ul>
+                <li>LMU Type B device</li>
+                    <ul>
+                        <li>Connected over a wired link to access network</li>
+                        <li>Can be a standalone component or integrated into BTS</li>
+                    </ul>
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for LMU</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-LMU.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+
+       
+    <key>luant</key>
+    <dict>
+       <key>elementName</key>
+       <string>luant</string>
+       <key>network</key>
+       <string>WCDMA</string>
+       <key>educationalDescription</key>
+       <string>
+          <![CDATA[
+         <p>
+         The Iuant interface for the control of RET antennas is a logical part of the Node B.
+         </p>
+         <p>
+         The control of RET antennas  is a standard data interface between the Node B Implementation Specific 
+         O&amp;M function and the Node B RET antenna control function defined by means of which functional 
+         parameters of the device can be remotely controlled.
+         </p>
+          ]]>
+       </string> 
+       <key>radisysSolution</key> 
+       <string>
+          <![CDATA[
+              
+          ]]>
+       </string> 
+       <key>products</key> 
+       <string>
+          <![CDATA[
+              <ul>
+                 <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                  <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for luant</a></li>
+              </ul>
+          ]]>
+       </string> 
+       <key>resources</key> 
+       <string>
+          <![CDATA[
+              <ul>
+              <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">Trillium 3G Wireless Software</a></li>
+              </ul> 
+          ]]>
+       </string> 
+       <key>photo</key> 
+       <string>ATCA_6u.jpg</string> 
+       <key>stack</key>
+       <string>WCDMA-luant.png</string>
+       <key>InterNetwork</key> 
+       <array> 
+          <string></string> 
+       </array> 
+             <key>Labels</key> 
+       <array> 
+          <string> </string> 
+       </array> 
+       <key>Region</key> 
+       <array> 
+          <string> </string> 
+       </array>    
+    </dict>
+    
+    </dict>	
+</plist>

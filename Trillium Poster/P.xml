@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+       <key>P-CSCF</key>
+       <dict>
+          <key>elementName</key>
+          <string>Call State Control Function (CSCF)</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+              <p>A CSCF performs the session control for the users in an IMS network. It maintains a session state as needed by the network operator for support of the services. Within an operator's network, different CSCFs may have different functionalities such as Proxy, Serving (controlling) etc. Some of the functions performed by the xCSCF during a session are:</p>
+               <ul>
+                   <li>Session control for the registered endpoint's sessions</li>
+                   <li>May behave as a Proxy Server or a User Agent for SIP sessions.</li>
+                   <li>Based on the determined served user, handle interaction with Services Platforms for the support of Services</li>
+                   <li>In case of I-CSCF, interaction with HSS for S-CSCF selection</li>
+                   <li>Handles signalling inter-working with Circuit Switched (e.g., PSTN) networks</li>
+               </ul>
+  
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad"> ATCA 40G Platforms</a></li>
+                  <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220</a></li>
+                  </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/ims-transforming-network-architectures/?tag=iPad">IMS: Transforming Network Architectures</a></li>
+                <li><a href="http://www.radisys.com/2010/successful-ims-implementation-methodologies/?tag=iPad">Successful IMS Implementation Methodologies</a></li>
+                <li><a href="http://www.radisys.com/2010/trillium-multi-core-sip-why-throughput-matters/?tag=iPad">Trillium Multi-Core SIP: Why Throughput Matters</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_6u.jpg</string> 
+          <key>stack</key>
+          <string>IMS-P-CSCF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+
+       <key>PCEF</key>
+       <dict>
+          <key>elementName</key>
+          <string>Policy and Charging Rules and Enforcement Function (PCRF)(PCEF)</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>PCEF is the policy enforcement part of the Policy & Charging Architecture. A PCEF performs functions such as traffic shaping , DPI, flow marking (DiffServ), QoS control etc and is typically co-located with a PDN-GW. A PCEF performs policy enforcement via these two main functions:</p>
+            <ul>
+            <li>Gate control. The PCEF shall allow a service data flow, which is subject to policy control, to pass through the PCEF if and only if the corresponding gate is open e.g., it may reject traffic for a IMS voice session if the SIP call has already been terminated</li>
+            <li>QoS control: PCEF makes sure arriving data traffic at the PDN-GW conforms to the authorized QoS for the service user. It selects the bearer that should carry the data for a traffic flow to the service user based on QoS requirements</li>
+            <li>Charging control: A PCEF also performs charging control for a traffic flow and it will allow the data traffic to pass through only after receiving the green signal from charging entities such as Online  Charging System (OCS) for pre-paid charging</li>
+            </ul> 
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+              
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/atca/packet-processing/atca-pp81/?tag=iPad">Packet Processing Blades</a></li>
+                     <li><a href="http://www.radisys.com/products/atca/packet-processing/dpi-software-framework/?tag=iPad">DPI Software Framework</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                  <li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G to 4G Core Network Migration</a></li>
+                  <li><a href="http://www.radisys.com/2010/dpi-managing-data-traffic-in-lte-networks/?tag=iPad">DPI: Managing Data Traffic in LTE Networks</a></li>
+
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>LTE-PCEF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>PCEF-WCDMA</key>
+       <dict>
+          <key>elementName</key>
+          <string>Policy and Charging Rules and Enforcement Function (PCRF)(PCEF)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>PCEF is the policy enforcement part of the Policy & Charging Architecture. A PCEF performs functions such as traffic shaping , DPI, flow marking (DiffServ), QoS control etc and is typically co-located with a PDN-GW. A PCEF performs policy enforcement via these two main functions:</p>
+            <ul>
+            <li>Gate control. The PCEF shall allow a service data flow, which is subject to policy control, to pass through the PCEF if and only if the corresponding gate is open e.g., it may reject traffic for a IMS voice session if the SIP call has already been terminated</li>
+            <li>QoS control: PCEF makes sure arriving data traffic at the PDN-GW conforms to the authorized QoS for the service user. It selects the bearer that should carry the data for a traffic flow to the service user based on QoS requirements</li>
+            <li>Charging control: A PCEF also performs charging control for a traffic flow and it will allow the data traffic to pass through only after receiving the green signal from charging entities such as Online  Charging System (OCS) for pre-paid charging</li>
+            </ul> 
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+              
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/atca/packet-processing/atca-pp81/?tag=iPad">Packet Processing Blades</a></li>
+                     <li><a href="http://www.radisys.com/products/atca/packet-processing/dpi-software-framework/?tag=iPad">DPI Software Framework</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                  <li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G to 4G Core Network Migration</a></li>
+                  <li><a href="http://www.radisys.com/2010/dpi-managing-data-traffic-in-lte-networks/?tag=iPad">DPI: Managing Data Traffic in LTE Networks</a></li>
+
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-GGSN-PCEF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+          <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>PDF</key>
+       <dict>
+          <key>elementName</key>
+          <string>Policy and Charging Rules and Enforcement Function</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>PCRF and PCEF are part of 3GPP’s Policy and Charging Control (PCC) architecture. The Policy and Charging Rules Function (PCRF) acts as a policy decision point for policy and charging control of service data flows and IP bearer resources. A PCRF is also commonly referred to as a Policy Decision Function or a Policy Server and communicates with PDN-GW and external application servers e.g., P-CSCF in IMS network, for per user flow basis policy control and enforcement.</p>
+            <ul>
+            <li>The PCRF selects and provides the applicable policy and charging control decision to the PCEF for policy enforcement</li>
+            <li>A PCEF performs functions such as traffic shaping , DPI, flow marking (DiffServ), QoS control etc and is typically co-located with a PDN-GW</li>
+            <li>PCRF and PCEF use DIAMETER protocol stack to communicate with each other and other network elements</li>
+            </ul> 
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+              
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220 Network Appliance</a></li>
+                      <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                  <li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G to 4G Core Network Migration</a></li>
+                  <li><a href="http://www.radisys.com/2010/dpi-managing-data-traffic-in-lte-networks/?tag=iPad">DPI: Managing Data Traffic in LTE Networks</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>RMS_220.jpg</string> 
+          <key>stack</key>
+          <string>IMS-PDF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+
+       <key>PDG</key>
+       <dict>
+          <key>elementName</key>
+          <string>Packet Data Network Gateway (PDG)</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>The main function of ePDG is to secure the data transmission for a UE connected to the LTE Evolved Core Network via an untrusted non-3GPP radio access such as WiFi. In this case, the ePDG acts as a termination point of IPsec tunnels established with the UE. The functionality of ePDG includes the following:</p>
+
+            <ul>
+                <li>Routing of packets from/to PDN-GW</li>
+                <li>De-capsulation/Encapsulation of packets for IPSec tunnels</li>
+                <li>Tunnel authentication and authorization</li>
+                <li>Local mobility anchor within untrusted non-3GPP access networks using MOBIKE (if needed)</li>
+                <li>Enforcement of QoS policies based on information received from AAA server</li>
+                <li>Lawful Interception</li>
+              </ul>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                     <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G systems, Security Gateway</a></li>
+                     <li><a href="http://www.radisys.com/products/security-gateway/?tag=iPad">Radisys Security Gateway Products </a></li>
+                 	<li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">Whitepaper-ATCA Blade Solutions Provide Seamless <br/>Migration to LTE</a></li>
+                 <li><a href="http://www.radisys.com/2010/securing-next-generation-mobile-networks/?tag=iPad">Securing Next Generation Mobile Networks</a></li>
+                 <li><a href="http://www.radisys.com/2011/ipsec-deployment-strategies-for-securing-lte-networks-2/?tag=iPad">IPsec Deployment Strategies for Securing LTE Networks</a></li>
+                 <li><a href="http://www.radisys.com/2011/survey-strong-mobile-operator-demand-for-3gpp-security-gateways/?tag=iPad">Strong Mobile Operator Demand for 3GPP Security Gateways</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>SEG_family.jpg</string> 
+          <key>stack</key>
+          <string>LTE-PDG-PGW.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>PDN-GW</key>
+       <dict>
+          <key>elementName</key>
+          <string>Packet Data Network Gateway (PDG-GW)</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>PDN GW, also known as GGSN in the 3G world, is the connection point of a LTE  based Core Network to the external networks such as internet, VPN, IMS etc. A PDN GW commonly implements following functions:</p>
+            <ul>
+                <li>DPI &amp; Policy control (PCEF) on per user basis</li>
+                <li>IP address allocation for mobile users</li>
+                <li>Charging record generation and transmission to online &amp; offline charging entities</li>
+                <li>Lawful interception</li>
+                <li>Another key role of the PDN-GW is to act as mobility anchor point between 3GPP and non-3GPP access technologies such as WiMAX and 3GPP2</li>
+                <li>DHCPv4 and DHCPv6 (client and server) functions</li>
+                <li>UL and DL bearer binding functions</li>
+            </ul>
+
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                  <li><a href="http://www.radisys.com/products/atca/packet-processing/atca-pp81/?tag=iPad">ATCA PP81 Dual NetLogic XLP DPI Packet Processing</a> </li>
+                  <li><a href="http://www.radisys.com/products/atca/packet-processing/atca-7240/?tag=iPad">ATCA-7240</a></li>
+                  <li><a href="http://www.radisys.com/products/atca/packet-processing/dpi-software-framework/?tag=iPad">ATCA DPI Framework</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                     <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                      <li><a href="http://www.radisys.com/2010/dpi-managing-data-traffic-in-lte-networks/?tag=iPad">DPI: Managing Data Traffic in LTE Networks</a></li>
+                      <li><a href="http://www.radisys.com/solutions/?tag=iPad">Load Balancing</a></li>
+
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>LTE-PDN-GW.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+  
+    </dict>	
+</plist>

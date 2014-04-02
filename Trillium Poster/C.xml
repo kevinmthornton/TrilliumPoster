@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CALA</key>
+   <dict>
+        <key>elementName</key>
+        <string>Caribbean and Latin America </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+
+   <key>CBC</key>
+   <dict>
+      <key>elementName</key>
+      <string>Cell Broadcast Center (CBC)</string>
+      <key>network</key>
+      <string>WCDMA</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>
+            The CBC is the functional entity responsible for the generation of cell broadcast information.
+            </p>
+            <ul>
+                <li>Modify and remove cell broadcast messages from RNC</li>
+                <li>Can end broadcasting service in one or more service areas</li>
+            </ul>
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+              
+   
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                    <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for CBC</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>ATCA_6u.jpg</string> 
+      <key>stack</key>
+      <string>WCDMA-CBC.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array> 
+      <key>Connection</key> 
+      <array> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+      </array> 
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+   
+
+   <key>CCF</key>
+   <dict>
+      <key>elementName</key>
+      <string>Charging Collection Function</string>
+      <key>network</key>
+      <string>IMS</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>A CCF (or a CDF) receives charging events from IMS network elements such as, CSCFs, Application Servers etc., via the Rf reference point for offline charging. It then uses the information contained in the charging events to build Charging Data Records (CDR) and sends it to the Billing System for further processing. </p>
+
+               <ul>
+               	<li>An ECF (or Online Charging System) uses Diameter based Ro reference point to talk to IMS network elements (AS, MRFC etc.) for online and event based charging.</li>
+                   <li>Central billing entity in an IMS network responsible for collecting charging records for event based (online) charging </li>
+                   <li>Interacts with other entities in the IMS network using the Diameter protocol stack</li>
+               </ul>
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                 
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/trillium/ims-voip/diameter-software/">Trillium Diameter Software</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/ims-voip/">Trillium IMS/VoIP Software</a></li>
+                     <li><a href="http://www.radisys.com/products/network-appliance/">RMS-220</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/ims-transforming-network-architectures/">IMS: Transforming Network Architectures</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/architectures/service-delivery-platforms/">Service Delivery Platforms</a></li>
+
+                 </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>RMS_220.jpg</string> 
+      <key>stack</key>
+      <string>IMS-CCF.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array> 
+      <key>Connection</key> 
+      <array> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+      </array> 
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+
+
+   <key>CGF</key>
+   <dict>
+      <key>elementName</key>
+      <string>Charging Gateway Function (CGF)</string>
+      <key>network</key>
+      <string>WCDMA</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>
+            The CGF is the functional entity responsible for collecting Charging Data Records from network elements and 
+            sending them to the billing center.
+            </p>
+            <p>
+            The CGF acts as a gateway between the CDF and the billing domain.
+            </p>
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                 
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+<li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for CGF</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                   <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>                
+                 </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>ATCA_6u.jpg</string> 
+      <key>stack</key>
+      <string>WCDMA-CGF.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array> 
+      <key>Connection</key> 
+      <array> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+      </array> 
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+
+   <key>CRF</key>
+   <dict>
+      <key>elementName</key>
+      <string>Charging Rules Function (CRF)</string>
+      <key>network</key>
+      <string>WCDMA</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>
+            CRF provides charging rules for service data flows within the network.
+            </p>
+            <ul>
+                <li>The CRF an is offline charging function</li>
+                <li>The CRF communicates charging rules to nodes with the Traffic Plane Function (TPF)</li>
+                <li>Diameter based interface</li>
+            </ul>
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                 
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for CRF</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                 </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>ATCA_6u.jpg</string> 
+      <key>stack</key>
+      <string>WCDMA-CRF.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array> 
+      <key>Connection</key> 
+      <array> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+         <string> </string> 
+      </array> 
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+   
+
+   <key>CS-MGW-1</key>
+   <dict>
+      <key>elementName</key>
+      <string>Circuit Switched Media Gateway (CS-MGW)</string>
+      <key>network</key>
+      <string>WCDMA</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>
+            The CS-MGW serves as the PSTN/PLMN transport termination point for a defined network.
+            </p>
+            <ul>
+                <li>Interacts with MGCF, MSC Server and Gateway MSC for resource control</li>
+                <li>Performs bearer control and payload processing</li>
+                <li>Anchoring for SRNC relocation/handover</li>
+            </ul>
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                 
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/">Trillium Software for CS-MGW</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                 </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>ATCA_6u.jpg</string> 
+      <key>stack</key>
+      <string>WCDMA-CS-MGW-1.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array>  
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+   
+   <key>CS-MGW-2</key>
+   <dict>
+      <key>elementName</key>
+      <string>Circuit Switched Media Gateway (CS-MGW)</string>
+      <key>network</key>
+      <string>WCDMA</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>
+            The CS-MGW serves as the PSTN/PLMN transport termination point for a defined network.
+            </p>
+            <ul>
+                <li>Interacts with MGCF, MSC Server and Gateway MSC for resource control</li>
+                <li>Performs bearer control and payload processing</li>
+                <li>Anchoring for SRNC relocation/handover</li>
+            </ul>
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                 
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/">Trillium Software for CS-MGW</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                 </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>ATCA_6u.jpg</string> 
+      <key>stack</key>
+      <string>WCDMA-CS-MGW-2.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array>  
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+    
+</dict>
+</plist>
+

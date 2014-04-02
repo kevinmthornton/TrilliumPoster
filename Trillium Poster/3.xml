@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>3G</key>
+		<dict>
+			<key>elementName</key>
+			<string>Third Generation </string>
+			<key>educationalDescription</key>
+			<string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+			<key>radisysSolution</key> 
+			<string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+			<key>resources</key> 
+			<string>LINKS TO RESOURCES</string> 
+			<key>photo</key> 
+			<string>PHOTO NAME WITH EXTENSION</string> 
+			<key>InterNetwork</key> 
+			<array> 
+				<string></string> 
+			</array> 
+			<key>Connection</key> 
+			<array> 
+				<string> </string> 
+				<string> </string> 
+				<string> </string> 
+				<string> </string> 
+				<string> </string> 
+			</array> 
+			<key>Labels</key> 
+			<array> 
+				<string> </string> 
+			</array> 
+			<key>Region</key> 
+			<array> 
+				<string> </string> 
+			</array>	
+		</dict>
+		<key>3GPP Anchor</key>
+		<dict>
+			<key>elementName</key>
+			<string>SAE/3GPP Anchor</string>
+			<key>network</key>
+			<string>LTE</string>
+			<key>educationalDescription</key>
+			<string>
+				<![CDATA[
+               <p>    The SAE Anchor is a functional entity that anchors the user plane for mobility between 3GPP access systems (3G/4G) and non-3GPP access systems (WiFi). This functionality is typically part of PDN-GW. </p>
+				<p>    The 3GPP Anchor is a functional entity that anchors the user plane for mobility between the 2G/3G access system and the LTE access system. This functionality is typically part of S-GW.</p>
+  
+             ]]>
+			</string> 
+			<key>radisysSolution</key> 
+			<string>
+				<![CDATA[
+                 
+             ]]>
+			</string> 
+			<key>products</key> 
+			<string>
+				<![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+    				<li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+                    
+                 </ul>
+             ]]>
+			</string> 
+			<key>resources</key> 
+			<string>
+				<![CDATA[
+                 <ul>
+                <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+				<li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G to 4G Core Network Migration</a></li>
+				<li><a href="http://www.radisys.com/2010/dpi-managing-data-traffic-in-lte-networks/?tag=iPad">DPI: Managing Data Traffic in LTE Networks</a></li>
+                 </ul>
+                 
+             ]]>
+			</string> 
+			<key>photo</key> 
+			<string>ATCA_14u.jpg</string> 
+			<key>stack</key>
+			<string>LTE-3GPP-Anchor.png</string>
+			<key>InterNetwork</key> 
+			<array> 
+				<string></string> 
+			</array> 
+			<key>Connection</key> 
+			<array> 
+				<string> </string> 
+				<string> </string> 
+				<string> </string> 
+				<string> </string> 
+				<string> </string> 
+			</array> 
+			<key>Labels</key> 
+			<array> 
+				<string> </string> 
+			</array> 
+			<key>Region</key> 
+			<array> 
+				<string> </string> 
+			</array>    
+		</dict>
+	</dict>	
+</plist>

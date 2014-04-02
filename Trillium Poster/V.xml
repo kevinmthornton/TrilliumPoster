@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+       <key>V-PCRF</key>
+       <dict>
+          <key>elementName</key>
+          <string>Policy and Charging Rules and Enforcement Function</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>PCRF and PCEF are part of 3GPP’s Policy and Charging Control (PCC) architecture. The Policy and Charging Rules Function (PCRF) acts as a policy decision point for policy and charging control of service data flows and IP bearer resources. A PCRF is also commonly referred to as a Policy Decision Function or a Policy Server and communicates with PDN-GW and external application servers e.g., P-CSCF in IMS network, for per user flow basis policy control and enforcement.</p>
+            <ul>
+            <li>The PCRF selects and provides the applicable policy and charging control decision to the PCEF for policy enforcement</li>
+            <li>A PCEF performs functions such as traffic shaping , DPI, flow marking (DiffServ), QoS control etc and is typically co-located with a PDN-GW</li>
+            <li>PCRF and PCEF use DIAMETER protocol stack to communicate with each other and other network elements</li>
+            </ul>
+  
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+               
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                     <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220 Network Appliance</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                  <li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G to 4G Core Network Migration</a></li>
+                  <li><a href="http://www.radisys.com/2010/dpi-managing-data-traffic-in-lte-networks/?tag=iPad">DPI: Managing Data Traffic in LTE Networks</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>RMS_220.jpg</string> 
+          <key>stack</key>
+          <string>LTE-V-PCRF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+           <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>VLR</key>
+       <dict>
+          <key>elementName</key>
+          <string>Mobile Switching Centre/Visitor Location Register (MSC/VLR)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            The MSC/VLR controls switching in mobile circuit core networks
+            </p>
+            
+            <ul>
+                <li>Call control for circuit based calls</li>
+                <li>Mobility and Connection management</li>
+                <li>Authentication</li>
+                <li>User Plane resource control for circuit based calls</li>
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220 Network Appliance</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G MSC</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/trillium-3g-wireless-software/?tag=iPad">Trillium 3G Wireless Software</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>RMS_220.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-VLR.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+          <key>Connection</key> 
+          <array> 
+             <string> </string> 
+             <string> </string> 
+             <string> </string> 
+             <string> </string> 
+             <string> </string> 
+          </array> 
+          <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+    </dict>	
+</plist>

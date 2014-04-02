@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+ 
+       <key>H-PCRF</key>
+       <dict>
+          <key>elementName</key>
+          <string>Policy and Charging Rules and Enforcement Function</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>PCRF and PCEF are part of 3GPP’s Policy and Charging Control (PCC) architecture. The Policy and Charging Rules Function (PCRF) acts as a policy decision point for policy and charging control of service data flows and IP bearer resources. A PCRF is also commonly referred to as a Policy Decision Function or a Policy Server and communicates with PDN-GW and external application servers e.g., P-CSCF in IMS network, for per user flow basis policy control and enforcement.</p>
+            <ul>
+            <li>The PCRF selects and provides the applicable policy and charging control decision to the PCEF for policy enforcement</li>
+            <li>A PCEF performs functions such as traffic shaping , DPI, flow marking (DiffServ), QoS control etc and is typically co-located with a PDN-GW</li>
+            <li>PCRF and PCEF use DIAMETER protocol stack to communicate with each other and other network elements</li>
+            </ul> 
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+              
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220 Network Appliance</a></li>
+                      <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                  <li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G to 4G Core Network Migration</a></li>
+                  <li><a href="http://www.radisys.com/2010/dpi-managing-data-traffic-in-lte-networks/?tag=iPad">DPI: Managing Data Traffic in LTE Networks</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>RMS_220.jpg</string> 
+          <key>stack</key>
+          <string>LTE-H-PCRF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>HeNB</key>
+       <dict>
+          <key>elementName</key>
+          <string>E-UTRAN Node B (HeNB)</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>An eNodeB or a Home eNodeB is a radio base station in a LTE/LTE-A network. Main functions include:</p>
+                  <ul>
+                      <li>Provides E-UTRA user plane (PDCP/RLC/MAC/PHY) and control plane (RRC) protocol terminations towards the UE. </li>
+                      <li>Connected to the EPC (Evolved Packet Core) by means of S1-MME or S1-u interface. S1 interface supports many-to-many relationship between MME/SGWs and eNodeBs.</li>
+                      <li>Connected to other eNodeBs via the X2 interface for inter-eNodeB handovers.</li>
+                      <li>Radio bearer management, admission control, allocation of radio resources in uplink & downlink (scheduling)</li>
+                      <li>Selection of MME on initial user registration</li>
+                      <li>IP header compression and encryption of user data</li>
+                      <li>Routing of user data towards the SGW</li>
+                      <li>A HeNB is a base station that is geared for home/enterprise use and support less number of users than it’s counterpart in the macro network </li>
+                      <li>May include the MCE functionality for MBMS</li>
+                  </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">3GPP Release 8 &amp; 9 Compliant</a></li>
+                  <li><a href="http://www.radisys.com/products/trillium/small-cells/totalenodeb/?tag=iPad">Trillium TOTALeNodeB Solution</a></li>  
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/lte-e-utran-and-its-access-side-protocols/?tag=iPad">LTE E-UTRAN and its Access Side Protocols</a></li>
+                  <li><a href="http://www.radisys.com/2010/lte-top-12-challenges/?tag=iPad">LTE - Top 12 Challenges</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>Trillium.jpg</string> 
+          <key>stack</key>
+          <string>LTE-HENB.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>HeNB Gateway</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home (e)Node B Gateway </string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+             <p>The HNB GW serves the purpose of a RNC presenting itself to the Core Network as a concentrator of HNB (Femto Access Point) connections. The Iu interface between the CN and the HNB-GW serves the same purpose as the interface between the CN and a RNC.  A HNB-GW mainly:</p>
+
+            <ul>
+            <li>Aggregates data streams from thousands of FAPs</li>
+            <li>Has very large packet processing capacity</li>
+            <li>Provides Core network interface</li>
+            </ul>
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/trillium/4g-lte/">Trillium WCDMA/LTE (3G/4G) Software</a></li>
+                     <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/security-gateway/">Radisys Security Gateway Products</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2011/ipsec-deployment-strategies-for-securing-lte-networks-2/">IPsec Deployment Strategies for Securing LTE Networks</a></li>
+                  <li><a href="http://www.radisys.com/2010/sctp-fast-path-optimization-for-3glte-networks/">SCTP Fast Path Optimization for 3G/LTE Networks</a></li>
+                  <li><a href="http://www.radisys.com/2011/survey-strong-mobile-operator-demand-for-3gpp-security-gateways/">Survey: Strong Mobile Operator Demand for 3GPP SecurityGateways</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string>
+          <key>stack</key>
+          <string>LTE-HeNB-Gateway-SEG.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>	
+       </dict>
+       
+       <key>HeMS</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home (e)Node B Management System (HEMS)</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            The HeMS is responsible for O&M, configuration and provisioning of HeNBs in a small cell network. It connects to HeNBs via TR-069 family of standards and facilitates in location verification of HeNBs , Security GW and HeNB-GW discovery procedures. The  main functions include:
+            </p>
+            <ul>
+            <li>Responsible for provisioning and control of HeNBs in a small cell network</li>
+            <li>Configuration Management: Downloads configuration parameters on HeNB via TR-069 CPE WAN protocol (CWMP)</li>
+            <li>Performance Management: Collects performance reports from HeNBs and adjust the radio parameters accordingly</li>
+            <li>Fault Management of the HeNBs</li>
+            <li>Assists in handovers and radio interference management by configuring radio parameters</li>
+            <li>Security management</li>
+            <li>Does basic access control and assigns a serving HeNB-GW to a HNB</li>
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/trillium/small-cells/?tag=iPad">Trillium Software for Femto Small Cell</a></li>
+                     <li><a href="http://www.radisys.com/products/security-gateway/?tag=iPad">Radisys Security Gateway Products</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/cpe-wan-management-protocol-and-fap-management/?tag=iPad">CPE WAN Management Protocol and FAP Management</a></li>
+<li><a href="http://www.radisys.com/2011/ipsec-deployment-strategies-for-securing-lte-networks-2/?tag=iPad">IPsec Deployment Strategies for Securing LTE Networks</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>SEG_1000.jpg</string> 
+          <key>stack</key>
+          <string>LTE-HeMS.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>HeNB-GW</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home (e)Node B Gateway </string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+             <p>The HNB GW serves the purpose of a RNC presenting itself to the Core Network as a concentrator of HNB (Femto Access Point) connections. The Iu interface between the CN and the HNB-GW serves the same purpose as the interface between the CN and a RNC.  A HNB-GW mainly:</p>
+
+            <ul>
+            <li>Aggregates data streams from thousands of FAPs</li>
+            <li>Has very large packet processing capacity</li>
+            <li>Provides Core network interface</li>
+            </ul>
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/trillium/4g-lte/">Trillium WCDMA/LTE (3G/4G) Software</a></li>
+                     <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/security-gateway/">Radisys Security Gateway Products</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2011/ipsec-deployment-strategies-for-securing-lte-networks-2/">IPsec Deployment Strategies for Securing LTE Networks</a></li>
+                  <li><a href="http://www.radisys.com/2010/sctp-fast-path-optimization-for-3glte-networks/">SCTP Fast Path Optimization for 3G/LTE Networks</a></li>
+                  <li><a href="http://www.radisys.com/2011/survey-strong-mobile-operator-demand-for-3gpp-security-gateways/">Survey: Strong Mobile Operator Demand for 3GPP SecurityGateways</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.png</string> 
+          <key>stack</key>
+          <string>LTE-HeNB-Gateway-SEG.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>	
+       </dict>
+           
+       <key>HMS</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home (e)Node B Management System</string>
+          <key>network</key>
+          <string>SmallCell</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            The HMS is responsible for O&M, configuration and provisioning of a HNB network elements. It 
+            connects to HNBs via TR-069 family of standards and facilitates in location verification of HNBs , 
+            Security GW and HNB-GW discovery procedures.
+            </p>
+            <ul>
+                <li>First network element to be contacted by a HNB when it is first powered on</li>
+                <li>Responsible for provisioning and control of HNBs in a small cell network</li>
+                <li>Assists in handovers and radio interference management by configuring radio parameters</li>
+                <li>Does basic access control and assigns a serving HNB-GW to a HNB</li>
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/trillium/small-cells/?tag=iPad">Trillium Software for Femto Small Cell</a></li>
+                     <li><a href="http://www.radisys.com/products/security-gateway/?tag=iPad">Radisys Security Gateway Products</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/cpe-wan-management-protocol-and-fap-management/?tag=iPad">CPE WAN Management Protocol and FAP Management</a></li>
+                  <li><a href=" http://www.radisys.com/2011/ipsec-deployment-strategies-for-securing-lte-networks-2/?tag=iPad">IPsec Deployment Strategies for Securing LTE Networks</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>SEG_1000.jpg</string> 
+          <key>stack</key>
+          <string>SmallCell-HMS.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>HNB-1</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home Node B (HNB)</string>
+          <key>network</key>
+          <string>SmallCell</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>A HNB or a Femto Access Point (FAP) is a small radio base station that provides 3G coverage in a home or an enterprise environment. It connects to the service provider’s network via the user’s broadband connection. </p>
+                  <p>Trillium Femtotality Software from Radisys is :</p>
+                  <ul>
+                  <li>3GPP Release 8/9 compliant and based on standardized Iu-h interface between FAP and FGW</li>
+                  <li>Scalable  to support mass FAP deployment</li>
+                  <li>Optimized for HSPA+ performance</li>
+                  <li>IOT with leading femtocell gateway vendors</li>
+                  <li>Integrated with PHY/SoC from leading silicon partners</li>
+                  <li>Has TR-069/TR-196 compliant HMS interface</li>
+                  </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/trillium/small-cells/">Trillium Software for Femto Small Cell</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/why-femtocells/">Why Femtocells?</a></li>
+                  <li><a href="http://www.radisys.com/2010/iuh-a-protocol-solution-for-scaling-femtocells/">Iuh: A Protocol Solution for Scaling Femtocells</a></li>
+                  <li><a href="http://www.radisys.com/2011/resource-management-at-the-wcdma-hnb/">Resource Management at the WCDMA HNB</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>Trillium.jpg</string> 
+          <key>stack</key>
+          <string>SmallCell-HNB-1.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       
+       <key>HNB-2</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home Node B (HNB)</string>
+          <key>network</key>
+          <string>SmallCell</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>A HNB or a Femto Access Point (FAP) is a small radio base station that provides 3G coverage in a home or an enterprise environment. It connects to the service provider’s network via the user’s broadband connection. </p>
+                  <p>Trillium Femtotality Software from Radisys is :</p>
+                  <ul>
+                  <li>3GPP Release 8/9 compliant and based on standardized Iu-h interface between FAP and FGW</li>
+                  <li>Scalable  to support mass FAP deployment</li>
+                  <li>Optimized for HSPA+ performance</li>
+                  <li>IOT with leading femtocell gateway vendors</li>
+                  <li>Integrated with PHY/SoC from leading silicon partners</li>
+                  <li>Has TR-069/TR-196 compliant HMS interface</li>
+                  </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/trillium/small-cells/">Trillium Software for Femto Small Cell</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/why-femtocells/">Why Femtocells?</a></li>
+                  <li><a href="http://www.radisys.com/2010/iuh-a-protocol-solution-for-scaling-femtocells/">Iuh: A Protocol Solution for Scaling Femtocells</a></li>
+                  <li><a href="http://www.radisys.com/2011/resource-management-at-the-wcdma-hnb/">Resource Management at the WCDMA HNB</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>Trillium.jpg</string> 
+          <key>stack</key>
+          <string>SmallCell-HNB-2.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+          <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>HNB-3</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home Node B (HNB)</string>
+          <key>network</key>
+          <string>SmallCell</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>A HNB or a Femto Access Point (FAP) is a small radio base station that provides 3G coverage in a home or an enterprise environment. It connects to the service provider’s network via the user’s broadband connection. </p>
+                  <p>Trillium Femtotality Software from Radisys is :</p>
+                  <ul>
+                  <li>3GPP Release 8/9 compliant and based on standardized Iu-h interface between FAP and FGW</li>
+                  <li>Scalable  to support mass FAP deployment</li>
+                  <li>Optimized for HSPA+ performance</li>
+                  <li>IOT with leading femtocell gateway vendors</li>
+                  <li>Integrated with PHY/SoC from leading silicon partners</li>
+                  <li>Has TR-069/TR-196 compliant HMS interface</li>
+                  </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/trillium/small-cells/">Trillium Software for Femto Small Cell</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/why-femtocells/">Why Femtocells?</a></li>
+                  <li><a href="http://www.radisys.com/2010/iuh-a-protocol-solution-for-scaling-femtocells/">Iuh: A Protocol Solution for Scaling Femtocells</a></li>
+                  <li><a href="http://www.radisys.com/2011/resource-management-at-the-wcdma-hnb/">Resource Management at the WCDMA HNB</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>Trillium.jpg</string> 
+          <key>stack</key>
+          <string>SmallCell-HNB-3.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+          <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>HNB-4</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home Node B (HNB)</string>
+          <key>network</key>
+          <string>SmallCell</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>A HNB or a Femto Access Point (FAP) is a small radio base station that provides 3G coverage in a home or an enterprise environment. It connects to the service provider’s network via the user’s broadband connection. </p>
+                  <p>Trillium Femtotality Software from Radisys is :</p>
+                  <ul>
+                  <li>3GPP Release 8/9 compliant and based on standardized Iu-h interface between FAP and FGW</li>
+                  <li>Scalable  to support mass FAP deployment</li>
+                  <li>Optimized for HSPA+ performance</li>
+                  <li>IOT with leading femtocell gateway vendors</li>
+                  <li>Integrated with PHY/SoC from leading silicon partners</li>
+                  <li>Has TR-069/TR-196 compliant HMS interface</li>
+                  </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/trillium/small-cells/">Trillium Software for Femto Small Cell</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/why-femtocells/">Why Femtocells?</a></li>
+                  <li><a href="http://www.radisys.com/2010/iuh-a-protocol-solution-for-scaling-femtocells/">Iuh: A Protocol Solution for Scaling Femtocells</a></li>
+                  <li><a href="http://www.radisys.com/2011/resource-management-at-the-wcdma-hnb/">Resource Management at the WCDMA HNB</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>Trillium.jpg</string> 
+          <key>stack</key>
+          <string>SmallCell-HNB-4.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+          <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>HNB</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home Node B (HNB)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>A HNB or a Femto Access Point (FAP) is a small radio base station that provides 3G coverage in a home or an enterprise environment. It connects to the service provider’s network via the user’s broadband connection. </p>
+                  <p>Trillium Femtotality Software from Radisys is :</p>
+                  <ul>
+                  <li>3GPP Release 8/9 compliant and based on standardized Iu-h interface between FAP and FGW</li>
+                  <li>Scalable  to support mass FAP deployment</li>
+                  <li>Optimized for HSPA+ performance</li>
+                  <li>IOT with leading femtocell gateway vendors</li>
+                  <li>Integrated with PHY/SoC from leading silicon partners</li>
+                  <li>Has TR-069/TR-196 compliant HMS interface</li>
+                  </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/trillium/small-cells/">Trillium Software for Femto Small Cell</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/why-femtocells/">Why Femtocells?</a></li>
+                  <li><a href="http://www.radisys.com/2010/iuh-a-protocol-solution-for-scaling-femtocells/">Iuh: A Protocol Solution for Scaling Femtocells</a></li>
+                  <li><a href="http://www.radisys.com/2011/resource-management-at-the-wcdma-hnb/">Resource Management at the WCDMA HNB</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>Trillium.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-HNB.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+          <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>HNB Gateway</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home Node B Gateway (HNB-GW)</string>
+          <key>network</key>
+          <string>SmallCell</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>The HNB-GW serves the purpose of a RNC presenting itself to the Core Network as a concentrator of 
+                HNB (Femto Access Point) connections. The Iu interface between the CN and the HNB-GW serves the 
+                same purpose as the interface between the CN and a RNC.  A HNB-GW mainly:
+                </p>
+                <ul>
+                <li>Aggregates data streams from thousands of FAPs</li>
+                <li>Has very large packet processing capacity</li>
+                <li>Provides Core network interface</li>
+                </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="safari://www.radisys.com/Products/Trillium/4G-LTE.html?tag=iPad">Trillium WCDMA/LTE (3G/4G) Software</a></li>
+                 <li><a href="safari://www.radisys.com/Products/ATCA/ATCA-Platforms/ATCA-40G-Platforms.html?tag=iPad">ATCA 40G Platforms</a></li>
+                 <li><a href="safari://www.radisys.com/Products/Security-Gateway.html?tag=iPad">Radisys Security Gateway Products</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="safari://www.radisys.com/News-and-Events/Security-Gateway-White-Papers/IPsec-Deployment-Strategies-for-Securing-LTE-Networks.html?tag=iPad">IPsec Deployment Strategies for Securing LTE Networks</a></li>
+                 <li><a href="safari://www.radisys.com/News-and-Events/LTE-White-Papers/SCTP-Fast-Path-Optimization-for-3G-and-LTE-Networks.html?tag=iPad">SCTP Fast Path Optimization for 3G/LTE Networks</a></li>
+                 <li><a href="safari://www.radisys.com/News-and-Events/Security-Gateway-White-Papers/Survey-Strong-Mobile-Operator-Demand-for-3GPP-Security-Gateways.html?tag=iPad">Survey: Strong Mobile Operator Demand for 3GPP <br/>Security Gateways</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>SEG_family.jpg</string> 
+          <key>stack</key>
+          <string>SmallCell-SEG-HNB-Gateway.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>HNB-GW</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home Node B Gateway (HNB-GW)</string>
+          <key>network</key>
+          <string>SmallCell</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>The HNB-GW serves the purpose of a RNC presenting itself to the Core Network as a concentrator of 
+                HNB (Femto Access Point) connections. The Iu interface between the CN and the HNB-GW serves the 
+                same purpose as the interface between the CN and a RNC.  A HNB-GW mainly:
+                </p>
+                <ul>
+                <li>Aggregates data streams from thousands of FAPs</li>
+                <li>Has very large packet processing capacity</li>
+                <li>Provides Core network interface</li>
+                </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="safari://www.radisys.com/Products/Trillium/4G-LTE.html?tag=iPad">Trillium WCDMA/LTE (3G/4G) Software</a></li>
+                 <li><a href="safari://www.radisys.com/Products/ATCA/ATCA-Platforms/ATCA-40G-Platforms.html?tag=iPad">ATCA 40G Platforms</a></li>
+                 <li><a href="safari://www.radisys.com/Products/Security-Gateway.html?tag=iPad">Radisys Security Gateway Products</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="safari://www.radisys.com/News-and-Events/Security-Gateway-White-Papers/IPsec-Deployment-Strategies-for-Securing-LTE-Networks.html?tag=iPad">IPsec Deployment Strategies for Securing LTE Networks</a></li>
+                 <li><a href="safari://www.radisys.com/News-and-Events/LTE-White-Papers/SCTP-Fast-Path-Optimization-for-3G-and-LTE-Networks.html?tag=iPad">SCTP Fast Path Optimization for 3G/LTE Networks</a></li>
+                 <li><a href="safari://www.radisys.com/News-and-Events/Security-Gateway-White-Papers/Survey-Strong-Mobile-Operator-Demand-for-3GPP-Security-Gateways.html?tag=iPad">Survey: Strong Mobile Operator Demand for 3GPP <br/>Security Gateways</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>SmallCell-HNB-GW.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>HSS-IMS</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home Subscriber Server (HSS)</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>The HSS is the master database for a given user. It is the entity containing the subscription-related information to support the network entities actually handling calls/sessions. When a user activates a service with the mobile operator, HSS is the node that is provisioned with the service information and provides that information to other entities in the network when requested.</p>
+
+                  <p>The HSS is responsible for holding the following user related information:</p>
+                  
+                  <ul>
+                      <li>User Identification, Numbering and addressing information</li>
+                      <li>User Security information: Network access control information for authentication and authorization</li>
+                      <li>User Location information at inter-system level: the HSS supports the user registration, and stores inter-system location information, etc.</li>
+                      <li>User profile information</li>
+                      <li>Service information, QoS etc.</li>
+                  </ul>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/products/network-appliance/">RMS-220</a></li>
+                  </ul>
+                  <p>Trillium Software for:</p>
+                  <ul>
+                  <li><a href="http://www.radisys.com/products/trillium/4g-lte/">3G//LTE</a></li>
+                  <li><a href=" http://www.radisys.com/products/trillium/ims-voip/">IMS/VoIP</a></li>
+                  <li><a href="http://www.radisys.com/products/trillium/ss7-sigtran/">SS7/SIGTRAN</a></li> 
+                  </ul>
+
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/getting-to-ims-migrating-the-hlr-to-the-hss/">Getting to IMS: Migrating the HLR to the HSS</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>RMS_220.jpg</string> 
+          <key>stack</key>
+          <string>IMS-HSS.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict> 
+       
+       <key>HSS-WCDMA</key>
+       <dict>
+          <key>elementName</key>
+          <string>Home Subscriber Server (HSS)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>The HSS is the master database for a given user. It is the entity containing the subscription-related information to support the network entities actually handling calls/sessions. When a user activates a service with the mobile operator, HSS is the node that is provisioned with the service information and provides that information to other entities in the network when requested.</p>
+
+                  <p>The HSS is responsible for holding the following user related information:</p>
+                  
+                  <ul>
+                      <li>User Identification, Numbering and addressing information</li>
+                      <li>User Security information: Network access control information for authentication and authorization</li>
+                      <li>User Location information at inter-system level: the HSS supports the user registration, and stores inter-system location information, etc.</li>
+                      <li>User profile information</li>
+                      <li>Service information, QoS etc.</li>
+                  </ul>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/products/network-appliance/">RMS-220</a></li>
+                  </ul>
+                  <p>Trillium Software for:</p>
+                  <ul>
+                  <li><a href="http://www.radisys.com/products/trillium/4g-lte/">3G//LTE</a></li>
+                  <li><a href=" http://www.radisys.com/products/trillium/ims-voip/">IMS/VoIP</a></li>
+                  <li><a href="http://www.radisys.com/products/trillium/ss7-sigtran/">SS7/SIGTRAN</a></li> 
+                  </ul>
+
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/getting-to-ims-migrating-the-hlr-to-the-hss/">Getting to IMS: Migrating the HLR to the HSS</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>RMS_220.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-HSS.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict> 
+       
+    </dict>	
+</plist>

@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    
+    <dict>
+        <key>Main</key>
+        <string>This is the world famous Trillium Poster in electronic format. Brought to you by Radisys, it serves as an evolving tool while underscoring Radisys' depth and breadth of communications expertise. The Trillium Poster illustrates standards-based nodes, interfaces and protocol stacks for a variety of technology architectures. </string>
+        <key>About</key>
+        <string>
+            <![CDATA[
+          <span class="title-process-label">About Us</span>
+          <p>
+      <a href="http://www.radisys.com">Radisys</a> (NASDAQ: RSYS) is a leading provider of embedded wireless infrastructure solutions for telecom, aerospace, 
+      defense and public safety applications. Radisys' market-leading <a href="http://www.radisys.com/Products/ATCA.html">ATCA</a>, 
+      <a href="http://www.radisys.com/Products/Media-Servers.html ">IP Media Server</a> and <a href="http://www.radisys.com/Products/COM-Express.html">COM 
+      Express</a> platforms coupled with world-renowned <a href="http://www.radisys.com/Products/Trillium.html">Trillium software</a>, services and market 
+      expertise enable customers to bring high-value products and services to market faster with lower investment and risk. </p><p>Radisys solutions are used 
+      in a wide variety of <a href="http://www.radisys.com/Products/Trillium/3G-HSPA.html">3G</a> &amp; <a href="http://www.radisys.com/Products/Trillium/4G-LTE.html">4G/LTE</a> 
+      mobile network applications including: 
+      Radio Access Networks (RAN) solutions from femtocells to picocells and macrocells, wireless core network applications, Deep Packet Inspection (DPI) and 
+      policy management; conferencing and media services including voice, video and data, as well as customized mobile network applications that support the 
+      aerospace, defense and public safety markets.
+          </p>
+      ]]>
+        </string>
+        <key>Order</key>
+        <string>
+            <![CDATA[
+           <span class="title-process-label">Order the Trillium Poster</span>
+           <p>
+           Want to order the Trillium Poster in print form? <a href="http://www.radisys.com/innovation/trillium-poster/">Click here</a> to order the 6th generation of this popular communications network infrastructure wall chart today.
+            </p>
+       
+       ]]>
+        </string>
+        <key>Contact</key>
+        <string>
+            <![CDATA[
+             <style>
+				.alignRight {
+					float:right;
+					padding: 5px 5px 5px 5px
+				}
+				.alignLeft {
+					float:left;
+					padding: 5px 5px 5px 5px
+				}
+				article.tabs {
+					position: relative;
+					display: block;
+					width: 40em;
+					height: 15em;
+					margin: 2em auto;
+				}
+				article.tabs section {
+					position: absolute;
+					display: block;
+					width: 750px;
+					height: 350px;
+					top: 1.8em;
+					left: 0;
+					/*height: 12em;*/
+					padding: 10px 10px;
+					background-color: #ddd;
+					border-radius: 5px;
+					box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+					z-index: 0;
+				}
+				article.tabs section:first-child {
+					z-index: 1;
+				}
+				article.tabs section h2 {
+					position: absolute;
+					font-size: 1em;
+					font-weight: normal;
+					width: 120px;
+					height: 1.8em;
+					top: -1.8em;
+					left: 10px;
+					padding: 0;
+					margin: 0;
+					color: #999;
+					background-color: #ddd;
+					border-radius: 5px 5px 0 0;
+				}
+				article.tabs section:nth-child(2) h2 {
+					left: 132px;
+				}
+				article.tabs section:nth-child(3) h2 {
+					left: 254px;
+				}
+				article.tabs section h2 a {
+					display: block;
+					width: 100%;
+					line-height: 1.8em;
+					text-align: center;
+					text-decoration: none;
+					color: inherit;
+					outline: 0 none;
+				}
+				article.tabs section:target, article.tabs section:target h2 {
+					color: #333;
+					background-color: #fff;
+					z-index: 2;
+				}
+				</style>
+				<!--
+				http://www.sitepoint.com/css3-tabs-using-target-selector/
+				-->
+				<article class="tabs">
+					<section id="tab1">
+						<h2 id="NA"><a href="#tab1">North America</a></h2>
+						<div class="alignLeft">
+						<h4>Headquarters</h4>
+						<p>5435 NE Dawson Creek Dr.<br />
+						Hillsboro, OR 97124<br />
+						United States<br />
+						+1.503.615.1100 phone<br />
+						+1.503.615.1115 fax</p>
+						</div>
+						<div class="alignRight">
+						<h4>San Diego</h4>
+						<p>10431 Wateridge Cir<br />
+						Suite 110 <br/>
+						San Diego, CA 92121<br />
+						United States<br />
+						+1.858.882.8800 phone<br />
+						+1.858.777.3388 fax</p>
+						</div>
+						<div class="alignRight">
+						<h4>Boston</h4>
+						<p>200 Nickerson Rd.<br />
+						Marlborough, MA 01752<br />
+						United States<br />
+						+1.508.616.0900 phone<br />
+						+1.508.616.0901 fax</p>
+						</div>
+						<div class="alignRight">
+						<h4>Canada</h4>
+						<p>4190 Still Creek Dr., Suite 300<br />
+						Burnaby, BC V5C 6C6<br />
+						Canada<br />
+						+1.604.918.6300 phone<br />
+						+1.604.918.6400 fax</p>
+						</div>
+					</section>
+					<section id="tab2">
+						<h2><a href="#tab2">Europe &amp; India</a></h2>
+						<div class="alignLeft">
+						<h4>Radisys India Private Limited</h4>
+						<p>6th Floor, B-Wing Electra,<br />
+						Exora Business Park<br />
+						(Behind Prestige Tech Park)<br />
+						Sarjapur &#8211; Marathahalli<br />
+						Outer Ring Road,<br />
+						Bangalore-560 103<br />
+						+91.80.4014.0000 phone</p>
+						</div>
+						<div class="alignRight">
+						<h4>Ireland</h4>
+						<p>Unit 100 Airside Business Park<br />
+						Swords, County Dublin<br />
+						Ireland<br />
+						+353.1.8136.024 phone</p>
+						</div>
+						<div class="alignRight">
+						<h4>Poland</h4>
+						<p>Ul.Stowackiego 173A<br />
+						80-298 Gdansk<br />
+						Poland<br />
+						+48.58.76.03111 phone</p>
+						</div>
+						<div class="alignRight">
+						<h4>Spain</h4>
+						<p>Ramon y Cajal 69, B2<br />
+						08012 Barcelona<br />
+						Spain<br />
+						+34.648.504.713 phone</p>
+						</div>
+					</section>
+					<section id="tab3">
+						<h2><a href="#tab3">Asia Pacific</a></h2>
+						<div class="alignLeft">
+						<h4>Korea</h4>
+						<p>Hyundai Office Bldg #1214/15<br />
+						9-4, Sunae-Dong, Bundang-gu<br />
+						Seongnam-si, Kyunggi-do, 463-783, Korea<br />
+						+82.31.715.9040 phone<br />
+						+82.31.715.5335 fax</p>
+						</div>
+						<div class="alignRight">
+						<h4>Malaysia</h4>
+						<p>Lower Level 6<br />
+						Hotel Equatorial Penang<br />
+						1 Jalan Bukit Jambul<br />
+						Bayan Lepas 11900 Penang<br />
+						+604.688.8200 phone<br />
+						+604.688.8289 fax</p>
+						</div>
+						<div class="alignRight">
+						<h4>Shanghai</h4>
+						<p>Systems Equipment Trading Co.<br />
+						Building 3 No. 200<br />
+						NiuDun Road<br />
+						Zhangjiang High-Tech Park<br />
+						Shanghai 201203 PRC<br />
+						+86.21.3856.2400 phone<br />
+						+86.21.3856.2599 fax</p>
+						</div>
+						<br clear="all" />
+						<div class="alignLeft">
+						<h4>Shenzhen</h4>
+						<p>First Floor, Kanghesheng Building<br />
+						3009 West Shahe Road, Nanshan District<br />
+						Shenzhen, Guangdong, P.R. China 518055<br />
+						+86.755.2663.0888 ph<br />
+						+86.755.2663.0822 fax</p>
+						</div>
+						<div class="alignRight">
+						<h4>Tokyo</h4>
+						<p>19F Holland Hills Mori Tower<br />
+						5-11-2 Toranomon, Minato-ku<br />
+						Tokyo, Japan 105-0001<br />
+						+81.3.5408.1071 phone<br />
+						+81.3.5408.1072 fax</p>
+						</div>
+					</section>
+					<section id="tab4">
+						<h2><a href="#tab4">Press &amp; Finance</a></h2>
+						<div class="alignLeft">
+						<h4>Press Contact</h4>
+						<p><strong>Lyn Pangares</strong><br />
+						Director, Corporate Marketing<br />
+						+1.503.615.1220 phone<br />
+						<a href="mailto:lyn.pangares@radisys.com">lyn.pangares@radisys.com</a></p>
+						</div>
+						<div class="alignRight">
+						<h4>Investor Contact</h4>
+						<p><strong>Allen Muhich</strong><br />
+						Interim Chief Financial Officer<br />
+						+1.503.615.1616 phone<br />
+						<a href="mailto:allen.muhich@radisys.com">allen.muhich@radisys.com</a></p>
+						</div>
+						<div class="alignRight">
+						<h4>Transfer Agent</h4>
+						<p><strong>Shareowner Services</strong><br />
+						480 Washington Boulevard<br />
+						Jersey City, NJ 07310<br />
+						1.877.897.6915 phone, <a href="https://www.cpushareownerservices.com/cpuportal/index.jsp">website</a></p>
+						</div>
+					</section>
+					<section id="tab5">
+					<h2><a href="#tab5">Product Support</a></h2>
+						<div class="alignLeft">
+						<h4>Americas Support</h4>
+						<p>Monday-Friday, 6am to 5pm PST<br />
+						1.866.385.6167 toll free<br />
+						1.503.615.1640 direct</p>
+						</div>
+						<div class="alignRight">
+						<h4>EMEA Support</h4>
+						<p>Monday-Friday, 9am to 5pm CET<br />
+						+49.811.555457.77 phone</p>
+						</div>
+						<div class="alignRight">
+						<h4>China Support</h4>
+						<p>+86.21.3856.2400 phone</p>
+						</div>
+						<div class="alignRight">
+						<h4>Japan / Asia Support</h4>
+						<p>+81.3.5408.1071 phone</p>
+						</div>
+					</section>
+				</article>
+				
+				<script language="javascript">
+				document.getElementById('tab1').style.backgroundColor = '#fff';
+				//document.getElementById('NA').style.backgroundColor = '#fff';
+				</script>
+
+        
+        ]]>
+        </string> 
+        <key>Question</key>
+        <string>
+            <![CDATA[
+           
+           <span class="title-process-label">Help</span>
+           
+           <p>
+           How to navigate the electronic Trillium Poster:
+           </p>
+           <ul >
+           <li>Select a network<br />
+           From the main landing page, tap on a button to learn more about a specific network architecture<br />
+           </li>
+           <li>
+           Learn about network elements<br />
+           Tap on any network element to learn more technical details and take advantage of Radisys resources<br />
+           </li>
+           
+           <li>Move about within the app<br />
+           To navigate to a different network architecture, simply tap on the Home button to travel back to the main landing page and repeat Step 1 above. OR, click on one of the arrows at the edge of a network page to explore the other featured architectures<br />
+           </li>
+           <li>Contact Radisys<br />
+           
+           If at any point you would like more information on Radisys’ solutions or expertise, simply click on the Contact button to find the appropriate contact information.
+           Have questions about using this app? Need to report an issue? Please fill out <a href="http://www.radisys.com/prebuilt/contact/ipad_contact.php">this form</a> and the Radisys help desk will quickly address the problem. 
+           </li>
+           </ul>
+       
+       ]]>
+        </string>
+        
+    </dict>
+</plist>

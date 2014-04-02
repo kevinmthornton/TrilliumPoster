@@ -1,24 +1,44 @@
-//
-//  AppDelegate.m
-//  Trillium Poster
-//
-//  Created by Kevin Thornton on 4/24/12.
-//  Copyright (c) 2012 radisys. All rights reserved.
-//
+// AppDelegate.m - Trillium Poster
+/*
+  this is where our main array is built from GlossaryData
+ 
+ in AppDelegate.m
+ 1) start a letters array
+ 2) open up each file in the array and get it's abbv contents
+ 3) in ViewController
+ 1) reference this array from the appD 
+ 2) target a button with the title/tag
+ 3) buttons submits to a ContentView
+ 4) Content view takes passed info from button and opens correct file
+ 1) open up the file and get the abbv contents
+ 2) parse contents for values and display on screen
+
+ */
+
+// TODO!! rework app delegate down to stub code and use the view controller for all interaction now since 
+// you are loading all interaction through mainScrollView
 
 #import "AppDelegate.h"
-
 #import "ViewController.h"
+#import "GlossaryData.h" // creates all main XML data array with the abbvString relationships
 
 @implementation AppDelegate
 
 @synthesize window = _window;
 @synthesize viewController = _viewController;
+@synthesize contentAppArray, indicesAppArray, lettersAppArray;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    // ARRAYS with all the XML info inside them from the GlossaryData.h
+    contentAppArray = [GlossaryData createGlossaryData];
+    indicesAppArray = [contentAppArray valueForKey:@"headerTitle"];
+    // set up the letters array to be used for opening the XML files
+    lettersAppArray = [[NSMutableArray alloc] initWithObjects:@"3", @"A", @"B", @"C", @"D",@"E",@"F",@"G",@"H",@"I",
+                       @"J",@"K",@"L",@"M",@"N",@"O",@"P",@"Q",@"R",@"S",@"T",@"U",@"V",@"W",@"X",@"Y",@"Z", nil];
+
+        
+    // set up the main view controller
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];

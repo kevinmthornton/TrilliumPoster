@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>WAG</key>
+        <dict>
+            <key>elementName</key>
+            <string>Wireless Access Gateway </string>
+            <key>educationalDescription</key>
+            <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+            <key>radisysSolution</key> 
+            <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+            <key>resources</key> 
+            <string>LINKS TO RESOURCES</string> 
+            <key>photo</key> 
+            <string>PHOTO NAME WITH EXTENSION</string> 
+            <key>InterNetwork</key> 
+            <array> 
+                <string></string> 
+            </array> 
+            <key>Connection</key> 
+            <array> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+            </array> 
+            <key>Labels</key> 
+            <array> 
+                <string> </string> 
+            </array> 
+            <key>Region</key> 
+            <array> 
+                <string> </string> 
+            </array>	
+        </dict>
+        <key>WCDMA</key>
+        <dict>
+            <key>elementName</key>
+            <string>Wideband CDMA </string>
+            <key>educationalDescription</key>
+            <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+            <key>radisysSolution</key> 
+            <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+            <key>resources</key> 
+            <string>LINKS TO RESOURCES</string> 
+            <key>photo</key> 
+            <string>PHOTO NAME WITH EXTENSION</string> 
+            <key>InterNetwork</key> 
+            <array> 
+                <string></string> 
+            </array> 
+            <key>Connection</key> 
+            <array> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+            </array> 
+            <key>Labels</key> 
+            <array> 
+                <string> </string> 
+            </array> 
+            <key>Region</key> 
+            <array> 
+                <string> </string> 
+            </array>	
+        </dict>
+        <key>WLAN</key>
+        <dict>
+            <key>elementName</key>
+            <string>Wireless Local Area Network </string>
+            <key>educationalDescription</key>
+            <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+            <key>radisysSolution</key> 
+            <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+            <key>resources</key> 
+            <string>LINKS TO RESOURCES</string> 
+            <key>photo</key> 
+            <string>PHOTO NAME WITH EXTENSION</string> 
+            <key>InterNetwork</key> 
+            <array> 
+                <string></string> 
+            </array> 
+            <key>Connection</key> 
+            <array> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+            </array> 
+            <key>Labels</key> 
+            <array> 
+                <string> </string> 
+            </array> 
+            <key>Region</key> 
+            <array> 
+                <string> </string> 
+            </array>	
+        </dict>
+        <key>WRR</key>
+        <dict>
+            <key>elementName</key>
+            <string>Weighted Round Robin </string>
+            <key>educationalDescription</key>
+            <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+            <key>radisysSolution</key> 
+            <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+            <key>resources</key> 
+            <string>LINKS TO RESOURCES</string> 
+            <key>photo</key> 
+            <string>PHOTO NAME WITH EXTENSION</string> 
+            <key>InterNetwork</key> 
+            <array> 
+                <string></string> 
+            </array> 
+            <key>Connection</key> 
+            <array> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+            </array> 
+            <key>Labels</key> 
+            <array> 
+                <string> </string> 
+            </array> 
+            <key>Region</key> 
+            <array> 
+                <string> </string> 
+            </array>	
+        </dict>
+        <key>WSF</key>
+        <dict>
+            <key>elementName</key>
+            <string>Wireless Service Framework </string>
+            <key>educationalDescription</key>
+            <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+            <key>radisysSolution</key> 
+            <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+            <key>resources</key> 
+            <string>LINKS TO RESOURCES</string> 
+            <key>photo</key> 
+            <string>PHOTO NAME WITH EXTENSION</string> 
+            <key>InterNetwork</key> 
+            <array> 
+                <string></string> 
+            </array> 
+            <key>Connection</key> 
+            <array> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+                <string> </string> 
+            </array> 
+            <key>Labels</key> 
+            <array> 
+                <string> </string> 
+            </array> 
+            <key>Region</key> 
+            <array> 
+                <string> </string> 
+            </array>	
+        </dict>
+                
+    </dict>	
+</plist>

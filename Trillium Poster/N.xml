@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>NA</key>
+   <dict>
+        <key>elementName</key>
+        <string>North American </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NAPT</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network Address Port Translation </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NAS</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network Attached Storage, Not Access Stratum </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NAT</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network Address Translation </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NBAP</key>
+   <dict>
+        <key>elementName</key>
+        <string>Node B Application Part </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NEBS</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network Equipment Building System </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NEDS</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network Equipment Development Standard </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NFS</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network File System </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NGN</key>
+   <dict>
+        <key>elementName</key>
+        <string>Next Generation Network </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NIC</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network Interface Card </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NNI</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network-Network Interface </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NRE</key>
+   <dict>
+        <key>elementName</key>
+        <string>Non-recoverable Engineering </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NS</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network Services </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NSRP</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network Service-Ready Platform </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+<key>NTP</key>
+   <dict>
+        <key>elementName</key>
+        <string>Network Time Protocol </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>     
+    </dict>	
+</plist>

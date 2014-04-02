@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+    
+       <key>GGSN</key>
+       <dict>
+          <key>elementName</key>
+          <string>Gateway GPRC Support Node (GGSN)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>
+                The Gateway GPRS Support Node (GGSN) is the interface between external packet data networks and 
+                UMTS backbone network.
+                </p>
+                <ul>
+                    <li>Packet Data Protocol format conversion</li>
+                    <li>Performs tunnelling</li>
+                    <li>PDP address allocation and de-allocation</li>
+                    <li>Authentication and charging functions</li>
+                </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                  <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for GGSN</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                   <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+               
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_6u.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-GGSN-PCEF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+
+   <key>GMLC</key>
+       <dict>
+          <key>elementName</key>
+          <string>Gateway Mobile Location Center (GMLC)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            The GMLC is a control plane system that interfaces with emergency and commercial LCS clients and 
+            the operator's network to provide a mobile station's location.
+            </p>
+            
+           <ul>
+                <li>Will perform authentication and authorisation checks in location requests received from the LCS</li>
+                <li>Transaction Management</li>
+                 <ul>
+                    <li>Regulates the flow of location requests to both protect the location server itself, as well as the core network</li> 
+                 </ul>
+                 
+                <li>Cache Management</li>
+                    <ul>
+                    <li>Stores acquired locations in a database for use in future location queries</li>
+                    </ul>
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for GMLC</a></li> 
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                 
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-GMLC.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+
+       <key>GSM SCF</key>
+       <dict>
+          <key>elementName</key>
+          <string>GSM Switching Control Function (GSM SCF)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            Functional entity that contains the CAMEL service logic to implement OSS (operator Specific Services).
+            </p>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for GSM SCF</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-GSM-SCF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+        
+    </dict>	
+</plist>

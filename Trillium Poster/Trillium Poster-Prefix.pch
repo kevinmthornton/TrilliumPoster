@@ -12,3 +12,14 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+// this will open the network detail view controller and display the results passed in via a dictionary for tag/title
+#define NOTIFICATION_NETWORK_DETAIL_SHOULD_OPEN @"networkDetailShouldOpen"
+
+// this will set up the call to the back button in networkDetailViewController to go back to it's previous network
+#define NOTIFICATION_OPEN_NETWORK_VIEW @"openNetworkView"
+
+// this will set up the call to open a link in a navigationController
+#define NOTIFICATION_OPEN_NAV_CONTROLLER_LINK @"openNavControllerLink"
+
+#define NOTIFICATION_NETWORK_SHOW_LEGEND @"showLegendButton"

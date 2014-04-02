@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+ 
+   <key>MBMS-cp</key>
+   <dict>
+    <key>elementName</key>
+    <string>MBMS Control Plane (MBMS-cp)</string>
+    <key>network</key>
+    <string>LTE</string>
+    <key>educationalDescription</key>
+    <string>
+       <![CDATA[
+      <p>The MBMS control plane function is supported by MME for LTE access and by SGSN for 3G access. MME supports the following functions in order to enable MBMS for E-UTRAN:
+      </p>
+      <ul>
+          <li>Session control of MBMS bearers to the eNodeBs </li>
+          <li>Transmit Session control messages towards multiple eNodeBs</li>
+          <li>Provides an interface to MBMS GW to receive MBMS specific parameters e.g., IP address for MBMS transmission and forwards them to eNodeB</li>
+      </ul>
+
+    ]]>
+    </string> 
+    <key>radisysSolution</key> 
+    <string>
+       <![CDATA[
+      
+    ]]>
+    </string> 
+    <key>products</key> 
+    <string>
+       <![CDATA[
+        <ul>
+           <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+            <li><a href="http://www.radisys.com/products/atca/chassis-hub-systems/?tag=iPad">40G chassis – 6214, 6206 etc.</a></li>
+            <li><a href="http://www.radisys.com/products/atca/packet-processing/atca-pp81/?tag=iPad">ATCA PP81 Dual NetLogic XLP DPI Packet Processing</a></li>
+            <li><a href="http://www.radisys.com/products/atca/packet-processing/atca-7240/?tag=iPad">ATCA-7240</li></a>
+            <li><a href="http://www.radisys.com/products/atca/compute/atca-4600/?tag=iPad">ATCA-46xx (CPM9)</a></li>
+            <li><a href="http://www.radisys.com/products/atca/t-series-platforms/?tag=iPad">ATCA Platform Management and Middleware</a></li>
+            <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+        </ul>
+    ]]>
+    </string> 
+    <key>resources</key> 
+    <string>
+       <![CDATA[
+        <ul>
+        
+        <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+         <li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G to 4G Core Network Migration</a></li>
+         <li><a href="http://www.radisys.com/products/trillium/dftha-reliability/?tag=iPad">Trillium Distributed Fault-Tolerant / High Availability (DFT/HA)</a></li>
+        </ul>
+        
+    ]]>
+    </string> 
+    <key>photo</key> 
+      <string>ATCA_14u.jpg</string>
+   <key>stack</key>
+   <string>LTE-MBMS-cp.png</string>
+    <key>InterNetwork</key> 
+    <array> 
+       <string></string> 
+    </array> 
+    <key>Labels</key> 
+    <array> 
+       <string> </string> 
+    </array> 
+    <key>Region</key> 
+    <array> 
+       <string> </string> 
+    </array>    
+   </dict>
+   <key>MBMS-up</key>
+   <dict>
+       <key>elementName</key>
+       <string>MBMS User Plane (MBMS-up)</string>
+      <key>network</key>
+      <string>LTE</string>
+       <key>educationalDescription</key>
+       <string>
+          <![CDATA[
+         <p>One or more MBMS GW may exist as an entry point in the PLMN for MBMS. This function can be a standalone entity or it may be co-located with other entities such as PDN-GW, Service Center etc. MBMS GW functions include:
+         </p>
+         
+         <ul>
+             <li>Provides an interface for entities using MBMS bearers through the SGi-mb or SG-mb reference point</li>
+             <li>IP multicast distribution of MBMS user plane data to eNodeBs (M1 reference point)</li>
+             <li>IP multicast distribution of MBMS user plane data to RNCs (M1 reference point)</li>
+             <li>It allocates an IP Multicast address to which the eNodeB/RNC should join to receive the MBMS data</li>
+             <li>MBMS GW can communicate with multiple control plane entities i.e. MME, SGSN and BM-SCs</li>
+         </ul>
+
+          ]]>
+       </string> 
+       <key>radisysSolution</key> 
+       <string>
+          <![CDATA[
+            
+          ]]>
+       </string> 
+       <key>products</key> 
+       <string>
+          <![CDATA[
+              <ul>
+                <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+  	<li> <a href="http://www.radisys.com/products/atca/packet-processing/atca-pp81/?tag=iPad"> ATCA PP81 Dual NetLogic XLP DPI Packet Processing</a></li>
+    <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+              </ul>
+          ]]>
+       </string> 
+       <key>resources</key> 
+       <string>
+          <![CDATA[
+              <ul>
+              
+              <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+               <li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G to 4G Core Network Migration</a></li>
+               <li><a href=" http://www.radisys.com/2010/dpi-managing-data-traffic-in-lte-networks/?tag=iPad">DPI: Managing Data Traffic in LTE Networks</a></li>
+
+              </ul>
+              
+          ]]>
+       </string> 
+       <key>photo</key> 
+       <string>ATCA_6u.jpg</string> 
+      <key>stack</key>
+      <string>LTE-MBMS-up.png</string>
+       <key>InterNetwork</key> 
+       <array> 
+          <string></string> 
+       </array> 
+       <key>Labels</key> 
+       <array> 
+          <string> </string> 
+       </array> 
+       <key>Region</key> 
+       <array> 
+          <string> </string> 
+       </array>    
+    </dict>
+       
+<key>MBS</key>
+   <dict>
+        <key>elementName</key>
+        <string>Maximum Burst Size </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+       
+   <key>MCE</key>
+       <dict>
+          <key>elementName</key>
+          <string>MBMS Coordination Entity</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>MCE is just a logical functionality that is typically part of a LTE base station (eNodeB) and manages MBMS related functions. It’s main functions include:</p>
+            <ul>
+            <li>Admission control and the allocation of the radio resources used by all eNBs for multi-cell MBMS transmissions taking into account resource utilization for other LTE services so as to not impact them. Besides allocation of the time/ frequency radio resources this also includes deciding the further details of the radio configuration e.g. the modulation and coding scheme.</li>
+            <li>Counting and acquisition of counting results for MBMS service(s)</li>
+            <li>Resumption of MBMS session(s) within MBSFN area(s) based on e.g. the ARP and/or the counting results for the corresponding MBMS service(s)</li>
+            <li>Suspension of MBMS session(s) within MBSFN area(s) based e.g. the ARP and/or on the counting results for the corresponding MBMS service(s)</li>
+            </ul>
+            Key benefits include:
+            <ul>
+            <li>Extends radio coverage and scale capacity</li>
+            <li>A RN behaves like a UE to DeNB so existing radio protocols can be used with some modifications</li>
+            </ul>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">3GPP Release 8 &amp; 9 Compliant -Trillium Software for 3G/4G/LTE</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/small-cells/totalenodeb/?tag=iPad">Trillium TOTALeNodeB Solution</a></li>
+
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/lte-e-utran-and-its-access-side-protocols/?tag=iPad">LTE E-UTRAN and its Access Side Protocols</a></li> 
+                  <li><a href="http://www.radisys.com/2010/lte-top-12-challenges/?tag=iPad">LTE - Top 12 Challenges</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>Trillium.jpg</string> 
+          <key>stack</key>
+          <string>LTE-MCE.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+
+       
+       <key>Media Server</key>
+       <dict>
+          <key>elementName</key>
+          <string>Media Resource Function</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>Media servers perform Real-Time Protocol (RTP) media processing for IP-based audio, video, fax, and speech applications, including IP Multimedia Subsystem (IMS) Media Resource Function (MRF). </p>
+                  <ul>
+                      <li>A MRF or Media Server is divided into two logical entities: MRFC or Media Resource Function Controller and a MRFP: Media Resource Function Processor. MRFC interacts with other control plane entities such as IMS CSCFs to setup the media sessions. MRFP is responsible for the bearer plane functions such as media mixing, transcoding etc.</li>
+                      <li>Key applications include Voice over LTE (VoLTE), VoIP audio and IP video conferencing, Mobile Value-Added Services (VAS), Multimedia Ringback Tones (MRBT), Interactive Voice and Video Response (IVVR), and IP-to-IP Transcoding</li>
+                  </ul>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/media-server/mpx-12000/?tag=iPad">MPX-12000</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/cms-9000/?tag=iPad">CMS-9000 Media Server</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/cms-3000/?tag=iPad">CMS-3000 Media Server</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/software-media-server/?tag=iPad">Software Media Server</a></li>
+
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/media-server/architectures/next-generation-network/?tag=iPad">Next-Generation Network</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/solutions/media-resource-function/?tag=iPad">Media Resource Function</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/solutions/conferencing/?tag=iPad">Conferencing</a></li>
+                  <li><a href=" http://www.radisys.com/products/media-server/solutions/ringback-tones/?tag=iPad">Ring back Tones</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>MPX-12000.jpg</string> 
+          <key>stack</key>
+          <string>IMS-Media-Server.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+
+       <key>MGCF</key>
+       <dict>
+          <key>elementName</key>
+          <string>Call State Control Function (MGCF)</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+              <p>MGCF or a Soft switch is responsible for interworking IMS with other networks such as PSTN/ISDN etc. It also controls the Media Gateway for bearer plane inter-working such as TDM-RTP conversion etc. The main functions of MGCF include:</p>
+               <ul>
+                   <li>Controls the parts of the call state that pertain to connection control for media channels in an IMS-MGW</li>
+                   <li>Communicates with CSCF, BGCF, and circuit switched network entities</li>
+                   <li>Determines the next hop depending on the routing number for incoming calls from legacy networks</li>
+                   <li>Performs protocol conversion between ISUP/TCAP and the IM subsystem call control protocols</li>
+                   <li>Out of band information received in MGCF may be forwarded to CSCF/IMS-MGW</li>
+               </ul>  
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220 Network Appliance</a></li>
+                     <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                    
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/ims-transforming-network-architectures/?tag=iPad">IMS: Transforming Network Architectures</a></li>
+                <li><a href="http://www.radisys.com/2010/successful-ims-implementation-methodologies/?tag=iPad">Successful IMS Implementation Methodologies</a></li>
+                <li><a href="http://www.radisys.com/2010/trillium-multi-core-sip-why-throughput-matters/?tag=iPad">Trillium Multi-Core SIP: Why Throughput Matters</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>IMS-MGCF.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+
+<key>MGW</key>
+   <dict>
+        <key>elementName</key>
+         <string>IMS Media Gateway</string>
+      <key>network</key>
+      <string>IMS</string>
+        <key>educationalDescription</key>
+        <string>
+        <![CDATA[
+        <p>A IMS-MGW terminates bearer channels from a switched circuit network and media streams from a packet network (e.g., RTP streams in an IP network). The IMS-MGW supports media conversion, bearer control and payload processing (e.g. codec, echo canceller, conference bridge), it:</p>
+         <ul>
+         <li>Interacts with the MGCF (Softswitch) for resource control</li>
+         <li>Owns and handles resources such as echo cancellers  etc.</li>
+         <li>May need to have  audio/video codecs for transcoding function</li>
+         <li>MGCP/H.248 are commonly used  signalling protocols for Media Gateway control</li>
+         </ul>
+        ]]>
+        </string> 
+        <key>products</key> 
+        <string>
+        <![CDATA[
+        <ul>
+         <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+         <li><a href=" http://www.radisys.com/products/trillium/ims-voip/?tag=iPad">Trillium IMS/VoIP Software</a></li>
+         </ul>
+
+        ]]>
+        </string> 
+        <key>resources</key> 
+        <string>
+        <![CDATA[
+        <ul>
+<li><a href="http://www.radisys.com/2010/ims-transforming-network-architectures/?tag=iPad">IMS: Transforming Network Architectures</a></li>
+<li><a href="http://www.radisys.com/products/media-server/architectures/service-delivery-platforms/?tag=iPad">Service Delivery Platforms</a></li>
+</ul>
+        ]]>
+        </string> 
+        <key>photo</key> 
+      <string>IMS-IMS-MGW.png</string> 
+      <key>stack</key>
+      <string>H.248.png</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+
+       <key>MME</key>
+       <dict>
+          <key>elementName</key>
+          <string>Mobility Management Entity</string>
+          <key>network</key>
+          <string>LTE</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>MME is the central control plane entity within LTE EPC and is responsible for:</p>
+               <ul>
+                   <li>NAS signalling and security</li>
+                   <li>Mobility Management, authentication, authorization and admission control for mobile subscribers</li>
+                  <li> Inter Core Network signalling for mobility between different 3GPP access networks – 3G, LTE etc.</li>
+                   <li>Serving and PDN GW selection</li>
+                   <li>Roaming</li>
+                   <li>Bearer control functions including dedicated bearer establishment</li>
+                   <li>MBMS control plane function</li>
+                   <li>Lawful interception of signalling traffic</li>
+                   <li>3GPP2 (CDMA 2000) based radio access</li>
+                   <li>Connection to 3G CS Core Network for CS Fallback</li>
+               </ul>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                  <li><a href="http://www.radisys.com/products/atca/chassis-hub-systems/?tag=iPad">40G chassis</a></li>
+                  <li><a href="http://www.radisys.com/products/atca/packet-processing/atca-pp81/?tag=iPad">ATCA PP81 Dual NetLogic XLP DPI Packet Processing</a></li>
+                  <li><a href="http://www.radisys.com/products/atca/packet-processing/atca-7240/?tag=iPad">ATCA-7240</a></li>
+                  <li><a href="http://www.radisys.com/products/atca/compute/atca-4600/?tag=iPad">ATCA-46xx (CPM9)</a></li>
+                  <li><a href="http://www.radisys.com/products/atca/t-series-platforms/?tag=iPad">ATCA Platform Management and Middleware</a></li>
+                  <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                  <li><a href="http://www.radisys.com/2010/3g-to-4g-core-network-migration/?tag=iPad">3G to 4G Core Network Migration</a></li>
+                  <li><a href="http://www.radisys.com/products/trillium/dftha-reliability/?tag=iPad">Trillium Distributed Fault-Tolerant / High Availability (DFT/HA)</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_14u.jpg</string> 
+          <key>stack</key>
+          <string>LTE-MME-SEG.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       <key>MME-op</key>
+       <dict>
+          <key>elementName</key>
+          <string>Mobility Management Entity</string>
+          
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>
+                MME is the central control plane entity within LTE EPC and is responsible for:
+                </p>
+                <ul>
+                    <li>Mobility Management, authentication, authorization and admission control</li>
+                    <li>Inter Core Network signalling for mobility between 3GPP access networks</li>
+                    <li>Serving/PDN GW selection</li>
+                    <li>Bearer control functions including dedicated bearer establishment</li>
+                    <li>MBMS control plane function</li>
+                </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="safari://www.radisys.com/Products/ATCA/ATCA-Platforms/ATCA-40G-Platforms.html?tag=iPad">ATCA 40G Platforms</a></li>
+                 <li><a href="safari://www.radisys.com/Products/ATCA/Processing-Modules/ATCA-PP81-XLP-Packet.html?tag=iPad">ATCA PP81 Dual NetLogic XLP DPI Packet Processing</a></li>
+                 <li><a href="safari://www.radisys.com/Products/ATCA/Processing-Modules/ATCA-XE80-5600-Compute.html?tag=iPad">ATCA-XE80 5600 Compute</a></li>
+                 <li><a href="safari://www.radisys.com/Products/ATCA/ATCA-Platforms/ATCA-Trillium-Toolkit.html?tag=iPad">ATCA Platform Management and Middleware</a></li>
+                 <li><a href="safari://www.radisys.com/Products/Trillium/4G-LTE.html?tag=iPad">Trillium Software for 3G/4G/LTE</a></li>
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="safari://www.radisys.com/News-and-Events/ATCA-White-Papers/ATCA-Blade-Solutions-Provide-Seamless-Migration-to-LTE.html?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                 <li><a href="safari://www.radisys.com/News-and-Events/Trillium-White-Papers/3G-to-4G-Core-Network-Migration.html?tag=iPad">3G to 4G Core Network Migration</a></li>
+                 <li><a href="safari://www.radisys.com/Products/Trillium/DFT-HA-Reliability.html?tag=iPad">Trillium Distributed Fault-Tolerant / High Availability (DFT/HA)</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>blank.png</string> 
+          <key>stack</key>
+          <string>BLANK.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+
+       <key>MRFC</key>
+       <dict>
+          <key>elementName</key>
+          <string>Media Resource Function</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>Media servers perform Real-Time Protocol (RTP) media processing for IP-based audio, video, fax, and speech applications, including IP Multimedia Subsystem (IMS) Media Resource Function (MRF). </p>
+               <ul>
+                   <li>A MRF or Media Server is divided into two logical entities: MRFC or Media Resource Function Controller and a MRFP: Media Resource Function Processor. MRFC interacts with other control plane entities such as IMS CSCFs to setup the media sessions. MRFP is responsible for the bearer plane functions such as media mixing, transcoding etc.</li>
+                   <li>Key applications include Voice over LTE (VoLTE), VoIP audio and IP video conferencing, Mobile Value-Added Services (VAS), Multimedia Ringback Tones (MRBT), Interactive Voice and Video Response (IVVR), and IP-to-IP Transcoding</li>
+               </ul>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/media-server/mpx-12000/?tag=iPad">MPX-12000</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/cms-9000/?tag=iPad">CMS-9000 Media Server</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/cms-3000/?tag=iPad">CMS-3000 Media Server</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/software-media-server/?tag=iPad">Software Media Server</a></li>
+
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/products/media-server/architectures/next-generation-network/?tag=iPad">Next-Generation Network</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/solutions/media-resource-function/?tag=iPad">Media Resource Function</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/solutions/conferencing/?tag=iPad">Conferencing</a></li>
+                  <li><a href=" http://www.radisys.com/products/media-server/solutions/ringback-tones/?tag=iPad">Ring back Tones</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>MPX-12000.jpg</string> 
+          <key>stack</key>
+          <string>IMS-MRFC.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       <key>MRFP</key>
+       <dict>
+          <key>elementName</key>
+          <string>Media Resource Function</string>
+          <key>network</key>
+          <string>IMS</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+                 <p>Media servers perform Real-Time Protocol (RTP) media processing for IP-based audio, video, fax, and speech applications, including IP Multimedia Subsystem (IMS) Media Resource Function (MRF). </p>
+               <ul>
+                   <li>A MRF or Media Server is divided into two logical entities: MRFC or Media Resource Function Controller and a MRFP: Media Resource Function Processor. MRFC interacts with other control plane entities such as IMS CSCFs to setup the media sessions. MRFP is responsible for the bearer plane functions such as media mixing, transcoding etc.</li>
+                   <li>Key applications include Voice over LTE (VoLTE), VoIP audio and IP video conferencing, Mobile Value-Added Services (VAS), Multimedia Ringback Tones (MRBT), Interactive Voice and Video Response (IVVR), and IP-to-IP Transcoding</li>
+               </ul>
+
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/products/media-server/mpx-12000/?tag=iPad">MPX-12000</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/cms-9000/?tag=iPad">CMS-9000 Media Server</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/cms-3000/?tag=iPad">CMS-3000 Media Server</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/software-media-server/?tag=iPad">Software Media Server</a></li>
+
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/products/media-server/architectures/next-generation-network/?tag=iPad">Next-Generation Network</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/solutions/media-resource-function/?tag=iPad">Media Resource Function</a></li>
+                  <li><a href="http://www.radisys.com/products/media-server/solutions/conferencing/?tag=iPad">Conferencing</a></li>
+                  <li><a href=" http://www.radisys.com/products/media-server/solutions/ringback-tones/?tag=iPad">Ring back Tones</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>MPX-12000.jpg</string>
+          <key>stack</key>
+          <string>IMS-MRFP.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+       
+       <key>MSC Server</key>
+       <dict>
+          <key>elementName</key>
+          <string>Mobile Switching Centre/Visitor Location Register (MSC/VLR)</string>
+          <key>network</key>
+          <string>WCDMA</string>
+          <key>educationalDescription</key>
+          <string>
+             <![CDATA[
+            <p>
+            The MSC/VLR controls switching in mobile circuit core networks
+            </p>
+            
+            <ul>
+                <li>Call control for circuit based calls</li>
+                <li>Mobility and Connection management</li>
+                <li>Authentication</li>
+                <li>User Plane resource control for circuit based calls</li>
+            </ul>
+             ]]>
+          </string> 
+          <key>radisysSolution</key> 
+          <string>
+             <![CDATA[
+                 
+             ]]>
+          </string> 
+          <key>products</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G MSC</a></li>
+
+                 </ul>
+             ]]>
+          </string> 
+          <key>resources</key> 
+          <string>
+             <![CDATA[
+                 <ul>
+                  <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                 </ul>
+                 
+             ]]>
+          </string> 
+          <key>photo</key> 
+          <string>ATCA_6u.jpg</string> 
+          <key>stack</key>
+          <string>WCDMA-MSC-Server.png</string>
+          <key>InterNetwork</key> 
+          <array> 
+             <string></string> 
+          </array> 
+                    <key>Labels</key> 
+          <array> 
+             <string> </string> 
+          </array> 
+          <key>Region</key> 
+          <array> 
+             <string> </string> 
+          </array>    
+       </dict>
+      
+    </dict>	
+</plist>

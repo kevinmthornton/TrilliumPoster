@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>B-ISUP</key>
+   <dict>
+        <key>elementName</key>
+        <string>Broadband ISDN User Part </string>
+        <key>educationalDescription</key>
+        <string>EDUCATIONAL DESCRIPTION FROM CONTENT OWNER </string> 
+        <key>radisysSolution</key> 
+        <string>RADISYS SOLUTION FROM CONTENT OWNER</string> 
+        <key>resources</key> 
+        <string>LINKS TO RESOURCES</string> 
+        <key>photo</key> 
+        <string>PHOTO NAME WITH EXTENSION</string> 
+        <key>InterNetwork</key> 
+        <array> 
+        <string></string> 
+        </array> 
+        <key>Connection</key> 
+        <array> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        <string> </string> 
+        </array> 
+        <key>Labels</key> 
+        <array> 
+        <string> </string> 
+        </array> 
+        <key>Region</key> 
+        <array> 
+        <string> </string> 
+        </array>	
+   </dict>
+
+   <key>BGCF</key>
+   <dict>
+      <key>elementName</key>
+      <string>Call State Control Function (BGCF)</string>
+      <key>network</key>
+      <string>IMS</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+              <p>
+            A BGCF performs the session control services for the UE in an IMS network. It maintains a session state 
+            as needed by the network operator for support of the services. Within an operator's network, 
+            different BGCFs may have different functionalities. Some of the functions performed by the BGCF 
+            during a session are:
+            </p>
+            <ul>
+                <li>Session control for the registered endpoint's sessions</li>
+                <li>May behave as a Proxy Server or a User Agent for SIP sessions</li>
+                <li>Based on the determined served user, handle interaction with Services Platforms for the support of Services</li>
+                <li>Handles signalling inter-working with Circuit Switched (e.g., PSTN) networks</li>
+                <li>Policy Decision Function (PDF): The PDF may be integrated within P-CSCF or implemented as a standalone unit. It handles bearer resources in a IMS network and manages user plane QoS</li>
+            </ul>   
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                 
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/network-appliance/?tag=iPad">RMS-220</a></li>
+                    
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/ims-transforming-network-architectures/?tag=iPad">IMS: Transforming Network Architectures</a></li>
+                  <li><a href="http://www.radisys.com/2010/successful-ims-implementation-methodologies/?tag=iPad">Successful IMS Implementation Methodologies</a></li>
+                  <li><a href="http://www.radisys.com/2010/trillium-multi-core-sip-why-throughput-matters/?tag=iPad">Trillium Multi-Core SIP: Why Throughput Matters</a></li>
+                 </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>RMS_T-series.jpg</string> 
+      <key>stack</key>
+      <string>IMS-BGCF.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array> 
+      
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+
+   <key>BM-SC</key>
+   <dict>
+      <key>elementName</key>
+      <string>Broadcast Multicast Service Centre (BM-SC)</string>
+      <key>network</key>
+      <string>WCDMA</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>
+            The BM-SC provides a set of functions for MBMS User Services
+            </p>
+            <ul>
+                <li>Authorization for terminals requesting to activate an MBMS service</li>
+                <li>Scheduling of broadcast and multicast sessions</li>
+                <li>Integrity and confidentiality protection of MBMS data</li>
+                <li>MBMS session announcement</li>
+            </ul>
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                 
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for 3G BM-SC</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                   <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+              
+                 </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>ATCA_6u.jpg</string> 
+      <key>stack</key>
+      <string>WCDMA-BM-SC.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array> 
+      
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+   
+
+   <key>BSC-1</key>
+   <dict>
+      <key>elementName</key>
+      <string>Base Station Controller (BSC)</string>
+      <key>network</key>
+      <string>WCDMA</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>
+            The BSC controls one or more Base Transceiver Station (BTS). The BSC provides the control function between the 
+            BTS and MSC and the BTS and SGSN.
+            </p>
+            <ul>
+                <li>Handover function</li>
+                <li>Cell configuration and control of radio frequency (RF) power level in the BTS</li>
+                <li>Radio Resource Management</li>
+                <li>Acts as a concentrator of many different connections to the BTS</li>
+            </ul> 
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for BSC</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                   <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>ATCA_6u.jpg</string> 
+      <key>stack</key>
+      <string>WCDMA-BSC-1.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array> 
+      
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+   
+   <key>BSC-2</key>
+   <dict>
+      <key>elementName</key>
+      <string>Base Station Controller (BSC)</string>
+      <key>network</key>
+      <string>WCDMA</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>
+            The BSC controls one or more Base Transceiver Station (BTS). The BSC provides the control function between the 
+            BTS and MSC and the BTS and SGSN.
+            </p>
+            <ul>
+                <li>Handover function</li>
+                <li>Cell configuration and control of radio frequency (RF) power level in the BTS</li>
+                <li>Radio Resource Management</li>
+                <li>Acts as a concentrator of many different connections to the BTS</li>
+            </ul> 
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for BSC</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                   <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>ATCA_6u.jpg</string> 
+      <key>stack</key>
+      <string>WCDMA-BSC-2.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array> 
+      
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+   
+   <key>BTS</key>
+   <dict>
+      <key>elementName</key>
+      <string>Base Transceiver Station (BTS)</string>
+      <key>network</key>
+      <string>WCDMA</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>
+            The BTS facilitates the wireless communication between user equipment and the network.
+            </p>
+            <ul>
+                <li>Transmitting and receiving of radio signals</li>
+                <li>Equipped with radios that are able to modulate layer 1 of interface Um</li>
+                <li>Acts as a concentrator of many different connections to BTS</li>
+                
+            </ul>
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                 
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/atca/t-series-platforms/t40/?tag=iPad">ATCA 40G Platforms</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">Trillium Software for BTS</a></li>
+
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                   <li><a href="http://www.radisys.com/2010/atca-blade-solutions-provide-seamless-migration-to-lte/?tag=iPad">ATCA Blade Solutions Provide Seamless Migration to LTE</a></li>
+                
+                 </ul>
+                 
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>ATCA_6u.jpg</string> 
+      <key>stack</key>
+      <string>WCDMA-BTS.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array> 
+      
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+   
+</dict>	
+</plist>

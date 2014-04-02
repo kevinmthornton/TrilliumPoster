@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<dict>	
+ 
+   <key>DeNB</key>
+   <dict>
+      <key>elementName</key>
+      <string>E-UTRAN Node B (DeNB)</string>
+      <key>network</key>
+      <string>LTE</string>
+      <key>educationalDescription</key>
+      <string>
+         <![CDATA[
+            <p>LTE Advanced supports the concept of relaying at base station level in order to extend network coverage and scale capacity. A relay node (RN) connects to the core network via another base station, called a Donor eNodeB. The RN is wirelessly connected to the DeNB via a slightly modified LTE radio interface called the Un interface. The DeNB may also support direct connection to UEs like any other base station in addition to the RNs.</p>
+            <p>There are two types of RNs – Type 1 &amp; Type 2. A Type 1 RN creates its own radio cell different from the cells of the DeNB and acts an independent base station for the UE. A Type 2 RN on the other hand can’t create its own radio cell and just extends the coverage of the DeNB cells like a repeater. The RN may be connected to the DeNB using the same radio frequency as used for communication with UE or a different frequency. In the case of former, simultaneous transmission from UE to RN and from RN to DeNB and vice-versa in downlink may not be possible due to interference.</p>
+            
+            <p>Key benefits include:</p>
+            <ul>
+            <li>Extends radio coverage and scale capacity</li>
+            <li>A RN behaves like a UE to DeNB so existing radio protocols can be used with some modifications</li>
+            </ul>
+             ]]>
+      </string> 
+      <key>radisysSolution</key> 
+      <string>
+         <![CDATA[
+                 
+             ]]>
+      </string> 
+      <key>products</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                    <li><a href="http://www.radisys.com/products/trillium/4g-lte/?tag=iPad">3GPP Release 8 &amp; 9 Compliant -Trillium Software for 3G/4G/LTE</a></li>
+                     <li><a href="http://www.radisys.com/products/trillium/small-cells/totalenodeb/?tag=iPad">Trillium TOTALeNodeB Solution</a></li>
+                 </ul>
+             ]]>
+      </string> 
+      <key>resources</key> 
+      <string>
+         <![CDATA[
+                 <ul>
+                 <li><a href="http://www.radisys.com/2010/lte-e-utran-and-its-access-side-protocols/?tag=iPad">LTE E-UTRAN and its Access Side Protocols</a></li>
+                  <li><a href="http://www.radisys.com/2010/lte-top-12-challenges/?tag=iPad">LTE - Top 12 Challenges</a></li>
+                 </ul>  
+             ]]>
+      </string> 
+      <key>photo</key> 
+      <string>Trillium.jpg</string> 
+      <key>stack</key>
+      <string>LTE-DeNB.png</string>
+      <key>InterNetwork</key> 
+      <array> 
+         <string></string> 
+      </array> 
+      <key>Labels</key> 
+      <array> 
+         <string> </string> 
+      </array> 
+      <key>Region</key> 
+      <array> 
+         <string> </string> 
+      </array>    
+   </dict>
+
+</dict>
+</plist>
